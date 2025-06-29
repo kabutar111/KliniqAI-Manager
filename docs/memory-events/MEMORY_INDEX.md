@@ -16,8 +16,8 @@
 - Memory system A/B testing
 
 ### Recent Events (Last 7 Days)
-1. 2025-01-27: Memory system redesign proposal
-2. [Add more as events occur]
+1. 2025-06-29: Beta deadline moved from June 30 to July 30
+2. 2025-01-27: Memory system redesign proposal
 
 ## Memory Statistics
 - Total Events: 1

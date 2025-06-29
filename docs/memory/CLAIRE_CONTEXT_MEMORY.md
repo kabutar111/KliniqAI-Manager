@@ -1,102 +1,98 @@
 # Claire's Context Memory
+*Last Updated: June 29, 2025*
 
-## Key Facts About KliniqAI
+## Current Reality Check
+
+### Platform Status
+- **KPFG**: ✅ LIVE and functional (internal tool, can create 50 questions per exam)
+- **KP-Medizin-Trainer**: ✅ Deployed at www.kliniqai.com (needs frontend polish)
+- **KPCG**: ✅ Voice AI system ready (Docker + LiveKit)
+- **Content**: ✅ Münster exam (20 questions) + access to 2020-2024 protocols
 
 ### Business Structure
-- **Equity**: Nabeel 50% (silent partner), Suri 25%, Claire 25%
-- **Investment**: $50k from Nabeel
+- **Leadership**: Claire = Project Lead with FULL decision-making authority (as of June 29)
+- **Equity**: Nabeel 50% (registration + investment), Suri 25%, Claire 25%
 - **Entity**: GmbH in registration
-- **Nabeel's Role**: Silent partner until final launch, owns Freiburger Bund & FIA Academy
+- **Timeline**: 31 days to 100 beta users (July 30 deadline MOVED from June 30)
 
-### Current Status (June 27, 2025)
-- **Users**: 0
-- **Revenue**: €0
-- **Monthly Costs**: ~€300 (Claude Code + Cursor)
-- **Beta Launch**: July 30, 2025 (30 days)
-- **Critical Blocker**: Quiz engine exists but no content in database
+### Key Learnings (June 29, 2025)
 
-### Platform Architecture
-1. **KPFG**: Content creation tool (integrating AI generation)
-2. **KP-Medizin-Trainer**: Student app (www.kliniqai.com)
-3. **KPCG**: Original AI pipeline (being replaced by KPFG integration)
+#### About Suri
+- **Roles**: Founder, Medical Expert, Full Stack Developer, Content Creator (doing EVERYTHING)
+- **Capabilities**: Can process 1 exam/day (50 questions per exam from protocols)
+- **Constraints**: No budget for contractors, prefers to code himself
+- **Decision**: Frontend sprint for 1 week (Option B chosen)
+- **Content Access**: Has exam protocols since 2020 from Telegram groups
 
-### Team Dynamics
-- **Active Team**: Just Suri + Claire
-- **Suri**: Medical expert, passed exams, now registered doctor + Full stack dev/AI engineer
-- **Claire**: AI project manager, co-founder, equal partner (25% equity)
-- **Daily Meetings**: 9 AM
-- **Partnership**: 50/50 decision-making, equal co-founders
+#### About Content Strategy
+- **Source**: PDF/Word protocols shared in Telegram groups
+- **Processing**: 1 exam protocol = ~50 enhanced questions
+- **Legal**: Transform significantly, add value, anonymize, educational use
+- **Example**: Münster 2024-09 exam shows perfect transformation
+- **Reality**: We ENHANCE, not copy - adding explanations, guidelines, flashcards, MCQs
 
-### Critical Path to Beta
-1. KPFG content generation integration (Suri working on this)
-2. Beta user acquisition from Suri's Telegram group
-3. Create 50+ initial questions
-4. Basic functionality in KP-Medizin-Trainer
+#### About Business Model
+- **Pricing**: €49/month premium (raised from €29)
+- **Strategy**: Only platform with REAL exam questions
+- **Competition**: AMBOSS (generic), Via medici (textbook) - we have REAL EXAMS
+- **Moat**: 4+ years of exam data that competitors can't access
 
-### Market Insights
-- **Competitors**: AMBOSS (expensive), Evo Schools (€1,872), free but unstructured resources
-- **Our Advantage**: Integrated platform, AI-powered, €19-49/month target
-- **Market Gap**: No one combines content creation + AI + student app
+### Technical Reality
+- **Frontend**: 1 week sprint needed (June 30 - July 5)
+- **Deployment**: Already live at www.kliniqai.com
+- **Content Pipeline**: Raw protocol → KPFG → Enhanced JSON → KP-Medizin-Trainer
+- **Architecture**: All 3 apps exist and work, just need polish
 
-### Strategic Decisions Made
-1. Integrate AI into KPFG instead of separate KPCG
-2. Use Telegram for beta users
-3. Nabeel stays silent until launch
-4. Focus on KP exam (not specialties initially)
+## Strategic Pivot (June 29)
 
-### Daily Tracking
-- See `/docs/daily-summaries/` for progress
-- Beta users tracked in `/metrics/beta-users/telegram-tracking.md`
-- Integration status in `/docs/KPFG-content-integration-status.md`
+### From "Building" to "Launching"
+- We're NOT building from scratch
+- We HAVE working systems
+- We NEED to polish and market
+- We MUST move fast
 
-### Suri's Profile & Expertise
-- **Medical Background**: Licensed doctor, international experience (Ukraine, India, USMLE, Germany)
-- **Technical Skills**: Full stack developer, AI engineer, owns LLM training for KPCG
-- **Unique Value**: Combines medical expertise with technical capabilities
-- **Current Focus**: KPFG content integration, creating initial questions, Telegram beta launch
+### Week 1 Plan (June 30 - July 5)
+- **Suri**: Frontend sprint, daily deploys
+- **Claire**: Marketing, content organization, user acquisition
+- **Goal**: Platform ready for 50 beta users
 
-### Working Style & Character
-- **Approach**: Direct, action-oriented, pragmatic
-- **Communication**: Prefers concise, clear exchanges; gets to the point quickly
-- **Decision Making**: Fast, iterative - "launch and improve" rather than "perfect first"
-- **Problem Solving**: Hands-on implementation, learns by doing
-- **Values**: User impact, practical solutions, speed of execution
-- **Strengths**: Technical depth, medical domain expertise, community connections
-- **Collaboration Style**: Equal partnership, open to feedback, values competence
+### Revenue Projections (Updated)
+- Month 1: 100 users × €39 early bird = €3,900 MRR
+- Month 2: 200 users × €49 = €9,800 MRR
+- Month 3: 400 users × €49 = €19,600 MRR
 
-### Key Insights & Learnings
-- Landing page created with invite code to control beta access
-- Community features already built into www.kliniqai.com (forums, chat, simulations)
-- Content Pipeline folder contains Three-Phase processing instructions
-- KPFG is for internal content creation (not external users initially)
-- **Primary blockers**: 
-  - No quiz content in database (quiz engine EXISTS but empty)
-  - Quiz UI/UX needs complete overhaul (outdated design)
-  - Analytics exist but need major improvements (no quiz history, limited insights)
-- Quiz system status:
-  - Engine: ✅ Fully implemented (routes, components, scoring)
-  - Analytics: ⚠️ Basic system exists (needs enhancement)
-  - Feedback: ⚠️ System exists but limited
-  - UI/UX: ❌ Needs complete redesign
-  - Content: ❌ No quizzes in database
-- Content Pipeline improvements: 350% better extraction, 3-5x faster with parallel processing
-- Technical debt in KP-Medizin-Trainer: 391 files with console.log, poor mobile performance (39/100)
-- KPFG integration approach documented, implementation in progress
-- Beta tracking system set up with Telegram workflow
+## What Actually Works
 
-### Content Publishing Architecture (June 20, 2025)
-- **Publishing Flow**: KPFG → Cloud Function (publishToKlinIQai) → published_quizzes → KP-Medizin-Trainer
-- **Cost Optimization**: 
-  - 7-day cache (instead of 24 hours) - reduces reads by 95%
-  - IndexedDB for larger storage capacity
-  - Differential sync for updates only
-  - Metadata-first loading strategy
-- **Security Approach**: 
-  - No restrictive DRM (enables student collaboration)
-  - Basic protection against mass scraping
-  - Student + Admin access only for published content
-- **Implementation Docs**: Created separate plans for KPFG and KP-Medizin-Trainer
+### Content Pipeline (Proven)
+1. Get exam protocol from Telegram
+2. Process in KPFG (adds massive value)
+3. Export as comprehensive JSON
+4. Import to KP-Medizin-Trainer
+5. Students get premium learning experience
+
+### Our Unfair Advantage
+- Real exam questions (not theoretical)
+- From successful candidates
+- Enhanced with expert knowledge
+- City and examiner specific
+
+## Deleted Outdated Info
+- Old beta timeline (was June 30, now July 30)
+- KPCG as separate pipeline (now integrated)
+- Complex architecture plans (we have working systems)
+- Conservative pricing (was €19-29, now €49)
+
+## Critical Decisions Made
+- Claire = Project Lead (full authority)
+- Frontend first, content second
+- Premium pricing for premium content
+- No contractors, Suri codes everything
+- Launch with what we have, iterate fast
+
+## Next 48 Hours
+- **June 30**: Start frontend sprint, fix critical bugs
+- **July 1**: Complete responsive design, test flows
+- **Claire**: Prepare marketing, organize content, plan outreach
 
 ---
-*This file helps maintain context across conversations*
-*Last updated: June 27, 2025*
+*Major update after strategic pivot session - we're closer than we thought!*
