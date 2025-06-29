@@ -1,0 +1,577 @@
+{
+  "version": "v001",
+  "id": "KP-Nordrhein-Westfalen-Münster-24-09-Innere Medizin-Gastroenterologie-Q12-DIF-2-X-v1-20250119",
+  "isDraft": false,
+  
+  "state": "Nordrhein-Westfalen",
+  "stadt": "Münster",
+  "examYear": "24",
+  "examMonth": "09",
+  "fach": "Innere Medizin",
+  "fachgebiet": "Gastroenterologie",
+  "thema": "Gastroösophageale Refluxkrankheit",
+  "schwierigkeit": "2",
+  "hauptThemen": "GERD, Myokardinfarkt, Pneumonie, Dialyse, Schilddrüsen-OP, Achillessehnenruptur, Anaphylaxie",
+  "verbundenThemen": "Kardiologie, Infektiologie, Nephrologie, Chirurgie, Notfallmedizin",
+  "schlagwoerter": "Los-Angeles-Klassifikation, Barrett-Ösophagus, STEMI, PCI, Antibiotika, Peritonealdialyse, Thyreoidektomie, Transfusion",
+  
+  "metadata": {
+    "examinerCount": 3,
+    "createdAt": "2025-01-19T10:00:00Z",
+    "lastModified": "2025-01-19T10:00:00Z",
+    "loadedAt": null,
+    "questionStats": {
+      "total": 12,
+      "byDifficulty": {
+        "leicht": 3,
+        "mittel": 6,
+        "schwer": 3
+      }
+    },
+    "examiners": {
+      "examiner1": {
+        "specialty": "Internist",
+        "count": 5
+      },
+      "examiner2": {
+        "specialty": "Chirurg",
+        "count": 4
+      },
+      "examiner3": {
+        "specialty": "Notfallmediziner",
+        "count": 3
+      }
+    }
+  },
+  "content": {
+    "teil1": {
+      "id": "teil1-uuid",
+      "anamnese": "63-jährige Patientin, seit 6 Monaten retrosternale Schmerzen und Reflux, Heiserkeit morgens und Reizhusten. Z.n. Schulterluxation und geschlossene Reposition, Achillessehnenruptur, Z.n. Hemithyreoidektomie, BZ erhöht, hat aber noch keine Diagnose und Behandlung, nimmt L-Thyroxin ein. Raucht, hat Allergie gegen Senf mit Urtikaria und Tachykardie. Mutter 89J, hat ähnliche Beschwerden, Vater 90J, hatte vor kurzem Pneumonie, Bruder - BAA, operiert, hatte hämorrhagischen Schock während der OP, Schwester dialysepflichtig. Arbeit ist stressig.",
+      "untersuchung": "Bei der KU: nur epigastrale Schmerzen. Musste den Zugang legen.",
+      "schwierigkeit": "mittel",
+      "questions": []
+    },
+    "teil2": {
+      "id": "teil2-uuid",
+      "inhalt": "nichts besonderes, habe KU nicht geschrieben",
+      "schwierigkeit": "mittel"
+    },
+    "teil3": {
+      "id": "teil3-uuid",
+      "inhalt": "Vertiefende Fragen zu speziellen Aspekten",
+      "schwierigkeit": "schwer",
+      "questions": [
+        {
+          "id": "q1-uuid-001",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Gastroenterologie",
+          "thema": "Gastroösophageale Refluxkrankheit",
+          "subcategory": "Klassifikation",
+          "question": "Los-Angeles Klassifikation?",
+          "answer": "[INCOMPLETE]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Gastroösophageale Refluxkrankheit:kla"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "nicht_spezifiziert",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "FRAGMENT",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q2-uuid-002",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Gastroenterologie",
+          "thema": "Gastroösophageale Refluxkrankheit",
+          "subcategory": "Komplikationen",
+          "question": "Barrett Ösophagus, warum gefährlich?",
+          "answer": "[INCOMPLETE]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Gastroösophageale Refluxkrankheit:kom"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "nicht_spezifiziert",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "MEDIUM",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q3-uuid-003",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Kardiologie und Angiologie",
+          "thema": "Leitsymptome und Differentialdiagnostik",
+          "subcategory": "Differentialdiagnosen",
+          "question": "DD Thorax Schmerzen?",
+          "answer": "[INCOMPLETE]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Leitsymptome und Differentialdiagnostik:dif"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "nicht_spezifiziert",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "FRAGMENT",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q4-uuid-004",
+          "fach": "Apparative Untersuchungen",
+          "fachgebiet": "EKG",
+          "thema": "Linksschenkelblock (LSB)",
+          "subcategory": "Diagnostik",
+          "question": "EKG mit komplettem LSB",
+          "answer": "[INCOMPLETE]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Linksschenkelblock (LSB):dia"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "nicht_spezifiziert",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "FRAGMENT",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q5-uuid-005",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Kardiologie und Angiologie",
+          "thema": "Myokardinfarkt",
+          "subcategory": "Therapie",
+          "question": "Vorderwandinfarkt, was werden Sie machen? Ass, prasugrel/Tikagrelor, Clopidogrel nur wenn erhöhte Blutungsrisiko (Alter, Patient nimmt Marcumar), dann Pci, weitere Behandlung (Thrombozytenaggregationshemmer)",
+          "answer": "Ass, prasugrel/Tikagrelor, Clopidogrel nur wenn erhöhte Blutungsrisiko (Alter, Patient nimmt Marcumar), dann PCI, weitere Behandlung (Thrombozytenaggregationshemmer)",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Myokardinfarkt:the"],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q6-uuid-006",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Pneumologie",
+          "thema": "Pneumonie",
+          "subcategory": "Therapie",
+          "question": "Rö-Bild Pneumonie, welche Antibiotika und wann, was, wenn Penicilinallergie?",
+          "answer": "[INCOMPLETE]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Pneumonie:the"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "MEDIUM",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q7-uuid-007",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Nephrologie",
+          "thema": "Dialyse",
+          "subcategory": "Therapie",
+          "question": "Dialyse, welche Verfahren sind bekannt (Bild von peritoneale Dialyse), was ist Desequilibrium-Syndrom?",
+          "answer": "[INCOMPLETE]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Dialyse:the", "[FRAGMENT]"],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "nicht_spezifiziert",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "MEDIUM",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q8-uuid-008",
+          "fach": "Chirurgie",
+          "fachgebiet": "Allgemein- und Viszeralchirurgie",
+          "thema": "Schilddrüse",
+          "subcategory": "Therapie",
+          "question": "Schilddrüsen-Op, Indikation, welche Komplikationen, Neuro-Monitoring",
+          "answer": "[INCOMPLETE]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Schilddrüse:the", "[FRAGMENT]"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2025-01-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "nicht_spezifiziert",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "LOW",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q9-uuid-009",
+          "fach": "Chirurgie",
+          "fachgebiet": "Unfallchirurgie",
+          "thema": "Achillessehnenruptur",
+          "subcategory": "Therapie",
+          "question": "Achillessehnenruptur, wie behandelt man, Diagnostik",
+          "answer": "[INCOMPLETE]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Achillessehnenruptur:the", "[FRAGMENT]"],
+          "schwierigkeit": "leicht",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2025-01-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "nicht_spezifiziert",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "LOW",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q10-uuid-010",
+          "fach": "Chirurgie",
+          "fachgebiet": "Allgemein- und Viszeralchirurgie",
+          "thema": "Transfusion",
+          "subcategory": "Therapie",
+          "question": "Transfusion - was braucht man dafür, Bedside-Test. FFsp, Fibrinogen, Prothromplex. Cell-Saver.",
+          "answer": "[INCOMPLETE]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Transfusion:the", "[FRAGMENT]"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2025-01-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "nicht_spezifiziert",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "LOW",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q11-uuid-011",
+          "fach": "Notfallmedizin",
+          "fachgebiet": "Notfall- und Intensivmedizin",
+          "thema": "Hypoglykämie",
+          "subcategory": "Therapie",
+          "question": "Der Pat. Ist bewusstlos, atmet. Was müssen Sie machen (Hypoglykämie), wie viel Glukose, was weiter?",
+          "answer": "[INCOMPLETE]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Hypoglykämie:the"],
+          "schwierigkeit": "leicht",
+          "examinerSpeciality": "Notarzt",
+          "examinerId": "examiner3",
+          "lastModified": "2025-01-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "MEDIUM",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q12-uuid-012",
+          "fach": "Notfallmedizin",
+          "fachgebiet": "Notfall- und Intensivmedizin",
+          "thema": "Anaphylaxie und anaphylaktoide Reaktion",
+          "subcategory": "Therapie",
+          "question": "Anaphylaxie, wie behandelt man (Adrenalin, H1-Blocker, GCS, wohin Adrenalin, was machen Gcs, verzögerte Reaktion)?",
+          "answer": "Adrenalin, H1-Blocker, GCS",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Anaphylaxie und anaphylaktoide Reaktion:the"],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Notarzt",
+          "examinerId": "examiner3",
+          "lastModified": "2025-01-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "standard"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "MEDIUM",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        }
+      ],
+      "examiners": {
+        "examiner1": "Internist",
+        "examiner2": "Chirurg",
+        "examiner3": "Notfallmediziner"
+      }
+    }
+  },
+  "kommentar": "Prüfung bestanden in Münster 09/2024. Fall: GERD bei 63-jähriger Patientin. Insgesamt 12 Fragen aus verschiedenen Bereichen: Innere Medizin (GERD, Kardiologie, Pneumologie, Nephrologie), Chirurgie (Schilddrüse, Trauma, Transfusion) und Notfallmedizin (Hypoglykämie, Anaphylaxie). Prüfer waren hilfsbereit und haben bei Antworten unterstützt. Viele Fragen waren fragmentarisch dokumentiert. Kandidat: Anästhesist mit einem Jahr Erfahrung in Deutschland, nur 6 Tage Vorbereitungszeit.",
+  "review_metadata": {
+    "current_phase": "phase1_extraction",
+    "extracted_at": "2025-01-19T10:00:00Z",
+    "review_flags": ["Multiple FRAGMENT entries", "Several INCOMPLETE answers"],
+    "validation_errors": [],
+    "extraction_confidence": {
+      "overall": "MEDIUM",
+      "flagged_questions": ["q1", "q3", "q4", "q7", "q8", "q9", "q10"]
+    },
+    "files_requested": ["categories.ts"],
+    "files_provided": ["categories.ts"]
+  }
+}

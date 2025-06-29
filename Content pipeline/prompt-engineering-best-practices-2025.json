@@ -1,0 +1,324 @@
+{
+  "prompt_engineering_best_practices_2025": {
+    "metadata": {
+      "created_date": "2025-06-19",
+      "version": "1.0",
+      "sources": ["Anthropic", "Google DeepMind", "OpenAI"],
+      "coverage_period": "2024-2025"
+    },
+    "anthropic_claude": {
+      "official_resources": {
+        "documentation": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+        "interactive_tutorial": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+        "claude_4_best_practices": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices",
+        "claude_code": "https://www.anthropic.com/engineering/claude-code-best-practices"
+      },
+      "core_techniques": {
+        "prompt_generator": {
+          "description": "Use Anthropic Console's prompt generator for creating first drafts",
+          "benefits": "Rapid prototyping of effective prompts"
+        },
+        "be_clear_and_direct": {
+          "description": "Provide explicit, specific instructions",
+          "tips": [
+            "State exactly what you want Claude to do",
+            "Avoid ambiguity in instructions",
+            "Be specific about output format"
+          ]
+        },
+        "use_examples": {
+          "description": "Multishot prompting with input/output examples",
+          "implementation": "Include 2-5 examples showing desired behavior"
+        },
+        "chain_of_thought": {
+          "description": "Let Claude think step-by-step before answering",
+          "usage": "Add 'Think step by step' to prompts for complex reasoning"
+        },
+        "xml_tags": {
+          "description": "Use XML tags to structure input clearly",
+          "example": "<context>...</context><question>...</question>"
+        },
+        "system_prompts": {
+          "description": "Define Claude's role and behavior",
+          "best_practice": "Set clear context and constraints upfront"
+        },
+        "prefilling": {
+          "description": "Start Claude's response to guide output",
+          "use_case": "Control response format and style"
+        },
+        "prompt_chaining": {
+          "description": "Break complex tasks into sequential prompts",
+          "benefit": "Improved accuracy on multi-step problems"
+        }
+      },
+      "claude_4_specific": {
+        "enhanced_instruction_following": {
+          "description": "Claude 4 models trained for precise instruction adherence",
+          "recommendation": "Provide context/motivation behind instructions"
+        },
+        "parallel_tool_execution": {
+          "description": "Claude 4 excels at simultaneous tool calls",
+          "prompt": "For maximum efficiency, whenever you need to perform multiple independent operations, invoke all relevant tools simultaneously rather than sequentially.",
+          "success_rate": "~100% with proper prompting"
+        },
+        "thinking_capabilities": {
+          "description": "Enhanced reasoning for reflection and multi-step tasks",
+          "use_cases": [
+            "Complex problem solving",
+            "Post-tool-use reflection",
+            "Strategic planning"
+          ]
+        }
+      },
+      "interactive_tutorial_structure": {
+        "chapters": 9,
+        "levels": {
+          "beginner": [
+            "Basic Prompt Structure",
+            "Being Clear and Direct",
+            "Assigning Roles"
+          ],
+          "intermediate": [
+            "Separating Data from Instructions",
+            "Formatting Output & Speaking for Claude",
+            "Precognition (Thinking Step by Step)",
+            "Using Examples"
+          ],
+          "advanced": [
+            "Avoiding Hallucinations",
+            "Building Complex Prompts (Industry Use Cases)"
+          ]
+        },
+        "appendix": [
+          "Chaining Prompts",
+          "Tool Use",
+          "Search & Retrieval"
+        ]
+      },
+      "business_applications": {
+        "benefits": [
+          "Accuracy: Reduced hallucination rates",
+          "Consistency: Cohesive end-user experiences",
+          "Usefulness: Targeted experiences for specific industries"
+        ],
+        "case_study": "Fortune 500 company built Claude-powered assistant with enhanced accuracy"
+      },
+      "claude_code_best_practices": {
+        "slash_commands": {
+          "description": "Store prompt templates in .claude/commands folder",
+          "benefit": "Reusable workflows via git-versioned templates"
+        },
+        "multi_instance_pattern": {
+          "description": "Use multiple Claude instances for different roles",
+          "example": "One Claude writes code, another reviews/tests"
+        },
+        "design_philosophy": "Low-level, unopinionated, flexible power tool"
+      },
+      "safety_framework": {
+        "constitutional_ai": "Built-in safety rules and ethical principles",
+        "privacy_focus": "Respects user privacy by design"
+      }
+    },
+    "google_gemini": {
+      "official_resources": {
+        "api_documentation": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+        "intro_guide": "https://ai.google.dev/gemini-api/docs/prompting-intro",
+        "workspace_guide": "https://workspace.google.com/learning/content/gemini-prompt-guide",
+        "io_2025_updates": "https://blog.google/technology/google-deepmind/google-gemini-updates-io-2025/"
+      },
+      "core_strategies": {
+        "clear_specific_instructions": {
+          "description": "Provide precise guidance on task requirements",
+          "input_types": [
+            "Question input: Direct queries",
+            "Task input: Specific actions",
+            "Entity input: Classification tasks",
+            "Partial input completion: Continue/complete content"
+          ]
+        },
+        "zero_shot_vs_few_shot": {
+          "recommendation": "Include few-shot examples when possible",
+          "implementation": [
+            "Use specific, varied examples",
+            "Demonstrate desired response format",
+            "Show pattern of expected behavior"
+          ]
+        },
+        "context_addition": {
+          "description": "Include contextual information for constraints",
+          "tips": "Provide relevant background details"
+        },
+        "prefix_techniques": {
+          "types": [
+            "Input prefixes: Signal semantic meaning",
+            "Output prefixes: Indicate response format",
+            "Example prefixes: Clear labeling"
+          ]
+        },
+        "prompt_decomposition": {
+          "description": "Break complex prompts into simpler components",
+          "techniques": [
+            "Prompt chaining for multi-step tasks",
+            "Aggregate responses from parallel tasks"
+          ]
+        }
+      },
+      "experimental_parameters": {
+        "max_output_tokens": "Control response length",
+        "temperature": "Randomness control (0-2)",
+        "topK": "Token selection diversity",
+        "topP": "Probability-based selection",
+        "stop_sequences": "Custom completion triggers"
+      },
+      "gemini_2_5_features": {
+        "thought_summaries": {
+          "description": "Organize model's raw thoughts into clear format",
+          "includes": ["Headers", "Key details", "Model actions information"]
+        },
+        "thinking_budgets": {
+          "description": "Control cost by balancing latency and quality",
+          "available_for": ["2.5 Flash", "2.5 Pro"]
+        },
+        "new_capabilities": [
+          "Native audio output",
+          "Advanced security safeguards",
+          "Computer use capabilities"
+        ],
+        "deep_think_mode": "Experimental enhanced reasoning for 2.5 Pro"
+      },
+      "model_capabilities": {
+        "multimodal": "Native support for text, images, video, audio, code",
+        "benchmarks": {
+          "state_of_art": "30 of 32 benchmarks",
+          "mmlu_score": "90.0% (first human-expert performance)",
+          "mmmu_score": "62.4%"
+        }
+      },
+      "iteration_strategies": [
+        "Rephrase prompts",
+        "Switch to analogous tasks",
+        "Experiment with content order"
+      ],
+      "practical_tips": [
+        "Avoid relying on models for factual information",
+        "Use caution with math and logic problems",
+        "Experiment with different phrasings"
+      ]
+    },
+    "openai_gpt": {
+      "official_resources": {
+        "platform_guide": "https://platform.openai.com/docs/guides/prompt-engineering",
+        "cookbook": "https://cookbook.openai.com/examples/gpt4-1_prompting_guide",
+        "help_center": "https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api"
+      },
+      "six_core_strategies": {
+        "write_clear_instructions": {
+          "description": "Ensure prompts are clear, specific, with sufficient context",
+          "tactics": [
+            "Provide specific details and context",
+            "Adopt specific persona or style",
+            "Use clear delimiters for sections",
+            "Specify sequential steps",
+            "Include relevant examples",
+            "Indicate desired response length"
+          ]
+        },
+        "provide_reference_text": {
+          "description": "Give model source material to work with",
+          "benefit": "Reduces hallucinations and improves accuracy"
+        },
+        "split_complex_tasks": {
+          "description": "Break down into simpler subtasks",
+          "implementation": "Use task decomposition and chaining"
+        },
+        "give_time_to_think": {
+          "description": "Allow model to reason through problems",
+          "technique": "Chain-of-thought prompting"
+        },
+        "use_external_tools": {
+          "description": "Interface GPT with other systems",
+          "example": "Generate Python code for calculations instead of direct math"
+        },
+        "test_changes_systematically": {
+          "description": "Empirically validate prompt improvements",
+          "tool": "OpenAI Evals framework",
+          "approach": "Use model to check its own work against gold standards"
+        }
+      },
+      "gpt_4_1_specifics": {
+        "agentic_capabilities": {
+          "description": "Enhanced agent functionality",
+          "requirement": "Include three key types of reminders in agent prompts",
+          "performance": "55% on SWE-bench Verified"
+        },
+        "empirical_approach": {
+          "principle": "AI engineering is inherently empirical",
+          "recommendation": "Build informative evals and iterate often"
+        }
+      },
+      "api_considerations": {
+        "chat_completion_api": {
+          "system_message": "Sets assistant behavior",
+          "use_case": "Define persona and constraints"
+        },
+        "few_shot_learning": {
+          "description": "Include input/output examples",
+          "note": "Conditions model for current inference only"
+        }
+      },
+      "research_insights": {
+        "prompt_report": {
+          "scope": "1,500+ papers analyzed",
+          "techniques": "200+ prompting techniques covered",
+          "collaboration": "OpenAI, Microsoft, Google, Princeton, Stanford"
+        }
+      },
+      "key_principles": [
+        "Clarity and specificity are fundamental",
+        "Test systematically with frameworks",
+        "Integrate with external tools when beneficial",
+        "Iterate based on empirical results"
+      ]
+    },
+    "cross_platform_best_practices": {
+      "universal_principles": [
+        "Be specific and clear in instructions",
+        "Use examples to demonstrate desired behavior",
+        "Break complex tasks into manageable steps",
+        "Test and iterate systematically",
+        "Consider model-specific capabilities"
+      ],
+      "prompt_structure_template": {
+        "components": [
+          "[Optional System Instruction/Role]",
+          "[Context/Background Information]",
+          "[Few-shot Examples if applicable]",
+          "[Specific Task Instructions]",
+          "[Input Data/Query]",
+          "[Output Format Specification]"
+        ]
+      },
+      "common_techniques": {
+        "chain_of_thought": "Encourage step-by-step reasoning",
+        "few_shot_prompting": "Provide 2-5 relevant examples",
+        "task_decomposition": "Split complex problems",
+        "structured_output": "Use delimiters or formatting",
+        "iterative_refinement": "Test and improve prompts"
+      },
+      "optimization_strategies": [
+        "Start with simple prompts and add complexity",
+        "Use model-specific features when available",
+        "Monitor performance metrics",
+        "Build evaluation frameworks",
+        "Document successful patterns"
+      ],
+      "common_pitfalls_to_avoid": [
+        "Overly complex initial prompts",
+        "Ignoring model-specific capabilities",
+        "Not testing edge cases",
+        "Assuming deterministic outputs",
+        "Neglecting systematic evaluation"
+      ]
+    }
+  }
+}

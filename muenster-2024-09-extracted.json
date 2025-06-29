@@ -1,0 +1,1976 @@
+{
+  "version": "v001",
+  "id": "KP-NRW-MU-24-09-IM-GA-Q20-DIF-2-X-v1-1736163840",
+  "isDraft": false,
+  "state": "Nordrhein-Westfalen",
+  "stadt": "Münster",
+  "examYear": "24",
+  "examMonth": "09",
+  "fach": "Innere Medizin",
+  "fachgebiet": "Gastroenterologie",
+  "thema": "Gastroösophageale Refluxkrankheit",
+  "schwierigkeit": "2",
+  "hauptThemen": "GERD, Barrett-Ösophagus, Myokardinfarkt, Pneumonie, Dialyse, Achillessehnenruptur, Schilddrüsen-OP, Anaphylaxie, Hypoglykämie",
+  "verbundenThemen": "Kardiologie, Infektiologie, Nephrologie, Unfallchirurgie, Endokrinologie, Notfallmedizin, Pharmakologie",
+  "schlagwoerter": "Reflux, Heiserkeit, Reizhusten, ÖGD, Los-Angeles-Klassifikation, LSB, STEMI, PCI, Antibiotika, Dialyseverfahren, Transfusion, Anaphylaxie, GCS, Adhärenz, Todeszeichen, Obstipation",
+  "metadata": {
+    "examinerCount": 3,
+    "createdAt": "2025-01-06T12:30:40.000Z",
+    "lastModified": "2025-01-06T12:30:40.000Z",
+    "loadedAt": null,
+    "questionStats": {
+      "total": 20,
+      "byDifficulty": {
+        "leicht": 3,
+        "mittel": 11,
+        "schwer": 6
+      }
+    },
+    "examiners": {
+      "examiner1": {
+        "specialty": "Innere Medizin",
+        "count": 8
+      },
+      "examiner2": {
+        "specialty": "Chirurgie",
+        "count": 4
+      },
+      "examiner3": {
+        "specialty": "Notfallmedizin",
+        "count": 8
+      }
+    }
+  },
+  "content": {
+    "teil1": {
+      "id": "teil1-uuid",
+      "anamnese": "GERD-Fall: 63-jährige Patientin mit seit 6 Monaten bestehenden retrosternalen Schmerzen und Reflux, morgendlicher Heiserkeit und Reizhusten. Vorgeschichte: Z.n. Schulterluxation mit geschlossener Reposition, Z.n. Achillessehnenruptur, Z.n. Hemithyreoidektomie. Erhöhte Blutzuckerwerte ohne bisherige Diagnose oder Behandlung. Medikation: L-Thyroxin. Nikotinabusus. Allergie gegen Senf mit Urtikaria und Tachykardie. Familienanamnese: Mutter (89J) mit ähnlichen Beschwerden, Vater (90J) kürzlich Pneumonie, Bruder mit BAA (operiert, hämorrhagischer Schock während OP), Schwester dialysepflichtig. Sozialanamnese: stressige Arbeit.",
+      "untersuchung": "Bei der körperlichen Untersuchung: Epigastrale Druckschmerzen. Praktische Aufgabe: Legen eines venösen Zugangs.",
+      "schwierigkeit": "mittel",
+      "questions": []
+    },
+    "teil2": {
+      "id": "teil2-uuid",
+      "inhalt": "Keine besonderen Inhalte dokumentiert. Körperliche Untersuchung wurde nicht schriftlich dokumentiert.",
+      "schwierigkeit": "mittel"
+    },
+    "teil3": {
+      "id": "teil3-uuid",
+      "inhalt": "Vertiefende Fragen zu speziellen Aspekten mit Schwerpunkt auf Differentialdiagnosen und Therapie",
+      "schwierigkeit": "schwer",
+      "questions": [
+        {
+          "id": "q1-uuid-001",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Gastroenterologie",
+          "thema": "Gastroösophageale Refluxkrankheit",
+          "subcategory": "Therapie",
+          "originalQuestion": "Fallvorstellung, was werden Sie machen?",
+          "question": "Wie ist das diagnostische und therapeutische Vorgehen bei einer 63-jährigen Patientin mit 6-monatiger Refluxsymptomatik, retrosternalen Schmerzen, morgendlicher Heiserkeit und Reizhusten?",
+          "originalAnswer": "",
+          "answer": "**Strukturiertes Vorgehen bei GERD-Verdacht:**\n\n1. **Anamnese vervollständigen**\n   - Schmerzcharakter, Auslöser, Alarmsymptome erfragen\n   - ALARM-Symptome ausschließen\n\n2. **Diagnostik**\n   - Ösophagogastroduodenoskopie (ÖGD) indiziert bei Alter >50 und persistierenden Symptomen\n   - EKG zum Ausschluss kardialer Ursache\n\n3. **Therapie einleiten**\n   - PPI-Testtherapie mit Omeprazol 40mg 1x täglich für 4-8 Wochen\n   - Lifestyle-Modifikation: Nikotinkarenz, Gewichtsreduktion, Kopfende erhöhen\n\n**Begründung:** Bei länger bestehenden Refluxbeschwerden und Alter >50 Jahre ist eine endoskopische Abklärung zum Ausschluss von Komplikationen indiziert.\n\n**Vorgehen:** Zunächst erfolgt eine ausführliche Anamnese mit Erfassung von Alarmsymptomen. Bei der 63-jährigen Patientin mit 6-monatiger Symptomatik ist eine ÖGD indiziert. Parallel kann eine PPI-Testtherapie begonnen werden.",
+          "erklarung": "**Gastroösophageale Refluxkrankheit (GERD) - Umfassendes Management**\n\n**Epidemiologie:**\nDie GERD ist eine der häufigsten gastrointestinalen Erkrankungen mit einer Prävalenz von 10-20% in der westlichen Bevölkerung.\n\n**Diagnostik:**\n1. **ÖGD** - Goldstandard zur Beurteilung der Ösophagusschleimhaut (Erosionen, Barrett-Ösophagus)\n2. **24h-pH-Metrie** - Bei endoskopisch negativem Befund und persistierenden Symptomen\n3. **High-Resolution-Manometrie** - Vor geplanter Fundoplicatio\n4. **Röntgen-Breischluck** - Bei V.a. Hiatushernie oder Motilitätsstörung\n\n**Therapie:**\n1. **Medikamentös:**\n   - PPI-Therapie: Omeprazol 40mg 1x täglich für 4-8 Wochen\n   - Bei unzureichendem Ansprechen: Dosiserhöhung oder PPI-Wechsel\n   \n2. **Nicht-medikamentös:**\n   - Lifestyle-Modifikation: Nikotinkarenz, Gewichtsreduktion, kleine Mahlzeiten\n   - Operative Option: Laparoskopische Fundoplicatio bei therapierefraktärem GERD\n\n**Differentialdiagnosen:**\n- Koronare Herzkrankheit (retrosternale Schmerzen!)\n- Ösophagusspasmus\n- Achalasie\n- Ösophaguskarzinom (bei Alarmsymptomen)\n- Funktionelle Dyspepsie\n\n**Leitlinien:**\n- S2k-Leitlinie Gastroösophageale Refluxkrankheit DGVS (2023)\n- Wichtige Punkte:\n  * ÖGD bei Alter >50 und neuen Symptomen\n  * PPI-Testtherapie für 4-8 Wochen diagnostisch und therapeutisch\n  * Bei Barrett-Ösophagus: Surveillance-Endoskopie",
+          "tipps": "**LERNZIELE:**\n1. Erkennen von ALARM-Symptomen bei GERD\n2. Indikationen zur ÖGD verstehen\n3. PPI-Therapie korrekt durchführen\n\n**KERNPUNKTE:**\n- **ALARM-Symptome:** Anämie, Loss of weight, Anorexie, Recent onset, Meläna/Hämatemesis\n- **PPI-Einnahme:** 30-60 Min. vor dem Frühstück für optimale Säuresuppression\n- **Cave:** Bei V.a. KHK immer EKG zum Ausschluss kardialer Ursache\n- **ÖGD-Indikation:** Alter >50 Jahre + neue/persistierende Symptome\n- **Therapiedauer:** Initial 4-8 Wochen PPI-Testtherapie",
+          "kommentar": "**Basierend auf WebSearch vom 06.01.2025:**\n\n**WICHTIGE UPDATES:**\n- S2k-Leitlinie GERD DGVS 2023: ÖGD bei Alter >50 obligat\n- Lyon Consensus 2.0: Neue Kriterien für GERD-Diagnose\n- PPI-Dosierung: Omeprazol 40mg als Standard-Initialdosis\n\n**QUELLEN:**\n- AWMF S2k-Leitlinie Gastroösophageale Refluxkrankheit (2023)\n- Lyon Consensus 2.0 for GERD diagnosis (2023)\n- DGVS Empfehlungen zur PPI-Therapie\n\n**KLINISCHER HINWEIS:**\nBei dieser Patientin sind mehrere Risikofaktoren vorhanden: Nikotinabusus, Stress, erhöhtes Alter. Die morgendliche Heiserkeit deutet auf laryngopharyngealen Reflux hin. Cave: Immer kardiale Ursache ausschließen bei retrosternalen Schmerzen!",
+          "flashcard": "[{\"id\":\"fc1\",\"title\":\"GERD Diagnostik-Algorithmus\",\"content\":\"Bei GERD-Verdacht:\\n1. Alter {{c1::>50 Jahre::Altersgrenze}} → {{c2::ÖGD::Untersuchung}} indiziert\\n2. Alarmsymptome? → {{c3::Sofort ÖGD::Vorgehen}}\\n3. Keine Alarmsymptome + jung → {{c4::PPI-Testtherapie::Erstlinientherapie}}\"},{\"id\":\"fc2\",\"title\":\"PPI-Therapie bei GERD\",\"content\":\"Standard-PPI-Dosis bei GERD:\\n{{c1::Omeprazol 40mg::Medikament und Dosis}} {{c2::1x täglich::Frequenz}}\\nEinnahme: {{c3::30-60 Min. vor dem Frühstück::Timing}}\\nTherapiedauer initial: {{c4::4-8 Wochen::Zeitraum}}\"}]",
+          "mcq": "{\"question\":\"Welche Untersuchung ist bei einer 63-jährigen Patientin mit 6-monatiger Refluxsymptomatik primär indiziert?\",\"answers\":[{\"id\":\"a1\",\"text\":\"Ösophagogastroduodenoskopie (ÖGD)\",\"isCorrect\":true},{\"id\":\"a2\",\"text\":\"24-Stunden-pH-Metrie\",\"isCorrect\":false},{\"id\":\"a3\",\"text\":\"High-Resolution-Manometrie\",\"isCorrect\":false},{\"id\":\"a4\",\"text\":\"Röntgen-Breischluck\",\"isCorrect\":false},{\"id\":\"a5\",\"text\":\"Computertomographie Thorax/Abdomen\",\"isCorrect\":false}],\"explanation\":\"Die ÖGD ist bei Patienten >50 Jahre mit neu aufgetretenen oder persistierenden Refluxsymptomen die primär indizierte Untersuchung (Option A). Sie ermöglicht die direkte Beurteilung der Ösophagusschleimhaut und den Ausschluss von Komplikationen wie Barrett-Ösophagus oder Malignomen. Die 24h-pH-Metrie (B) kommt erst bei negativer ÖGD zum Einsatz. Die Manometrie (C) ist vor geplanter OP indiziert. Breischluck (D) und CT (E) sind keine Erstliniendiagnostik.\"}",
+          "tags": [
+            "Gastroenterologie",
+            "GERD",
+            "Refluxkrankheit",
+            "ÖGD",
+            "PPI-Therapie",
+            "Alarmsymptome"
+          ],
+          "schwierigkeit": "2",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "https://www.amboss.com/de/wissen/Gastroösophageale_Refluxkrankheit",
+            "uptodate": "Gastroesophageal reflux disease in adults",
+            "pubmed": [
+              "35122655",
+              "33444177"
+            ],
+            "custom": []
+          },
+          "media": [
+            {
+              "title": "ÖGD: Erosive Ösophagitis Grad B nach LA-Klassifikation",
+              "type": "image",
+              "url": "[endoscopy_erosive_esophagitis_grade_B_placeholder]",
+              "prompt": "Upper GI endoscopy image showing Erosive Ösophagitis Grad B nach LA-Klassifikation, clear mucosal view, appropriate lighting, pathological findings visible, NBI imaging if applicable"
+            },
+            {
+              "title": "ÖGD: Barrett-Ösophagus mit Tongues",
+              "type": "image",
+              "url": "[endoscopy_barrett_esophagus_placeholder]",
+              "prompt": "Upper GI endoscopy image showing Barrett-Ösophagus mit Tongues, clear mucosal view, appropriate lighting, pathological findings visible, NBI imaging if applicable"
+            },
+            {
+              "title": "Algorithmus GERD-Management",
+              "type": "flowchart",
+              "url": "[GERD_management_algorithm_placeholder]",
+              "prompt": "Medical decision flowchart for Algorithmus GERD-Management, showing step-by-step decision process with clear boxes and arrows, German text, color-coded by urgency (red for emergency, yellow for urgent, green for routine), professional medical diagram style"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q2-uuid-002",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Gastroenterologie",
+          "thema": "Endoskopische Befunde bei GERD",
+          "subcategory": "Diagnostik",
+          "originalQuestion": "Das Bild von ÖGD, was sehen Sie",
+          "question": "Ein 63-jähriger Patient mit langjähriger Refluxsymptomatik erhält eine Ösophagogastroduodenoskopie. Im distalen Ösophagus zeigen sich konfluierende Schleimhautdefekte über zwei Drittel der Zirkumferenz. Welche endoskopischen Befunde sind zu erwarten und wie werden diese klassifiziert?",
+          "originalAnswer": "",
+          "answer": "**Endoskopische Befundinterpretation:**\n\n1. **Beobachteter Befund:**\n   - Erosive Ösophagitis mit Schleimhautdefekten im distalen Ösophagus\n   - Konfluierende Defekte über zwei Drittel der Zirkumferenz\n\n2. **Klassifikation:**\n   - Los-Angeles-Klassifikation zur Schweregradbeurteilung\n   - Beschriebener Befund entspricht **LA-Grad C**\n\n3. **Weitere Diagnostik:**\n   - Zusätzlich auf Barrett-Ösophagus achten\n   - Biopsie bei Verdacht auf Metaplasie\n\n**Begründung:** Die Los-Angeles-Klassifikation ist der Goldstandard zur Beschreibung der erosiven Ösophagitis mit geringer Interobserver-Variabilität.\n\n**Vorgehen:** Bei der ÖGD zeigen sich erosive Veränderungen, die nach LA-Klassifikation eingeordnet werden. Der beschriebene Befund mit konfluierenden Defekten über 2/3 der Zirkumferenz entspricht Grad C. Zusätzlich muss auf Barrett-Metaplasie geachtet werden.",
+          "erklarung": "**Los-Angeles-Klassifikation der Refluxösophagitis**\n\n**Standardisierte Einteilung:**\nDie endoskopische Beurteilung der Refluxösophagitis erfolgt standardisiert nach der Los-Angeles-Klassifikation, die eine hohe Reproduzierbarkeit aufweist.\n\n**Klassifikation:**\n- **Grad A:** Eine oder mehrere Erosionen ≤5mm, auf Mukosafalten begrenzt\n- **Grad B:** Eine oder mehrere Erosionen >5mm, auf Mukosafalten begrenzt\n- **Grad C:** Konfluierende Erosionen über <75% der Zirkumferenz\n- **Grad D:** Zirkuläre Defekte über ≥75% der Zirkumferenz\n\n**Therapieempfehlungen nach Schweregrad:**\n1. **LA-Grad A/B:**\n   - Standard-PPI-Therapie (z.B. Omeprazol 40mg 1x täglich)\n   - Therapiedauer: 4-8 Wochen\n\n2. **LA-Grad C/D:**\n   - PPI-Hochdosistherapie (z.B. Omeprazol 2x40mg)\n   - Therapiedauer: 8-12 Wochen\n   - Endoskopische Kontrolle nach Therapie obligat\n\n**Zusätzliche Befunde:**\n- Bei Barrett-Ösophagus: Surveillance-Programm einleiten\n- Biopsie zur Histologie bei Verdacht auf Metaplasie\n\n**Differentialdiagnosen erosiver Läsionen:**\n- Eosinophile Ösophagitis (Biopsie erforderlich)\n- Infektiöse Ösophagitis (Candida, HSV, CMV)\n- Medikamenteninduzierte Ösophagitis\n- Verätzungen\n- Ösophaguskarzinom (bei suspekten Läsionen)\n\n**Aktuelle Leitlinien:**\n- AWMF S2k-Leitlinie GERD (2023)\n- Lyon Consensus 2.0 (2024)\n\n**Wichtige Updates:**\n- LA-Grad B gilt jetzt als konklusiver Beweis für GERD\n- LA-Grad A benötigt zusätzliche Diagnostik\n- LA-Grad C/D sind schwere Refluxösophagitiden\n- Biopsie nur bei V.a. Barrett oder eosinophile Ösophagitis",
+          "tipps": [
+            "LERNZIELE:\n1. Erkennen und Klassifizieren erosiver Ösophagitis-Grade\n2. Differenzierung zwischen GERD-Manifestationen\n\nKERNPUNKTE:\n- LA-Klassifikation: A/B auf Falten begrenzt, C/D konfluierend\n- Lyon Consensus 2.0: Grad B = konklusiver GERD-Beweis\n- Bei Grad C/D: Schlechtere Heilungsraten, längere Therapie nötig\n- 'Minimale Veränderungen' sind NICHT Teil der LA-Klassifikation"
+          ],
+          "kommentar": "Basierend auf aktuellen Leitlinien (Stand: Dezember 2024):\n\nWICHTIGE UPDATES:\n- Lyon Consensus 2.0 (2024): LA-Grad B gilt jetzt als konklusiver Beweis für GERD\n- AWMF S2k-Leitlinie GERD (2023): Bei erosiver Ösophagitis LA-Klassifikation verwenden\n- Aktuelle Studien zeigen: 100% der Grad B und 75% der Grad C Patienten haben objektiven GERD-Nachweis\n\nQUELLEN (aus WebSearch vom 16.06.2025):\n- AWMF Leitlinienregister 021-013 (S2k GERD, Stand 2023)\n- Lyon Consensus 2.0 Publikation (2024): LA-B als konklusiver Beweis\n- Endoscopy Campus: LA Classification Updates\n\nHINWEIS: Die Einordnung von LA-Grad A wurde herabgestuft - nur noch 17,6% zeigen objektiven GERD.",
+          "flashcard": "[{\"id\":\"fc1\",\"title\":\"Los-Angeles-Klassifikation\",\"content\":\"LA-Grad A: Erosionen {{c1::≤5mm::Größe}}, auf Falten begrenzt\\nLA-Grad B: Erosionen {{c2::>5mm::Größe}}, auf Falten begrenzt\\nLA-Grad C: Konfluierend über {{c3::<75%::Prozent}} der Zirkumferenz\\nLA-Grad D: Zirkulär über {{c4::≥75%::Prozent}} der Zirkumferenz\"},{\"id\":\"fc2\",\"title\":\"Lyon Consensus 2.0 GERD-Kriterien\",\"content\":\"Konklusiver GERD-Beweis:\\n- LA-Grad {{c1::C oder D::Grade}}\\n- LA-Grad {{c2::B::Grad}} (neu seit 2024!)\\n- Säureexposition {{c3::>6%::Prozent}} in 24h\\n\\nGrenzwertig: LA-Grad {{c4::A::Grad}}\"}]",
+          "mcq": "{\"question\":\"Bei einer 55-jährigen Patientin mit langjährigem Sodbrennen zeigt die ÖGD multiple Schleimhautdefekte von 8mm Länge, die auf die Mukosafalten begrenzt sind. Welche Los-Angeles-Klassifikation trifft zu?\",\"answers\":[{\"id\":\"a1\",\"text\":\"Los-Angeles Grad A\",\"isCorrect\":false},{\"id\":\"a2\",\"text\":\"Los-Angeles Grad B\",\"isCorrect\":true},{\"id\":\"a3\",\"text\":\"Los-Angeles Grad C\",\"isCorrect\":false},{\"id\":\"a4\",\"text\":\"Los-Angeles Grad D\",\"isCorrect\":false},{\"id\":\"a5\",\"text\":\"Los-Angeles Grad E\",\"isCorrect\":false}],\"explanation\":\"Die korrekte Antwort ist B. LA-Grad B ist definiert als eine oder mehrere Erosionen >5mm, die auf die Mukosafalten begrenzt sind. Die beschriebenen 8mm großen Defekte überschreiten die 5mm-Grenze, sind aber noch auf die Falten begrenzt. Grad A (Option A) wäre nur bei Erosionen ≤5mm korrekt. Grad C (Option C) erfordert konfluierende Erosionen über Falten hinweg. Grad D (Option D) beschreibt zirkuläre Defekte. Grad E (Option E) existiert nicht in der LA-Klassifikation.\"}",
+          "tags": [
+            "Gastroenterologie",
+            "Endoskopie",
+            "ÖGD",
+            "Erosive Ösophagitis",
+            "Los-Angeles-Klassifikation",
+            "GERD-Diagnostik",
+            "Lyon Consensus"
+          ],
+          "schwierigkeit": "2",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "primary": "AWMF S2k-Leitlinie Gastroösophageale Refluxkrankheit (021-013)",
+            "guidelines": [
+              "Lyon Consensus 2.0 (2024) - LA-B als GERD-Beweis",
+              "AWMF Leitlinie GERD 2023"
+            ],
+            "webSearchDate": "2025-06-16",
+            "verifiedSources": [
+              "https://register.awmf.org/de/leitlinien/detail/021-013",
+              "Endoscopy Campus - LA Classification"
+            ],
+            "amboss": "https://www.amboss.com/de/wissen/Refluxösophagitis",
+            "uptodate": "",
+            "pubmed": [
+              "38777170",
+              "PMC11904300"
+            ],
+            "custom": []
+          },
+          "media": [
+            {
+              "title": "ÖGD: Los-Angeles Grad A - Kleine Erosionen auf Mukosafalten",
+              "type": "image",
+              "url": "[endoscopy_LA_grade_A_placeholder]",
+              "prompt": "Upper GI endoscopy image showing Los-Angeles Grad A - Kleine Erosionen auf Mukosafalten, clear mucosal view, appropriate lighting, pathological findings visible, NBI imaging if applicable"
+            },
+            {
+              "title": "ÖGD: Los-Angeles Grad B - Erosionen >5mm auf Falten",
+              "type": "image",
+              "url": "[endoscopy_LA_grade_B_placeholder]",
+              "prompt": "Upper GI endoscopy image showing Los-Angeles Grad B - Erosionen >5mm auf Falten, clear mucosal view, appropriate lighting, pathological findings visible, NBI imaging if applicable"
+            },
+            {
+              "title": "ÖGD: Los-Angeles Grad C - Konfluierende Erosionen",
+              "type": "image",
+              "url": "[endoscopy_LA_grade_C_placeholder]",
+              "prompt": "Upper GI endoscopy image showing Los-Angeles Grad C - Konfluierende Erosionen, clear mucosal view, appropriate lighting, pathological findings visible, NBI imaging if applicable"
+            },
+            {
+              "title": "ÖGD: Los-Angeles Grad D - Zirkuläre Defekte",
+              "type": "image",
+              "url": "[endoscopy_LA_grade_D_placeholder]",
+              "prompt": "Upper GI endoscopy image showing Los-Angeles Grad D - Zirkuläre Defekte, clear mucosal view, appropriate lighting, pathological findings visible, NBI imaging if applicable"
+            },
+            {
+              "title": "Los-Angeles Klassifikation Übersicht (Diagramm)",
+              "type": "table",
+              "url": "[LA_classification_overview_diagram_placeholder]",
+              "prompt": "Medical reference table showing Los-Angeles Klassifikation Übersicht (Diagramm), clear structure with labeled columns and rows, German text, professional formatting, highlight important values"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q3-uuid-003",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Gastroenterologie",
+          "thema": "Gastroösophageale Refluxkrankheit",
+          "subcategory": "Klassifikation",
+          "originalQuestion": "Los-Angeles Klassifikation?",
+          "question": "Beschreiben Sie die Los-Angeles-Klassifikation zur Einteilung der Refluxösophagitis und ihre klinische Bedeutung.",
+          "originalAnswer": "Klassifikation der Refluxösophagitis",
+          "answer": "**Los-Angeles-Klassifikation der Refluxösophagitis:**\n\n**Grad A:**\n- Eine oder mehrere Schleimhautläsionen ≤5mm\n- Auf Mukosafalten begrenzt\n\n**Grad B:**\n- Eine oder mehrere Schleimhautläsionen >5mm\n- Auf Mukosafalten begrenzt\n\n**Grad C:**\n- Konfluierende Erosionen\n- Betreffen <75% der Zirkumferenz\n\n**Grad D:**\n- Zirkuläre Erosionen\n- Betreffen ≥75% der Zirkumferenz\n\n**Klinische Bedeutung:**\n- Grad A/B = milde Refluxösophagitis\n- Grad C/D = schwere Refluxösophagitis\n- Grad C/D erfordern PPI-Hochdosistherapie",
+          "erklarung": "**Los-Angeles-Klassifikation - Standardisierte Bewertung der Refluxösophagitis**\n\n**Hintergrund:**\nDie Los-Angeles-Klassifikation wurde 1994 auf dem Weltkongress für Gastroenterologie eingeführt und ist heute der internationale Standard zur endoskopischen Beurteilung der Refluxösophagitis.\n\n**Detaillierte Klassifikation:**\n\n**Grad A - Minimale Ösophagitis:**\n- Eine oder mehrere Schleimhautläsionen (Erosionen) ≤5mm Länge\n- Läsionen überschreiten nicht die Spitzen zweier Mukosafalten\n- Häufigster Befund bei GERD\n\n**Grad B - Milde Ösophagitis:**\n- Eine oder mehrere Schleimhautläsionen >5mm Länge\n- Läsionen überschreiten nicht die Spitzen zweier Mukosafalten\n- Eindeutiger Beweis für GERD nach Lyon Consensus\n\n**Grad C - Moderate Ösophagitis:**\n- Läsionen erstrecken sich zwischen den Spitzen zweier oder mehrerer Mukosafalten\n- Konfluierende Erosionen\n- Betreffen <75% des Ösophagusumfangs\n\n**Grad D - Schwere Ösophagitis:**\n- Zirkuläre Läsionen\n- Betreffen ≥75% des Ösophagusumfangs\n- Höchstes Komplikationsrisiko\n\n**Klinische Implikationen:**\n1. **Therapieentscheidung:**\n   - Grad A/B: Standard-PPI-Therapie (4-8 Wochen)\n   - Grad C/D: Hochdosis-PPI-Therapie (8-12 Wochen)\n\n2. **Prognose:**\n   - Grad A: 80-90% Heilungsrate nach 8 Wochen PPI\n   - Grad C/D: Längere Therapiedauer, höhere Rezidivrate\n\n3. **Surveillance:**\n   - Grad C/D: Endoskopische Kontrolle nach Therapie\n   - Screening auf Barrett-Ösophagus\n\n**Vorteile der LA-Klassifikation:**\n- Geringe Interobserver-Variabilität\n- Einfache Anwendung\n- Internationale Vergleichbarkeit\n- Gute Korrelation mit Symptomen und Prognose",
+          "tipps": "**LERNZIELE:**\n1. Memorieren der vier LA-Grade und ihrer Grenzwerte\n2. Verstehen der therapeutischen Konsequenzen\n3. Erkennen der Bilder in der ÖGD\n\n**KERNPUNKTE:**\n- **Merkhilfe Größe:** A = ≤5mm (klein wie A), B = >5mm (bigger)\n- **Merkhilfe Ausdehnung:** C = Confluent <75%, D = Durchgehend ≥75%\n- **Klinisch wichtig:** Ab Grad B = sicherer GERD-Beweis\n- **Therapie:** A/B = Standard-PPI, C/D = Hochdosis-PPI\n- **Prüfungstipp:** Häufig gefragt sind die mm-Grenze (5mm) und %-Grenze (75%)",
+          "kommentar": "**Basierend auf aktuellen Leitlinien (WebSearch vom 06.01.2025):**\n\n**WICHTIGE UPDATES:**\n- S2k-Leitlinie Gastroösophageale Refluxkrankheit (AWMF 021-013, Stand 2023)\n- Lyon Consensus Integration: LA-Grad B gilt jetzt als eindeutiger GERD-Beweis\n- Paradigmenwechsel 2022: Neue diagnostische Kriterien\n\n**QUELLEN:**\n- AWMF S2k-Leitlinie 021-013 (September 2023): Gastroösophageale Refluxkrankheit\n- Endoscopy Campus: LA Classification (internationale Referenz)\n- Lyon Consensus: Säureexposition >6% oder LA-Grad C/D = sichere GERD-Diagnose\n- DocCheck Flexikon: Los-Angeles-Klassifikation\n\n**KLINISCHER HINWEIS:**\nDie LA-Klassifikation hat die geringste Interobserver-Variabilität aller Klassifikationen und sollte daher standardmäßig verwendet werden. Bei Grad C/D ist eine PPI-Langzeittherapie a priori indiziert.",
+          "flashcard": "[{\"id\":\"fc1-la\",\"title\":\"LA-Klassifikation Größenkriterien\",\"content\":\"Los-Angeles-Klassifikation:\\n- Grad A: Erosionen {{c1::≤5mm::Größe}}\\n- Grad B: Erosionen {{c2::>5mm::Größe}}\\n- Grenze zwischen A und B: {{c3::5mm::Wert}}\\n- Lokalisation A/B: {{c4::Auf Mukosafalten begrenzt::Ausdehnung}}\"},{\"id\":\"fc2-la\",\"title\":\"LA-Klassifikation Zirkumferenz\",\"content\":\"Konfluierende Erosionen:\\n- Grad C: {{c1::<75%::Prozent}} der Zirkumferenz\\n- Grad D: {{c2::≥75%::Prozent}} der Zirkumferenz\\n- Grenzwert C/D: {{c3::75%::Prozent}}\\n- Grad D = {{c4::Zirkuläre::Form}} Läsionen\"},{\"id\":\"fc3-la\",\"title\":\"LA-Klassifikation Therapie\",\"content\":\"Therapie nach LA-Grad:\\n- Grad A/B: {{c1::Standard-PPI::Therapie}} für {{c2::4-8::Wochen}} Wochen\\n- Grad C/D: {{c3::Hochdosis-PPI::Therapie}} für {{c4::8-12::Wochen}} Wochen\\n- Lyon Consensus: Ab Grad {{c5::B::Buchstabe}} = sicherer GERD-Beweis\"}]",
+          "mcq": "{\"question\":\"Bei der ÖGD eines 48-jährigen Patienten zeigen sich im distalen Ösophagus multiple weißliche Erosionen von 3-4mm Länge, die auf die Spitzen der Mukosafalten begrenzt sind. Welche Los-Angeles-Klassifikation liegt vor?\",\"answers\":[{\"id\":\"a1\",\"text\":\"Los-Angeles Grad A\",\"isCorrect\":true},{\"id\":\"a2\",\"text\":\"Los-Angeles Grad B\",\"isCorrect\":false},{\"id\":\"a3\",\"text\":\"Los-Angeles Grad C\",\"isCorrect\":false},{\"id\":\"a4\",\"text\":\"Los-Angeles Grad D\",\"isCorrect\":false},{\"id\":\"a5\",\"text\":\"Los-Angeles Grad 0 (keine Ösophagitis)\",\"isCorrect\":false}],\"explanation\":\"Die korrekte Antwort ist A. Die beschriebenen Erosionen sind 3-4mm groß, also ≤5mm, und auf die Mukosafalten begrenzt. Dies entspricht der Definition von LA-Grad A. Grad B (Option B) würde Erosionen >5mm erfordern. Grad C (Option C) zeigt konfluierende Erosionen über Faltengrenzen hinweg. Grad D (Option D) betrifft ≥75% der Zirkumferenz. Grad 0 (Option E) existiert nicht in der LA-Klassifikation.\"}",
+          "tags": [
+            "Gastroösophageale Refluxkrankheit:kla"
+          ],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q4-uuid-004",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Gastroenterologie",
+          "thema": "Barrett-Ösophagus",
+          "subcategory": "Komplikationen",
+          "originalQuestion": "Barrett Ösophagus, warum gefährlich",
+          "question": "Ein 60-jähriger Mann mit langjähriger GERD-Anamnese zeigt in der ÖGD eine lachsfarbene Schleimhautveränderung im distalen Ösophagus. Die Biopsie bestätigt intestinale Metaplasie. Warum ist der Barrett-Ösophagus eine gefährliche Komplikation der Refluxkrankheit?",
+          "originalAnswer": "Präkanzerose, Risiko für Adenokarzinom",
+          "answer": "**Strukturiertes Vorgehen bei Barrett-Ösophagus:**\n\n1. **Hauptrisiken erklären**\n   - Barrett-Ösophagus ist eine Präkanzerose für das Adenokarzinom\n   - Jährliches Entartungsrisiko liegt bei 0,10-0,33%\n   - Intestinale Metaplasie kann zu Dysplasie und Karzinom fortschreiten\n   - Regelmäßige endoskopische Überwachung erforderlich\n\n**Begründung:** Die intestinale Metaplasie beim Barrett-Ösophagus stellt eine Präkanzerose dar mit definiertem Progressionsrisiko zum Adenokarzinom.\n\n**Vorgehen:** Der Barrett-Ösophagus ist gefährlich, weil er eine Vorstufe zum Speiseröhrenkrebs darstellt. Die veränderte Schleimhaut kann über Dysplasien zum Adenokarzinom entarten. Deshalb sind regelmäßige Kontrollen notwendig.",
+          "erklarung": "**Barrett-Ösophagus - Umfassendes Management**\n\n**Fachsprache:**\nDer Barrett-Ösophagus ist eine erworbene Metaplasie des distalen Ösophagus mit Ersatz des Plattenepithels durch spezialisiertes intestinales Zylinderepithel als Folge chronischen Säurerefluxes.\n\n**Diagnostik:**\n1. **Endoskopische Zeichen:** Lachsfarbene Schleimhaut, Zungenförmige Ausläufer\n2. **Biopsie obligat:** Nachweis intestinaler Metaplasie mit Becherzellen\n3. **Prag-Klassifikation:** C (zirkumferentiell) und M (maximal) Ausdehnung\n4. **Surveillance-Biopsien:** 4-Quadranten-Biopsien alle 2cm\n\n**Therapie:**\n1. **Nach Dysplasiegrad:**\n   - Ohne Dysplasie: Kontrolle nach 1 Jahr, dann alle 3-4 Jahre\n   - Low-grade Dysplasie: Kontrolle nach 6 Monaten\n   - High-grade Dysplasie: Endoskopische Resektion oder RFA\n   - PPI-Dauertherapie zur Säuresuppression obligat\n\n**Differentialdiagnosen:**\n- Entzündliche Veränderungen ohne Metaplasie\n- Kardiale Schleimhaut\n- Ektopes Magenepithel\n- Frühe Neoplasie\n\n**Leitlinien:**\n- AWMF S2k-Leitlinie GERD / S3-Leitlinie Ösophaguskarzinom (2023/2024)\n- Wichtige Punkte:\n  * Progressionsrisiko 0,10-0,33% pro Jahr\n  * Surveillance nur bei Non-Dysplasie nach 3-4 Jahren\n  * Zweitmeinung bei Dysplasie-Nachweis erforderlich\n  * Endoskopische Therapie bei HGD/Frühkarzinom",
+          "tipps": [
+            "LERNZIELE:\n1. Erkennen der malignen Entartungssequenz beim Barrett-Ösophagus\n2. Verstehen der Surveillance-Strategie\n\nKERNPUNKTE:\n- Metaplasie → Low-grade Dysplasie → High-grade Dysplasie → Adenokarzinom\n- Karzinomrisiko: 0,1-0,33% pro Jahr (30-125x höher als Normalbevölkerung)\n- Risikofaktoren: Männer, Alter >50, Adipositas, lange Barrett-Strecke\n- Mortalität: Nur 4,5% sterben am Ösophaguskarzinom, meist kardiovaskulär"
+          ],
+          "kommentar": "Basierend auf aktuellen Leitlinien (Stand: Dezember 2024):\n\nWICHTIGE UPDATES:\n- Aktuelle Metaanalyse (2024): Karzinomrisiko 0,10-0,15% pro Jahr\n- Kurzsegment-Barrett (<3cm): Nur 0,19% jährliches Risiko\n- Neue Empfehlung: Bei Non-Dysplasie Kontrolle erst nach 3-4 Jahren\n- Mortalitätsdaten: Haupttodesursachen sind kardiovaskulär (31,6%), andere Malignome (23,5%)\n\nQUELLEN (aus WebSearch vom 16.06.2025):\n- AWMF S2k-Leitlinie GERD (2023): Surveillance-Empfehlungen\n- S3-Leitlinie Ösophaguskarzinom (2024): Risikostratifizierung\n- Aktuelle Metaanalyse: 57 Studien, 11.434 Patienten\n\nHINWEIS: Das Karzinomrisiko ist niedriger als früher angenommen, rechtfertigt aber weiterhin strukturierte Überwachung.",
+          "flashcard": "[{\"id\":\"fc1\",\"title\":\"Barrett-Ösophagus Entartungsrisiko\",\"content\":\"Jährliches Karzinomrisiko: {{c1::0,10-0,33::Prozent}}%\\nKurzsegment-Barrett: {{c2::0,19::Prozent}}% pro Jahr\\nHaupttodesursache: {{c3::Kardiovaskulär::System}} (31,6%)\\nTod durch Ösophagus-CA: nur {{c4::4,5::Prozent}}%\"},{\"id\":\"fc2\",\"title\":\"Barrett-Surveillance\",\"content\":\"Ohne Dysplasie: Kontrolle nach {{c1::1 Jahr::Zeit}}, dann alle {{c2::3-4 Jahre::Intervall}}\\nLow-grade Dysplasie: Kontrolle nach {{c3::6 Monaten::Zeit}}\\nHigh-grade Dysplasie: {{c4::Endoskopische Resektion::Therapie}}\\nBiopsie-Schema: {{c5::4-Quadranten alle 2cm::Technik}}\"}]",
+          "mcq": "{\"question\":\"Ein 55-jähriger Patient mit Barrett-Ösophagus ohne Dysplasie wurde vor einem Jahr erstmalig diagnostiziert und kontrolliert. Die aktuelle ÖGD bestätigt weiterhin keine Dysplasie. Wann sollte die nächste Surveillance-Endoskopie erfolgen?\",\"answers\":[{\"id\":\"a1\",\"text\":\"In 6 Monaten\",\"isCorrect\":false},{\"id\":\"a2\",\"text\":\"In 1 Jahr\",\"isCorrect\":false},{\"id\":\"a3\",\"text\":\"In 2 Jahren\",\"isCorrect\":false},{\"id\":\"a4\",\"text\":\"In 3-4 Jahren\",\"isCorrect\":true},{\"id\":\"a5\",\"text\":\"Keine weitere Surveillance notwendig\",\"isCorrect\":false}],\"explanation\":\"Die korrekte Antwort ist D (3-4 Jahre). Nach aktuellen Leitlinien erfolgt bei Barrett-Ösophagus ohne Dysplasie die erste Kontrolle nach 1 Jahr. Wenn diese ebenfalls keine Dysplasie zeigt, können die Intervalle auf 3-4 Jahre verlängert werden. Option A (6 Monate) wäre nur bei Low-grade Dysplasie indiziert. Option B (1 Jahr) war das alte Schema. Option C (2 Jahre) ist kein empfohlenes Intervall. Option E ist falsch, da eine Surveillance bei Barrett-Ösophagus lebenslang erforderlich ist.\"}",
+          "tags": [
+            "Gastroenterologie",
+            "Barrett-Ösophagus",
+            "Präkanzerose",
+            "Ösophaguskarzinom",
+            "Intestinale Metaplasie",
+            "Surveillance",
+            "GERD-Komplikation"
+          ],
+          "schwierigkeit": "3",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "primary": "AWMF S2k-Leitlinie Gastroösophageale Refluxkrankheit",
+            "guidelines": [
+              "S3-Leitlinie Ösophaguskarzinom (2024)",
+              "AWMF Leitlinie GERD - Barrett-Surveillance (2023)"
+            ],
+            "webSearchDate": "2025-06-16",
+            "verifiedSources": [
+              "Medical Tribune: Barrett-Ösophagus Karzinomrisiko (2024)",
+              "Deutsches Ärzteblatt: Barrett-Karzinom Epidemiologie"
+            ],
+            "amboss": "https://www.amboss.com/de/wissen/Barrett-Ösophagus",
+            "uptodate": "",
+            "pubmed": [
+              "Meta-Analyse 57 Studien",
+              "11434 Patienten"
+            ],
+            "custom": []
+          },
+          "media": [
+            {
+              "title": "ÖGD: Barrett-Ösophagus mit lachsfarbener Schleimhaut",
+              "type": "image",
+              "url": "[endoscopy_barrett_esophagus_salmon_colored_placeholder]",
+              "prompt": "Upper GI endoscopy image showing Barrett-Ösophagus mit lachsfarbener Schleimhaut, clear mucosal view, appropriate lighting, pathological findings visible, NBI imaging if applicable"
+            },
+            {
+              "title": "Histologie: Intestinale Metaplasie mit Becherzellen",
+              "type": "image",
+              "url": "[histology_barrett_goblet_cells_placeholder]",
+              "prompt": "Medical image showing Histologie: Intestinale Metaplasie mit Becherzellen, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "Prag-Klassifikation des Barrett-Ösophagus",
+              "type": "image",
+              "url": "[prague_classification_barrett_diagram_placeholder]",
+              "prompt": "Medical image showing Prag-Klassifikation des Barrett-Ösophagus, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "Progressionssequenz: Metaplasie → Dysplasie → Karzinom",
+              "type": "image",
+              "url": "[barrett_progression_sequence_diagram_placeholder]",
+              "prompt": "Medical image showing Progressionssequenz: Metaplasie → Dysplasie → Karzinom, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "Surveillance-Algorithmus Barrett-Ösophagus",
+              "type": "flowchart",
+              "url": "[barrett_surveillance_algorithm_placeholder]",
+              "prompt": "Medical decision flowchart for Surveillance-Algorithmus Barrett-Ösophagus, showing step-by-step decision process with clear boxes and arrows, German text, color-coded by urgency (red for emergency, yellow for urgent, green for routine), professional medical diagram style"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q5-uuid-005",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Notfallmedizin",
+          "thema": "Thoraxschmerz",
+          "subcategory": "Differentialdiagnosen",
+          "originalQuestion": "DD Thorax Schmerzen?",
+          "question": "Ein 55-jähriger Mann stellt sich mit akuten Thoraxschmerzen in der Notaufnahme vor. Der Schmerz besteht seit 2 Stunden. Welche Differentialdiagnosen müssen Sie prioritär in Betracht ziehen und wie gehen Sie diagnostisch vor?",
+          "originalAnswer": "Differentialdiagnosen von Thoraxschmerzen",
+          "answer": "**Strukturiertes Vorgehen bei akutem Thoraxschmerz:**\n\n1. **Lebensbedrohliche Ursachen ausschließen**\n   - Die 'Big Five' lebensbedrohlichen Ursachen ausschließen: ACS, Lungenembolie, Aortendissektion, Spannungspneumothorax, Ösophagusruptur\n   - Sofort 12-Kanal-EKG, Vitalparameter, Anamnese nach OPQRST-Schema\n\n2. **Diagnostik einleiten**\n   - Labor mit Troponin, D-Dimere bei V.a. LAE, ggf. Bildgebung (Röntgen-Thorax, CT)\n   - Nach Ausschluss vital bedrohlicher Ursachen andere DD erwägen\n\n**Begründung:** Bei akutem Thoraxschmerz müssen zunächst die fünf lebensbedrohlichen Ursachen systematisch ausgeschlossen werden.\n\n**Vorgehen:** Zuerst schließe ich die lebensbedrohlichen Ursachen aus: Herzinfarkt, Lungenembolie, Aortendissektion, Pneumothorax und Ösophagusruptur. Ich mache sofort ein EKG und bestimme Troponin. Bei klinischem Verdacht erweitere ich die Diagnostik gezielt.",
+          "erklarung": "**Differentialdiagnose Thoraxschmerz - Umfassendes Management**\n\n**Epidemiologie:**\nThoraxschmerz ist mit 3-6% aller Notaufnahmevorstellungen ein häufiges Leitsymptom. 20-25% der Patienten mit Thoraxschmerz haben ein akutes Koronarsyndrom.\n\n**Diagnostik:**\n1. **12-Kanal-EKG** innerhalb von 10 Minuten (STEMI-Detektion)\n2. **Troponin T/I hochsensitiv** (0h/1h-Algorithmus)\n3. **D-Dimere** bei niedrig-mittlerer Vortestwahrscheinlichkeit für LAE\n4. **Röntgen-Thorax** (Pneumothorax, Pneumonie, Aortendissektion)\n5. **CT-Angiographie** bei V.a. LAE oder Aortendissektion\n\n**Therapie:**\n1. **Ursachenspezifisch:**\n   - Bei ACS: MONA-Schema (Morphin, O2, Nitroglycerin, ASS)\n   - Bei LAE: Antikoagulation mit Heparin\n   - Bei Spannungspneumothorax: Sofortige Entlastungspunktion\n   - Bei Aortendissektion: RR-Senkung, Notfall-OP\n\n**Differentialdiagnosen:**\n- **Kardial:** ACS, Perikarditis, Myokarditis\n- **Pulmonal:** LAE, Pneumothorax, Pneumonie, Pleuritis\n- **Vaskulär:** Aortendissektion, Aortenaneurysma\n- **GI:** Ösophagusruptur, Reflux, Ösophagusspasmus\n- **Muskuloskeletal:** Kostochondritis, Rippenfraktur\n- **Psychogen:** Panikattacke, Angststörung\n\n**Leitlinien:**\n- ESC Guidelines ACS 2023 / DGK Pocket-Leitlinie (2023/2024)\n- Wichtige Punkte:\n  * Big Five müssen immer ausgeschlossen werden\n  * Mortalität Aortendissektion: >1%/Stunde\n  * 0h/1h-Troponin-Algorithmus bei NSTE-ACS\n  * Red Flag: Wiedervorstellung → Diagnose hinterfragen",
+          "tipps": [
+            "LERNZIELE:\n1. Die 'Big Five' lebensbedrohlichen Ursachen sicher erkennen\n2. Systematisches Vorgehen bei Thoraxschmerz beherrschen\n\nKERNPUNKTE:\n- OPQRST-Schema: Onset, Provocation, Quality, Radiation, Severity, Time\n- Big Five: ACS, LAE, Aortendissektion, (Spannungs-)Pneumothorax, Ösophagusruptur\n- Aortendissektion: Messerstichartiger Schmerz zwischen Schulterblättern\n- LAE: Dyspnoe + Thoraxschmerz + Risikofaktoren (Wells-Score)"
+          ],
+          "kommentar": "Basierend auf aktuellen Leitlinien (Stand: Dezember 2024):\n\nWICHTIGE UPDATES:\n- ESC ACS Guidelines 2023: STEMI und NSTE-ACS jetzt in einer Leitlinie kombiniert\n- DGK Master Pocket-Leitlinien 2024: Akutversorgung Thoraxschmerz\n- 0h/1h-hs-Troponin-Algorithmus ist Standard bei NSTE-ACS\n\nQUELLEN (aus WebSearch vom 16.06.2025):\n- DGK Pocket-Leitlinie ACS Version 2023 (publiziert 2024)\n- ESC Guidelines für ACS Management 2023\n- Notfallguru: Thoraxschmerz - Big Five Konzept\n\nHINWEIS: Bei Wiedervorstellung ('Red Flag') muss die Erstdiagnose kritisch hinterfragt werden!",
+          "flashcard": "[{\"id\":\"fc1\",\"title\":\"Big Five Thoraxschmerz\",\"content\":\"Die 5 lebensbedrohlichen Ursachen:\\n1. {{c1::Akutes Koronarsyndrom (ACS)::Kardial}}\\n2. {{c2::Lungenembolie::Pulmonal}}\\n3. {{c3::Aortendissektion::Vaskulär}}\\n4. {{c4::(Spannungs-)Pneumothorax::Pulmonal}}\\n5. {{c5::Ösophagusruptur (Boerhaave)::GI}}\"},{\"id\":\"fc2\",\"title\":\"Diagnostik-Algorithmus Thoraxschmerz\",\"content\":\"Erstmaßnahmen bei akutem Thoraxschmerz:\\n1. {{c1::12-Kanal-EKG::Untersuchung}} innerhalb {{c2::10 Minuten::Zeit}}\\n2. {{c3::Troponin::Labor}} bestimmen (0h/1h-Algorithmus)\\n3. Bei V.a. LAE: {{c4::D-Dimere::Labor}} (neg. Wert schließt aus)\\n4. {{c5::Röntgen-Thorax::Bildgebung}} bei V.a. Pneumothorax\"}]",
+          "mcq": "{\"question\":\"Ein 62-jähriger Mann mit Hypertonie stellt sich mit plötzlich aufgetretenen, messerstichartigen Schmerzen zwischen den Schulterblättern vor. Der Schmerz strahlt in den Rücken aus. RR rechts 180/100 mmHg, links 150/90 mmHg. Welche Diagnose ist am wahrscheinlichsten?\",\"answers\":[{\"id\":\"a1\",\"text\":\"Akuter Myokardinfarkt\",\"isCorrect\":false},{\"id\":\"a2\",\"text\":\"Aortendissektion\",\"isCorrect\":true},{\"id\":\"a3\",\"text\":\"Lungenembolie\",\"isCorrect\":false},{\"id\":\"a4\",\"text\":\"Ösophagusspasmus\",\"isCorrect\":false},{\"id\":\"a5\",\"text\":\"Interkostalneuralgie\",\"isCorrect\":false}],\"explanation\":\"Die korrekte Antwort ist B (Aortendissektion). Die Kombination aus messerstichartigem Schmerz zwischen den Schulterblättern, Ausstrahlung in den Rücken und unterschiedlichen Blutdruckwerten an beiden Armen (>20 mmHg Differenz) ist pathognomonisch für eine Aortendissektion. Die Hypertonie ist ein wichtiger Risikofaktor. Option A (MI) zeigt typischerweise retrosternale Schmerzen. Option C (LAE) geht mit Dyspnoe einher. Option D und E würden keine RR-Seitendifferenz zeigen.\"}",
+          "tags": [
+            "Notfallmedizin",
+            "Thoraxschmerz",
+            "Differentialdiagnose",
+            "Big Five",
+            "ACS",
+            "Lungenembolie",
+            "Aortendissektion",
+            "Leitsymptom"
+          ],
+          "schwierigkeit": "3",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "primary": "DGK Pocket-Leitlinie ACS Version 2023",
+            "guidelines": [
+              "ESC Guidelines ACS 2023",
+              "DGK Master Pocket-Leitlinien Akutversorgung 2024"
+            ],
+            "webSearchDate": "2025-06-16",
+            "verifiedSources": [
+              "https://leitlinien.dgk.org/2024/pocket-leitlinie-akutes-koronarsyndrom-version-2023/",
+              "Notfallguru: Thoraxschmerz Big Five"
+            ],
+            "amboss": "https://www.amboss.com/de/wissen/thoraxschmerz",
+            "uptodate": "Evaluation of the adult with chest pain in the emergency department",
+            "pubmed": [],
+            "custom": []
+          },
+          "media": [
+            {
+              "title": "Algorithmus: Differentialdiagnose Thoraxschmerz",
+              "type": "flowchart",
+              "url": "[chest_pain_differential_algorithm_placeholder]",
+              "prompt": "Medical decision flowchart for Differentialdiagnose Thoraxschmerz, showing step-by-step decision process with clear boxes and arrows, German text, color-coded by urgency (red for emergency, yellow for urgent, green for routine), professional medical diagram style"
+            },
+            {
+              "title": "EKG bei Lungenembolie mit S1Q3T3-Muster",
+              "type": "image",
+              "url": "[ecg_pulmonary_embolism_s1q3t3_placeholder]",
+              "prompt": "12-lead ECG recording showing EKG bei Lungenembolie mit S1Q3T3-Muster, standard paper speed 25mm/s, calibration 10mm/mV, clear grid lines, all leads labeled (I, II, III, aVR, aVL, aVF, V1-V6), pathological findings clearly visible"
+            },
+            {
+              "title": "CT: Aortendissektion Typ A",
+              "type": "image",
+              "url": "[ct_aortic_dissection_type_a_placeholder]",
+              "prompt": "CT scan chest/abdomen showing Aortendissektion Typ A, appropriate window settings, axial view, pathology clearly visible"
+            },
+            {
+              "title": "Röntgen-Thorax: Spannungspneumothorax",
+              "type": "image",
+              "url": "[cxr_tension_pneumothorax_placeholder]",
+              "prompt": "Chest X-ray PA view showing Spannungspneumothorax, proper exposure, clear anatomical structures, pathological findings visible"
+            },
+            {
+              "title": "Big Five Thoraxschmerz Übersicht",
+              "type": "table",
+              "url": "[big_five_chest_pain_overview_placeholder]",
+              "prompt": "Medical reference table showing Big Five Thoraxschmerz Übersicht, clear structure with labeled columns and rows, German text, professional formatting, highlight important values"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q6-uuid-006",
+          "fach": "Apparative Untersuchungen",
+          "fachgebiet": "EKG",
+          "thema": "Linksschenkelblock (LSB)",
+          "subcategory": "Diagnostik",
+          "originalQuestion": "EKG mit komplettem LSB?",
+          "question": "Ein 72-jähriger Patient mit bekannter Herzinsuffizienz zeigt im EKG eine QRS-Breite von 150ms mit typischer Morphologie. Welche diagnostischen Kriterien sprechen für einen kompletten Linksschenkelblock und welche klinische Bedeutung hat dieser Befund?",
+          "originalAnswer": "EKG-Befundung",
+          "answer": "**Diagnostische Kriterien für kompletten Linksschenkelblock:**\n\n1. **EKG-Kriterien**\n   - QRS-Dauer ≥120ms (bei komplettem LSB meist >140ms)\n   - V1-V2: Tiefe, breite S-Zacke oder QS-Komplex\n   - V5-V6, I, aVL: Breite, plumpe, oft gekerbte R-Zacke\n   - Diskordante ST-Strecken- und T-Wellen-Veränderungen\n\n2. **Klinische Bedeutung**\n   - Bei V.a. STEMI: Sgarbossa-Kriterien anwenden\n\n**Begründung:** Der komplette LSB maskiert typische Ischämiezeichen im EKG. Die Kenntnis der Sgarbossa-Kriterien ist essentiell für die Infarktdiagnostik bei LSB.\n\n**Vorgehen:** Ein kompletter Linksschenkelblock zeigt eine verzögerte linksventrikuläre Erregung mit charakteristischen Veränderungen in den Brust- und Extremitätenableitungen.",
+          "erklarung": "**Linksschenkelblock (LSB) - Umfassendes Management**\n\n**Pathophysiologie:**\nDer komplette Linksschenkelblock (LSB) entsteht durch eine Leitungsstörung im linken Tawara-Schenkel mit konsekutiver verzögerter Depolarisation des linken Ventrikels.\n\n**Diagnostik:**\n1. **EKG-Kriterien für kompletten LSB nach ESC 2021:** QRS ≥120ms, QS oder rS in V1, gekerbte R-Zacke in I, aVL, V5-V6\n2. **Sgarbossa-Kriterien (≥3 Punkte = STEMI):** Konkordante ST-Hebung ≥1mm (5 Punkte), konkordante ST-Senkung ≥1mm V1-V3 (3 Punkte), diskordante ST-Hebung ≥5mm (2 Punkte)\n3. **Modifizierte Sgarbossa-Kriterien (Smith):** ST-Hebung ≥25% der vorausgehenden S-Zacke\n4. **BARCELONA-Algorithmus:** Sensitivität 93-95% für STEMI bei LSB\n\n**Therapie:**\n1. **Akutmanagement:**\n   - Neu aufgetretener LSB mit klinischem V.a. ACS → wie STEMI behandeln\n   - Bei bekanntem LSB: Klinische Symptomatik und Sgarbossa-Kriterien entscheidend\n\n2. **Langzeittherapie:**\n   - CRT-Indikation prüfen bei symptomatischer Herzinsuffizienz (NYHA II-IV) mit LVEF ≤35%\n   - Optimale medikamentöse Herzinsuffizienztherapie\n\n**Differentialdiagnosen:**\n- Inkompletter LSB (QRS 100-119ms)\n- Linksanteriorer Hemiblock (LAH)\n- Linksposteriorer Hemiblock (LPH)\n- Schrittmacher-EKG\n- Präexzitation (WPW-Syndrom)",
+          "tipps": "**Tipps für die mündliche Prüfung:**\n- Immer QRS-Breite in mm oder ms angeben (25mm/s = 40ms pro mm)\n- V1 und V6 sind die wichtigsten Ableitungen für LSB-Diagnose\n- Bei LSB immer nach Herzinsuffizienz und CRT-Indikation fragen\n- Sgarbossa-Kriterien auswendig lernen - häufige Prüfungsfrage\n\n**Praktische Tipps:**\n- Bei Thoraxschmerz + LSB: Immer Vergleichs-EKG anfordern\n- Troponin-Verlaufskontrolle bei V.a. ACS obligat\n- Echokardiographie zur Wandbewegungsanalyse hilfreich\n- Bei neu aufgetretenem LSB → Koronarangiographie erwägen\n\n**Merkhilfen:**\n- WILLIAM (WiLLiaM) → W-Form in V1, M-Form in V6\n- LSB = Links Spät Beginnt\n- Sgarbossa ≥3 = STEMI wahrscheinlich",
+          "kommentar": "Basierend auf ESC 2021 Kriterien für LSB und CRT, DGK Pocket-Leitlinie STEMI 2022, sowie aktuellen Empfehlungen zur Infarktdiagnostik bei LSB (Sgarbossa/BARCELONA). Quellen: ESC Guidelines on cardiac pacing and CRT 2021, Deutsches Ärzteblatt 2020 zu erweiterten LSB-Kriterien, FOAMINA Blog zu Sgarbossa-Kriterien. Suche durchgeführt am 2025-06-16.",
+          "flashcard": "[{\"id\":\"fc1-lsb\",\"title\":\"Kompletter Linksschenkelblock - EKG-Kriterien\",\"content\":\"Hauptkriterien:\\n- {{c1::QRS ≥120ms (meist >140ms)::QRS-Dauer}}\\n- {{c2::QS oder rS in V1-V2::V1-V2-Morphologie}}\\n- {{c3::Breite, plumpe, oft gekerbte R-Zacke in V5-V6, I, aVL::Laterale Ableitungen}}\\n- {{c4::Diskordante ST-T-Veränderungen::ST-T-Charakteristik}}\\n\\nMerkhilfe: {{c5::WILLIAM → W in V1, M in V6::Morphologie-Eselsbrücke}}\"},{\"id\":\"fc2-lsb\",\"title\":\"Sgarbossa-Kriterien bei LSB\",\"content\":\"STEMI-Diagnose bei LSB (≥3 Punkte):\\n- {{c1::Konkordante ST-Hebung ≥1mm::5 Punkte}}\\n- {{c2::Konkordante ST-Senkung ≥1mm in V1-V3::3 Punkte}}\\n- {{c3::Diskordante ST-Hebung ≥5mm::2 Punkte}}\\n\\nModifiziert nach Smith: {{c4::ST-Hebung ≥25% der S-Zacke::Kriterium}}\"}]",
+          "mcq": {
+            "question": "Ein 65-jähriger Patient mit akutem Thoraxschmerz zeigt im EKG einen kompletten Linksschenkelblock. Die ST-Strecke ist in V1-V3 um 4mm konkordant gesenkt. Nach den Sgarbossa-Kriterien entspricht dies:",
+            "answers": [
+              {
+                "text": "3 Punkten - hochverdächtig auf STEMI",
+                "correct": true,
+                "explanation": "Konkordante ST-Senkung ≥1mm in V1-V3 ergibt 3 Punkte nach Sgarbossa. Ein Score ≥3 ist hochspezifisch für STEMI."
+              },
+              {
+                "text": "2 Punkten - STEMI unwahrscheinlich",
+                "correct": false,
+                "explanation": "Falsch. Konkordante ST-Senkung in V1-V3 ergibt 3 Punkte, nicht 2."
+              },
+              {
+                "text": "5 Punkten - sicherer STEMI",
+                "correct": false,
+                "explanation": "5 Punkte gibt es nur für konkordante ST-Hebung ≥1mm, nicht für ST-Senkung."
+              },
+              {
+                "text": "0 Punkten - keine Ischämiezeichen",
+                "correct": false,
+                "explanation": "Konkordante ST-Veränderungen bei LSB sind immer pathologisch und ergeben Punkte."
+              },
+              {
+                "text": "Sgarbossa-Kriterien nicht anwendbar bei ST-Senkung",
+                "correct": false,
+                "explanation": "Die Sgarbossa-Kriterien beinhalten explizit ST-Senkungen in V1-V3."
+              }
+            ],
+            "explanation": "Die Sgarbossa-Kriterien ermöglichen die STEMI-Diagnostik bei LSB: Konkordante ST-Hebung ≥1mm = 5 Punkte, konkordante ST-Senkung ≥1mm in V1-V3 = 3 Punkte, diskordante ST-Hebung ≥5mm = 2 Punkte. Ein Score ≥3 hat eine Spezifität von 90-98% für STEMI."
+          },
+          "tags": [
+            "Linksschenkelblock (LSB):dia",
+            "EKG",
+            "Sgarbossa-Kriterien",
+            "STEMI",
+            "CRT"
+          ],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "primary": "ESC Guidelines on cardiac pacing and CRT 2021",
+            "guidelines": [
+              "DGK Pocket-Leitlinie STEMI 2022",
+              "ESC Guidelines for STEMI 2017"
+            ],
+            "webSearchDate": "2025-06-16",
+            "verifiedSources": [
+              "https://foamina.blog/2015/05/25/stemi-bei-linksschenkelblock-sgarbossa-kriterien/",
+              "https://ekgecho.de/thema/linksschenkelblock-lsb-bei-akutem-myokardinfarkt-die-sgarbossa-kriterien-ekg/"
+            ],
+            "amboss": "https://www.amboss.com/de/wissen/linksschenkelblock",
+            "uptodate": "Left bundle branch block",
+            "pubmed": [],
+            "custom": [
+              "BARCELONA Algorithm for STEMI in LBBB (sensitivity 93-95%)",
+              "Modified Sgarbossa criteria (Smith): ST elevation ≥25% of preceding S-wave"
+            ]
+          },
+          "media": [
+            {
+              "title": "EKG: Kompletter Linksschenkelblock",
+              "type": "image",
+              "url": "[ecg_complete_lbbb_placeholder]",
+              "prompt": "12-lead ECG recording showing Kompletter Linksschenkelblock, standard paper speed 25mm/s, calibration 10mm/mV, clear grid lines, all leads labeled (I, II, III, aVR, aVL, aVF, V1-V6), pathological findings clearly visible"
+            },
+            {
+              "title": "Sgarbossa-Kriterien Übersicht",
+              "type": "table",
+              "url": "[sgarbossa_criteria_overview_placeholder]",
+              "prompt": "Medical reference table showing Sgarbossa-Kriterien Übersicht, clear structure with labeled columns and rows, German text, professional formatting, highlight important values"
+            },
+            {
+              "title": "WILLIAM-Merkregel für LSB",
+              "type": "image",
+              "url": "[william_mnemonic_lbbb_placeholder]",
+              "prompt": "Medical image showing WILLIAM-Merkregel für LSB, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "LSB mit STEMI nach Sgarbossa",
+              "type": "image",
+              "url": "[lbbb_with_stemi_sgarbossa_placeholder]",
+              "prompt": "Medical image showing LSB mit STEMI nach Sgarbossa, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q7-uuid-007",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Kardiologie und Angiologie",
+          "thema": "Myokardinfarkt",
+          "subcategory": "Therapie",
+          "originalQuestion": "Vorderwandinfarkt, was werden Sie machen?",
+          "question": "Ein 58-jähriger Patient präsentiert sich mit akuten retrosternalen Schmerzen seit 45 Minuten. Das EKG zeigt ST-Hebungen in V1-V4. Wie ist das therapeutische Vorgehen bei diesem Vorderwandinfarkt?",
+          "originalAnswer": "ASS, Prasugrel/Ticagrelor, Clopidogrel nur bei erhöhtem Blutungsrisiko (Alter, Patient nimmt Marcumar), dann PCI, weitere Behandlung (Thrombozytenaggregationshemmer)",
+          "answer": "**Strukturiertes Vorgehen bei Vorderwandinfarkt:**\n\n1. **Sofortmaßnahmen**\n   - ASS 250-500mg i.v. + P2Y12-Inhibitor (Loading-Dose)\n   - Prasugrel 60mg p.o. (1. Wahl bei <75J, kein Schlaganfall)\n   - Ticagrelor 180mg p.o. als Alternative\n   - Clopidogrel 600mg nur bei Kontraindikationen gegen Prasugrel/Ticagrelor\n\n2. **Reperfusionstherapie**\n   - Primär-PCI innerhalb 120 Minuten (Door-to-Balloon)\n\n**Begründung:** Die Zeit ist beim STEMI entscheidend. Die duale Thrombozytenaggregationshemmung sollte so früh wie möglich begonnen werden, idealerweise vor der PCI.\n\n**Vorgehen:** Beim akuten Vorderwandinfarkt ist die schnelle Reperfusion mittels Primär-PCI unter dualer Plättchenhemmung die Therapie der Wahl.",
+          "erklarung": "**Vorderwandinfarkt - Umfassendes Management**\n\n**Pathophysiologie:**\nDer ST-Hebungsinfarkt (STEMI) des Vorderwandbereichs entsteht durch einen akuten Verschluss der LAD (Left Anterior Descending) mit konsekutiver transmuraler Myokardischämie.\n\n**Diagnostik:**\n1. **12-Kanal-EKG:** ST-Hebungen V1-V4 (Vorderwand), ggf. V5-V6 (lateral)\n2. **Hochsensitives Troponin** (initial und Verlauf)\n3. **Basislabor:** BB, Gerinnung, Elektrolyte, Kreatinin, BZ\n4. **Echokardiographie:** Wandbewegungsstörungen anterior\n\n**Therapie:**\n1. **Akuttherapie:**\n   - MONA-Schema initial: Morphin, O2 (nur bei SpO2 <90%), Nitrate, ASS\n   - Duale Antiplättchentherapie (DAPT): ASS + P2Y12-Inhibitor für 12 Monate\n   - Antikoagulation: Heparin 70-100 IE/kg KG i.v.\n   - Primär-PCI: Ziel Door-to-Balloon <90 Min (Zentrum) bzw. <120 Min (Transfer)\n\n2. **Post-PCI:**\n   - Betablocker, ACE-Hemmer, Statin, Aldosteronantagonist bei EF <40%\n\n**Differentialdiagnosen:**\n- Perikarditis (konkave ST-Hebung, PR-Senkung)\n- Takotsubo-Kardiomyopathie\n- Myokarditis\n- Aortendissektion (cave: keine DAPT!)\n- Frühe Repolarisation (J-Point-Elevation)",
+          "tipps": "**Tipps für die mündliche Prüfung:**\n- Immer Zeitintervalle nennen: Symptom-to-Door, Door-to-Balloon\n- Kontraindikationen für Prasugrel kennen: Alter ≥75J, Z.n. Schlaganfall/TIA, Gewicht <60kg\n- Bei Marcumar-Patienten: Clopidogrel bevorzugt (geringeres Blutungsrisiko)\n- Reperfusionszeichen kennen: ST-Strecken-Resolution >50%, Reperfusionsarrhythmien\n\n**Praktische Tipps:**\n- Checkliste STEMI: EKG, i.v.-Zugang, Monitoring, O2-Gabe bei Bedarf\n- Prasugrel/Ticagrelor vorkauen lassen für schnelleren Wirkeintritt\n- Bei Übelkeit: Antiemetikum vor Morphin-Gabe\n- Nitro-Spray nur bei RR systolisch >100mmHg\n\n**Merkhilfen:**\n- STEMI-Therapie: TIME IS MUSCLE\n- P2Y12-Wahl: PLATO (Prasugrel Leads, Aspirin Together Optimal)\n- Kontraindikationen Prasugrel: ASS (Alter, Schlaganfall, Skinny <60kg)",
+          "kommentar": "Basierend auf ESC/DGK Guidelines 2023/2024 für ACS. Prasugrel zeigt in aktuellen Studien Vorteile gegenüber Ticagrelor (ISAR-REACT 5). Master Pocket-Leitlinie Version 2024 und DGK Pocket-Leitlinie ACS 2023 als Referenz verwendet. Suche durchgeführt am 2025-06-16.",
+          "flashcard": [
+            {
+              "id": "fc1-stemi-akuttherapie",
+              "title": "STEMI Vorderwand - Akuttherapie",
+              "content": "Medikamentöse Therapie:\n- {{c1::ASS 250-500mg i.v.::Aspirin-Dosis}}\n- {{c2::Prasugrel 60mg p.o.::P2Y12-Inhibitor 1. Wahl + Dosis}}\n- Alternative: {{c3::Ticagrelor 180mg p.o.::Alternative P2Y12 + Dosis}}\n- {{c4::Heparin 70-100 IE/kg KG::Antikoagulation}}\n\nReperfusion:\n- {{c5::Primär-PCI innerhalb 120 Min::Goldstandard + Zeitfenster}}\n\nKontraindikationen Prasugrel:\n- {{c6::Alter ≥75J, Z.n. Schlaganfall, <60kg::3 Hauptkontraindikationen}}"
+            }
+          ],
+          "mcq": {
+            "question": "Ein 68-jähriger Patient mit Vorderwandinfarkt soll eine duale Plättchenhemmung erhalten. Er wiegt 82kg und hatte vor 2 Jahren einen ischämischen Schlaganfall. Welches P2Y12-Inhibitor-Regime ist am besten geeignet?",
+            "answers": [
+              {
+                "text": "Clopidogrel 600mg Loading, dann 75mg täglich",
+                "correct": true,
+                "explanation": "Bei Z.n. Schlaganfall ist Prasugrel kontraindiziert. Clopidogrel ist hier die richtige Wahl mit 600mg Loading-Dose."
+              },
+              {
+                "text": "Prasugrel 60mg Loading, dann 10mg täglich",
+                "correct": false,
+                "explanation": "Prasugrel ist bei Z.n. Schlaganfall/TIA kontraindiziert wegen erhöhtem Blutungsrisiko."
+              },
+              {
+                "text": "Ticagrelor 90mg Loading, dann 90mg 2x täglich",
+                "correct": false,
+                "explanation": "Die Loading-Dose von Ticagrelor beträgt 180mg, nicht 90mg."
+              },
+              {
+                "text": "Prasugrel 30mg Loading, dann 5mg täglich",
+                "correct": false,
+                "explanation": "Auch reduzierte Prasugrel-Dosen sind bei Z.n. Schlaganfall kontraindiziert."
+              },
+              {
+                "text": "ASS-Monotherapie mit 500mg, kein P2Y12-Inhibitor",
+                "correct": false,
+                "explanation": "Eine duale Plättchenhemmung ist beim STEMI obligat, ASS allein reicht nicht aus."
+              }
+            ],
+            "explanation": "Prasugrel ist kontraindiziert bei: Alter ≥75 Jahre, Z.n. Schlaganfall/TIA, Körpergewicht <60kg. In diesen Fällen sollte Clopidogrel (600mg Loading, dann 75mg/d) oder Ticagrelor (180mg Loading, dann 90mg 2x/d) verwendet werden."
+          },
+          "tags": [
+            "Myokardinfarkt:the",
+            "STEMI",
+            "Vorderwandinfarkt",
+            "DAPT",
+            "Primär-PCI"
+          ],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "zufrieden",
+            "interruption": "laesst_ausreden",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "Genaue Medikamente und Dosierungen",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "primary": "ESC/DGK Guidelines ACS 2023",
+            "guidelines": [
+              "Master Pocket-Leitlinie Version 2024",
+              "DGK Pocket-Leitlinie ACS 2023"
+            ],
+            "webSearchDate": "2025-06-16",
+            "verifiedSources": [
+              "https://leitlinien.dgk.org/files/mpll_02_2024_master_pocket_leitlinien_akutversorgung_version_2024.pdf",
+              "ISAR-REACT 5 Study: Prasugrel vs Ticagrelor in ACS"
+            ],
+            "amboss": "https://www.amboss.com/de/wissen/stemi",
+            "uptodate": "ST-elevation myocardial infarction: Management",
+            "pubmed": [],
+            "custom": [
+              "Door-to-Balloon Zeit: <90 Min (PCI-Zentrum), <120 Min (mit Transfer)",
+              "DAPT-Dauer: Standard 12 Monate, ggf. Verkürzung auf 3-6 Monate bei hohem Blutungsrisiko"
+            ]
+          },
+          "media": [
+            {
+              "title": "EKG: Vorderwandinfarkt mit ST-Hebungen V1-V4",
+              "type": "image",
+              "url": "[ecg_anterior_stemi_placeholder]",
+              "prompt": "12-lead ECG recording showing Vorderwandinfarkt mit ST-Hebungen V1-V4, standard paper speed 25mm/s, calibration 10mm/mV, clear grid lines, all leads labeled (I, II, III, aVR, aVL, aVF, V1-V6), pathological findings clearly visible"
+            },
+            {
+              "title": "STEMI-Behandlungsalgorithmus",
+              "type": "flowchart",
+              "url": "[stemi_treatment_algorithm_placeholder]",
+              "prompt": "Medical decision flowchart for STEMI-Behandlungsalgorithmus, showing step-by-step decision process with clear boxes and arrows, German text, color-coded by urgency (red for emergency, yellow for urgent, green for routine), professional medical diagram style"
+            },
+            {
+              "title": "Koronarangiographie: LAD-Verschluss",
+              "type": "video",
+              "url": "[coronary_angio_lad_occlusion_placeholder]",
+              "prompt": "Coronary angiography video showing LAD-Verschluss, contrast injection visible, arterial tree clearly visible, medical imaging quality"
+            },
+            {
+              "title": "P2Y12-Inhibitoren Vergleichstabelle",
+              "type": "table",
+              "url": "[p2y12_comparison_table_placeholder]",
+              "prompt": "Comparison table for P2Y12-Inhibitoren Vergleichstabelle, columns showing different options/types, rows with key characteristics, clear cell borders, header row highlighted, German medical terminology, values with appropriate units"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q8-uuid-008",
+          "fach": "Apparative Untersuchungen",
+          "fachgebiet": "Röntgen",
+          "thema": "Pneumonie",
+          "subcategory": "Diagnostik",
+          "originalQuestion": "Rö-Bild Pneumonie?",
+          "question": "Ein 45-jähriger Patient präsentiert sich mit Fieber (38.8°C), produktivem Husten und Dyspnoe seit 3 Tagen. Im Röntgen-Thorax zeigt sich eine homogene Verschattung im rechten Unterlappen. Welche radiologischen Zeichen sprechen für eine Pneumonie?",
+          "originalAnswer": "Röntgen-Thorax Befundung",
+          "answer": "**Radiologische Zeichen einer Pneumonie im Röntgen-Thorax:**\n\n**Direkte Zeichen:**\n- Infiltrat/Verschattung (neu aufgetreten)\n- Positives Luftbronchogramm\n- Konsolidierung\n\n**Pneumonietypen:**\n1. **Lobärpneumonie:** Homogene Verschattung, scharf begrenzt an Lappengrenzen\n2. **Bronchopneumonie:** Fleckige, konfluierende Infiltrate\n3. **Interstitielle Pneumonie:** Retikuläre (netzartige) Zeichnung\n\n**Wichtig:** Röntgen in 2 Ebenen (p.a. und seitlich) zur besseren Lokalisation!",
+          "erklarung": "**Radiologische Befundung bei Pneumonie:**\n\n**Hauptkriterium:** Neu aufgetretenes Infiltrat im Röntgen-Thorax in 2 Ebenen\n\n**Typische Befundmuster:**\n\n**1. Lobärpneumonie (meist Pneumokokken):**\n- Homogene Verschattung eines Lappens\n- Scharf begrenzt an Interlobärspalten\n- Positives Luftbronchogramm (luftgefüllte Bronchien in verschattetem Areal)\n- Silhouettenzeichen positiv\n\n**2. Bronchopneumonie (S. aureus, H. influenzae):**\n- Fleckförmige, konfluierende Infiltrate\n- Oft bilateral\n- Unscharfe Begrenzung\n- Peribronchiale Verteilung\n\n**3. Atypische/Interstitielle Pneumonie (Mykoplasmen, Viren):**\n- Retikuläre (netzartige) Zeichnungsvermehrung\n- Milchglasartige Trübungen\n- Oft nur im CT gut sichtbar\n\n**Zusätzliche Befunde:**\n- Begleitender Pleuraerguss (30-40% der Fälle)\n- Mediastinalverschiebung bei Atelektase\n- Zwerchfellhochstand ipsilateral\n\n**Cave:**\n- Bei 20% erst im Verlauf sichtbar\n- Dehydratation kann Infiltrate maskieren\n- Immunsupprimierte: atypische Befunde möglich",
+          "tipps": "**LERNZIELE:**\n1. Differenzierung der drei Pneumoniemuster im Röntgen\n2. Erkennen des positiven Luftbronchogramms\n\n**KERNPUNKTE:**\n- Infiltrat = Hauptkriterium (in 2 Ebenen!)\n- Luftbronchogramm = luftgefüllte Bronchien in Konsolidierung\n- Silhouettenzeichen = Verlust der Herzkontur bei Mittellappenpneumonie\n- Bei V.a. atypische Pneumonie → CT erwägen\n- Cave: 20% werden erst im Verlauf sichtbar!",
+          "kommentar": "Basierend auf aktuellen radiologischen Kriterien (Stand 2024). Die Zuordnung des Röntgenbefunds zum Erreger ist nicht sicher möglich, aber Lobärpneumonie deutet auf Pneumokokken hin. Quellen: PMC-Artikel zur Bildgebung bei respiratorischen Infektionen, AMBOSS Pathologien des Röntgen-Thorax. Suche durchgeführt am 2025-06-16.",
+          "flashcard": [
+            {
+              "id": "fc2-pneumonie-roentgen",
+              "title": "Pneumonie im Röntgen-Thorax - Hauptkriterien",
+              "content": "**Hauptkriterium:**\n{{c1::Neu aufgetretenes Infiltrat in 2 Ebenen::Diagnosekriterium}}\n\n**Direkte Zeichen:**\n- {{c2::Positives Luftbronchogramm::Luftgefüllte Bronchien in Verschattung}}\n- {{c3::Konsolidierung/Verschattung::Alveoläre Füllung}}\n- {{c4::Silhouettenzeichen::Verlust anatomischer Grenzen}}\n\n**Cave:** Bei {{c5::20%::Prozentsatz}} der Patienten wird Infiltrat erst im Verlauf sichtbar!"
+            }
+          ],
+          "mcq": {
+            "question": "Eine 67-jährige Patientin mit Fieber und Husten zeigt im Röntgen-Thorax eine homogene Verschattung des rechten Oberlappens mit scharfer Begrenzung zur Interlobärspalte und luftgefüllten Bronchien innerhalb der Verschattung. Welcher Pneumonietyp liegt am wahrscheinlichsten vor?",
+            "answers": [
+              {
+                "text": "Lobärpneumonie",
+                "correct": true,
+                "explanation": "Die homogene Verschattung mit scharfer Begrenzung an der Lappengrenze und positivem Luftbronchogramm sind typisch für eine Lobärpneumonie."
+              },
+              {
+                "text": "Bronchopneumonie",
+                "correct": false,
+                "explanation": "Bronchopneumonie zeigt typischerweise fleckförmige, konfluierende Infiltrate ohne scharfe Lappenbegrenzung."
+              },
+              {
+                "text": "Interstitielle Pneumonie",
+                "correct": false,
+                "explanation": "Interstitielle Pneumonie zeigt retikuläre Zeichnungsvermehrung, keine lobäre Konsolidierung."
+              },
+              {
+                "text": "Miliartuberkulose",
+                "correct": false,
+                "explanation": "Miliartuberkulose zeigt multiple kleine noduläre Verschattungen, keine lobäre Konsolidierung."
+              },
+              {
+                "text": "Lungenödem",
+                "correct": false,
+                "explanation": "Lungenödem zeigt typischerweise bilaterale, schmetterlingsförmige perihiläre Verschattungen."
+              }
+            ],
+            "explanation": "Die Lobärpneumonie ist charakterisiert durch eine homogene Verschattung eines gesamten Lappens oder Segments mit scharfer Begrenzung an den anatomischen Grenzen (Interlobärspalten). Das positive Luftbronchogramm (luftgefüllte Bronchien in konsolidiertem Lungengewebe) ist ein typisches Zeichen. Häufigster Erreger: Streptococcus pneumoniae."
+          },
+          "tags": [
+            "Pneumonie:dia",
+            "Röntgen-Thorax",
+            "Lobärpneumonie",
+            "Bronchopneumonie",
+            "Bildgebung"
+          ],
+          "schwierigkeit": "leicht",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "primary": "S3-Leitlinie Ambulant erworbene Pneumonie 2021",
+            "guidelines": [
+              "Radiologische Diagnostik der Pneumonie",
+              "AWMF Leitlinie Pneumonie"
+            ],
+            "webSearchDate": "2025-06-16",
+            "verifiedSources": [
+              "PMC: Bildgebung bei respiratorischen Infektionen",
+              "DocCheck Flexikon: Pneumonie (Radiologie)"
+            ],
+            "amboss": "https://www.amboss.com/de/wissen/pathologien-des-rontgen-thorax",
+            "uptodate": "Overview of community-acquired pneumonia in adults",
+            "pubmed": [],
+            "custom": [
+              "Röntgen-Thorax in 2 Ebenen ist Goldstandard",
+              "CT bei Therapieversagen oder unklaren Befunden"
+            ]
+          },
+          "media": [
+            {
+              "title": "Röntgen-Thorax: Lobärpneumonie rechter Oberlappen",
+              "type": "image",
+              "url": "[xray_lobar_pneumonia_rul_placeholder]",
+              "prompt": "Chest X-ray AP view showing Lobärpneumonie rechter Oberlappen, proper exposure, clear anatomical structures, pathological findings visible"
+            },
+            {
+              "title": "Röntgen-Thorax: Bronchopneumonie bilateral",
+              "type": "image",
+              "url": "[xray_bronchopneumonia_bilateral_placeholder]",
+              "prompt": "Chest X-ray PA view showing Bronchopneumonie bilateral, proper exposure, clear anatomical structures, pathological findings visible"
+            },
+            {
+              "title": "Positives Luftbronchogramm Beispiel",
+              "type": "image",
+              "url": "[air_bronchogram_example_placeholder]",
+              "prompt": "Medical image showing Positives Luftbronchogramm Beispiel, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "Pneumonietypen Vergleich (Übersicht)",
+              "type": "table",
+              "url": "[pneumonia_types_comparison_placeholder]",
+              "prompt": "Comparison table for Pneumonietypen Vergleich (Übersicht), columns showing different options/types, rows with key characteristics, clear cell borders, header row highlighted, German medical terminology, values with appropriate units"
+            },
+            {
+              "title": "CT: Interstitielle Pneumonie",
+              "type": "image",
+              "url": "[ct_interstitial_pneumonia_placeholder]",
+              "prompt": "CT scan chest/abdomen showing Interstitielle Pneumonie, appropriate window settings, axial view, pathology clearly visible"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q9-uuid-009",
+          "fach": "Pharmakologie",
+          "fachgebiet": "Infektiologie",
+          "thema": "Antibiotika Grundlagen",
+          "subcategory": "Therapie",
+          "originalQuestion": "Welche Antibiotika und wann, was, wenn Penicillinallergie?",
+          "question": "Ein 55-jähriger Patient mit ambulant erworbener Pneumonie (CRB-65 Score: 1) benötigt eine antibiotische Therapie. In der Anamnese gibt er eine Penicillinallergie mit Urtikaria an. Welche Antibiotika sind indiziert und welche Alternativen bestehen bei Penicillinallergie?",
+          "originalAnswer": "Antibiotikatherapie bei Pneumonie, Alternativen bei Penicillinallergie",
+          "answer": "**Antibiotikatherapie bei ambulant erworbener Pneumonie:**\n\n**Standardtherapie (ohne Allergie):**\n- Amoxicillin 3x 1g p.o. für 5 Tage\n- Bei Komorbiditäten: Amoxicillin/Clavulansäure\n\n**Bei Penicillinallergie:**\n1. **Erste Wahl:** Fluorchinolon\n   - Moxifloxacin 1x 400mg p.o.\n   - Levofloxacin 1x 500mg p.o.\n   \n2. **Alternative:** Makrolide\n   - Azithromycin 1x 500mg p.o. (bevorzugt)\n   - Clarithromycin 2x 500mg p.o.\n   \n3. **Weitere Option:** Doxycyclin 2x 100mg p.o.\n\n**Cave:** Fluorchinolon-Nebenwirkungen beachten (Rote-Hand-Brief)!",
+          "erklarung": "**Leitliniengerechte Antibiotikatherapie bei CAP (S3-Leitlinie 2021):**\n\n**Leichte Pneumonie ohne Komorbiditäten:**\n- 1. Wahl: Amoxicillin 3x 1g p.o. für 5 Tage\n- Bei Penicillinallergie: Fluorchinolon > Makrolid > Doxycyclin\n\n**Mittelschwere Pneumonie/mit Komorbiditäten:**\n- 1. Wahl: Amoxicillin/Clavulansäure 3x 875/125mg p.o.\n- Bei Penicillinallergie: Fluorchinolon (Moxifloxacin/Levofloxacin)\n\n**Schwere Pneumonie (hospitalisiert):**\n- Ampicillin/Sulbactam i.v. + Makrolid\n- Bei Penicillinallergie: Fluorchinolon i.v. Monotherapie\n\n**Wirkspektrum der Alternativen:**\n- **Fluorchinolon:** Breites Spektrum inkl. atypische Erreger\n- **Makrolide:** Gut gegen atypische Erreger (Mykoplasmen, Chlamydien)\n- **Doxycyclin:** Alternative bei leichter CAP\n\n**Wichtige Nebenwirkungen:**\n- **Fluorchinolon:** Sehnenschäden, QT-Verlängerung, ZNS-NW (Rote-Hand-Brief!)\n- **Makrolide:** GI-Beschwerden, QT-Verlängerung (Clarithromycin > Azithromycin)\n- **Doxycyclin:** Photosensibilität, GI-Beschwerden\n\n**Therapiedauer:** 5 Tage bei klinischer Stabilität ausreichend",
+          "tipps": "**LERNZIELE:**\n1. Kenntnis der Therapiealternativen bei Penicillinallergie\n2. Risiko-Nutzen-Abwägung bei Fluorchinolon-Einsatz\n\n**KERNPUNKTE:**\n- Bei Penicillinallergie: Fluorchinolon > Makrolid > Doxycyclin\n- Azithromycin bevorzugt wegen weniger Interaktionen\n- Fluorchinolon-Restriktion beachten (Rote-Hand-Brief)\n- Therapiedauer: 5 Tage bei Stabilität\n- Immer atypische Erreger mitbedenken!",
+          "kommentar": "Basierend auf S3-Leitlinie \"Behandlung von erwachsenen Patienten mit ambulant erworbener Pneumonie\" (Update 2021). Fluorchinolon-Einsatz aufgrund des Nebenwirkungsprofils restriktiv handhaben (Rote-Hand-Brief für Moxifloxacin/Levofloxacin). Bei Makroliden wird Azithromycin wegen geringerer Interaktionen mit Statinen/Antikoagulanzien bevorzugt. Suche durchgeführt am 2025-06-16.",
+          "flashcard": [
+            {
+              "id": "fc3-antibiotika-cap",
+              "title": "Antibiotika bei CAP mit Penicillinallergie",
+              "content": "**Reihenfolge der Alternativen:**\n1. {{c1::Fluorchinolon (Moxifloxacin 400mg, Levofloxacin 500mg)::1. Wahl + Beispiele}}\n2. {{c2::Makrolid (Azithromycin 500mg bevorzugt)::2. Wahl + Präferenz}}\n3. {{c3::Doxycyclin 2x 100mg::3. Wahl + Dosis}}\n\n**Cave:** {{c4::Fluorchinolon-Rote-Hand-Brief::Sicherheitswarnung}}\n\n**Therapiedauer:** {{c5::5 Tage bei klinischer Stabilität::Standard}}"
+            }
+          ],
+          "mcq": {
+            "question": "Ein 62-jähriger Patient mit ambulant erworbener Pneumonie und dokumentierter Penicillinallergie (anaphylaktische Reaktion) nimmt regelmäßig Simvastatin und Phenprocoumon ein. Welches Antibiotikum ist am besten geeignet?",
+            "answers": [
+              {
+                "text": "Azithromycin 1x 500mg p.o.",
+                "correct": true,
+                "explanation": "Azithromycin ist bei Penicillinallergie geeignet und hat weniger Interaktionen mit Statinen und Antikoagulanzien als Clarithromycin."
+              },
+              {
+                "text": "Amoxicillin/Clavulansäure 3x 875/125mg p.o.",
+                "correct": false,
+                "explanation": "Kontraindiziert bei Penicillinallergie, da es sich um ein Beta-Lactam-Antibiotikum handelt."
+              },
+              {
+                "text": "Clarithromycin 2x 500mg p.o.",
+                "correct": false,
+                "explanation": "Zwar möglich bei Penicillinallergie, aber ungünstig wegen starker Interaktionen mit Statinen und Antikoagulanzien."
+              },
+              {
+                "text": "Cefuroxim 2x 500mg p.o.",
+                "correct": false,
+                "explanation": "Bei schwerer Penicillinallergie kontraindiziert wegen möglicher Kreuzallergie (Beta-Lactam)."
+              },
+              {
+                "text": "Penicillin V 3x 1 Mega p.o.",
+                "correct": false,
+                "explanation": "Absolut kontraindiziert bei bekannter Penicillinallergie mit anaphylaktischer Reaktion."
+              }
+            ],
+            "explanation": "Bei Penicillinallergie sind Fluorchinolon oder Makrolide Alternativen. Aufgrund der Begleitmedikation (Statin und Antikoagulans) ist Azithromycin dem Clarithromycin vorzuziehen, da es deutlich weniger Arzneimittelinteraktionen aufweist. Fluorchinolon wäre auch möglich, sollte aber wegen des Nebenwirkungsprofils zurückhaltend eingesetzt werden."
+          },
+          "tags": [
+            "Antibiotika Grundlagen:the",
+            "Pneumonie",
+            "Penicillinallergie",
+            "Arzneimittelinteraktionen",
+            "CAP"
+          ],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Pharmakologe",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "primary": "S3-Leitlinie Ambulant erworbene Pneumonie 2021",
+            "guidelines": [
+              "AWMF S3-Leitlinie CAP Update 2021",
+              "Rote-Hand-Brief Fluorchinolon"
+            ],
+            "webSearchDate": "2025-06-16",
+            "verifiedSources": [
+              "AWMF Register 020-020: Behandlung von erwachsenen Patienten mit ambulant erworbener Pneumonie",
+              "PEG Empfehlungen zur Antibiotikatherapie"
+            ],
+            "amboss": "https://www.amboss.com/de/wissen/pneumonie#antibiotika",
+            "uptodate": "Treatment of community-acquired pneumonia in adults",
+            "pubmed": [],
+            "custom": [
+              "5 Tage Therapiedauer bei klinischer Stabilität ausreichend",
+              "Azithromycin bevorzugt bei Polypharmazie"
+            ]
+          },
+          "media": [
+            {
+              "title": "Antibiotika-Algorithmus bei CAP",
+              "type": "flowchart",
+              "url": "[cap_antibiotic_algorithm_placeholder]",
+              "prompt": "Medical decision flowchart for Antibiotika-Algorithmus bei CAP, showing step-by-step decision process with clear boxes and arrows, German text, color-coded by urgency (red for emergency, yellow for urgent, green for routine), professional medical diagram style"
+            },
+            {
+              "title": "Penicillinallergie - Kreuzreaktionen Übersicht",
+              "type": "table",
+              "url": "[penicillin_allergy_cross_reactions_placeholder]",
+              "prompt": "Medical reference table showing Penicillinallergie - Kreuzreaktionen Übersicht, clear structure with labeled columns and rows, German text, professional formatting, highlight important values"
+            },
+            {
+              "title": "CRB-65 Score Berechnung",
+              "type": "image",
+              "url": "[crb65_score_calculator_placeholder]",
+              "prompt": "Medical image showing CRB-65 Score Berechnung, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "Fluorchinolon Rote-Hand-Brief",
+              "type": "image",
+              "url": "[fluoroquinolone_red_hand_letter_placeholder]",
+              "prompt": "Medical image showing Fluorchinolon Rote-Hand-Brief, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q10-uuid-010",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Nephrologie",
+          "thema": "Dialyse",
+          "subcategory": "Therapie",
+          "originalQuestion": "Dialyse, welche Verfahren sind bekannt (Bild von peritoneale Dialyse)?",
+          "question": "Ein 58-jähriger Patient mit terminaler Niereninsuffizienz (GFR 12 ml/min) benötigt eine Nierenersatztherapie. Das Bild zeigt einen Patienten mit einem Katheter im Abdomen. Welche Dialyseverfahren stehen zur Verfügung und wie unterscheiden sie sich?",
+          "originalAnswer": "Dialyseverfahren: Hämodialyse, Peritonealdialyse",
+          "answer": "**Hauptdialyseverfahren:**\n\n**1. Hämodialyse (HD):**\n- Extrakorporale Blutreinigung über Dialysator\n- 3x/Woche für 4-5 Stunden im Zentrum\n- Gefäßzugang: AV-Fistel oder Dialysekatheter\n\n**2. Peritonealdialyse (PD) - im Bild gezeigt:**\n- Peritoneum als Dialysemembran\n- Tenckhoff-Katheter im Abdomen\n- Heimverfahren mit mehr Autonomie\n\n**PD-Varianten:**\n- **CAPD:** 4x täglich manueller Beutelwechsel\n- **APD:** Nächtliche maschinelle Dialyse (Cycler)\n- **IPD:** Intermittierend im Zentrum\n\n**Sonderformen:**\n- Hämofiltration/Hämodiafiltration\n- Akutdialyse (CVVH, CVVHDF)",
+          "erklarung": "**Dialyseverfahren im Detail:**\n\n**1. Hämodialyse (HD):**\n- **Prinzip:** Diffusion/Ultrafiltration über semipermeable Membran\n- **Zugang:** AV-Fistel (1. Wahl), AV-Graft, ZVK\n- **Frequenz:** 3x/Woche à 4-5h (Zentrum) oder täglich (Heimdialyse)\n- **Vorteile:** Effiziente Entgiftung, medizinische Überwachung\n- **Nachteile:** Zeitaufwand, Immobilität, Kreislaufbelastung\n\n**2. Peritonealdialyse (PD):**\n- **Prinzip:** Peritoneum als natürliche Dialysemembran\n- **Zugang:** Tenckhoff-Katheter (subkutan getunnelt)\n- **Dialysat:** Glukose-basiert (1,5%, 2,3%, 4,25%)\n\n**PD-Modalitäten:**\n- **CAPD (Continuous Ambulatory PD):**\n  - 4x täglich Beutelwechsel (je 2L, 20-30 Min)\n  - Verweilzeit 4-6h tagsüber, 8-10h nachts\n  - Rein manuell, keine Maschine\n\n- **APD (Automated PD):**\n  - Nächtliche Dialyse über Cycler (8-10h)\n  - 3-6 automatische Wechsel\n  - Ideal für Berufstätige\n\n- **IPD (Intermittent PD):**\n  - 3x/Woche im Zentrum\n  - 10-15L Dialysat über 8-10h\n\n**3. Hybridverfahren:**\n- **HDF (Hämodiafiltration):** Kombination Diffusion + Konvektion\n- **HF (Hämofiltration):** Reine Konvektion\n\n**4. Akutdialyse (Intensivstation):**\n- **CVVH:** Kontinuierliche venovenöse Hämofiltration\n- **CVVHDF:** Kontinuierliche venovenöse Hämodiafiltration\n- **SLED:** Sustained Low-Efficiency Dialysis\n\n**Indikationen zur Verfahrenswahl:**\n- **PD bevorzugt bei:** Restdiurese, Berufstätigkeit, Autonomiewunsch\n- **HD bevorzugt bei:** Schlechte Peritonealmembran, Adipositas permagna\n- **Kontraindikationen PD:** Ausgeprägte Adhäsionen, aktive IBD",
+          "tipps": "**LERNZIELE:**\n1. Unterscheidung HD vs. PD anhand klinischer Merkmale\n2. Kenntnis der PD-Modalitäten (CAPD vs. APD)\n\n**KERNPUNKTE:**\n- HD = extrakorporal, 3x/Woche, Shunt/Katheter\n- PD = intrakorporal, täglich, Tenckhoff-Katheter\n- CAPD = manuell 4x/Tag, APD = maschinell nachts\n- PD ermöglicht mehr Autonomie, erfordert mehr Eigenverantwortung\n- Mortalität in ersten Jahren bei PD oft niedriger",
+          "kommentar": "Basierend auf aktuellen nephrologischen Standards (2024). PD und HD sind medizinisch gleichwertige Verfahren. Die Wahl hängt von individuellen Faktoren ab: Lebensstil, Beruf, Peritonealeigenschaften, Restdiurese. Quellen: Landesärztekammer Hessen CME-Fortbildung Peritonealdialyse 2023, DaVita Dialyse-Information. Suche durchgeführt am 2025-06-16.",
+          "flashcard": [
+            {
+              "id": "fc4-dialyseverfahren",
+              "title": "Dialyseverfahren - Übersicht",
+              "content": "**Hauptverfahren:**\n1. {{c1::Hämodialyse (HD)::Extrakorporales Verfahren}}\n   - {{c2::3x/Woche à 4-5h::Frequenz}}\n   - Zugang: {{c3::AV-Fistel oder ZVK::Gefäßzugang}}\n\n2. {{c4::Peritonealdialyse (PD)::Bauchfelldialyse}}\n   - CAPD: {{c5::4x täglich manuell::Beutelwechsel}}\n   - APD: {{c6::Nachts maschinell (Cycler)::Automatisiert}}\n   - Zugang: {{c7::Tenckhoff-Katheter::PD-Katheter}}"
+            }
+          ],
+          "mcq": {
+            "question": "Ein berufstätiger 45-jähriger Patient mit terminaler Niereninsuffizienz möchte möglichst wenig Zeit tagsüber mit der Dialyse verbringen und seine Arbeit fortsetzen. Welches Dialyseverfahren ist am besten geeignet?",
+            "answers": [
+              {
+                "text": "APD (Automatisierte Peritonealdialyse)",
+                "correct": true,
+                "explanation": "APD erfolgt nachts während des Schlafs über einen Cycler, sodass der Patient tagsüber uneingeschränkt arbeiten kann."
+              },
+              {
+                "text": "CAPD (Kontinuierliche ambulante Peritonealdialyse)",
+                "correct": false,
+                "explanation": "CAPD erfordert 4x täglich manuelle Beutelwechsel, was während der Arbeitszeit problematisch sein kann."
+              },
+              {
+                "text": "Zentrums-Hämodialyse 3x wöchentlich",
+                "correct": false,
+                "explanation": "HD im Zentrum benötigt 3x/Woche 4-5 Stunden plus Anfahrt, was mit Vollzeitarbeit schwer vereinbar ist."
+              },
+              {
+                "text": "IPD (Intermittierende Peritonealdialyse)",
+                "correct": false,
+                "explanation": "IPD wird 3x/Woche für 8-10 Stunden im Zentrum durchgeführt, also auch tagsüber."
+              },
+              {
+                "text": "CVVH (Kontinuierliche venovenöse Hämofiltration)",
+                "correct": false,
+                "explanation": "CVVH ist ein Intensivverfahren für akutes Nierenversagen, nicht für ambulante Patienten."
+              }
+            ],
+            "explanation": "APD (Automatisierte Peritonealdialyse) ist ideal für Berufstätige, da die Dialyse nachts während des Schlafs über 8-10 Stunden automatisch durch einen Cycler erfolgt. Der Patient ist tagsüber frei und kann normal arbeiten. CAPD würde 4 manuelle Beutelwechsel tagsüber erfordern."
+          },
+          "tags": [
+            "Dialyse:the",
+            "Peritonealdialyse",
+            "Hämodialyse",
+            "CAPD",
+            "APD",
+            "Nierenersatztherapie"
+          ],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "primary": "CME-Fortbildung Peritonealdialyse, Landesärztekammer Hessen 2023",
+            "guidelines": [
+              "KDIGO Clinical Practice Guideline for CKD",
+              "S3-Leitlinie Nierenersatztherapie"
+            ],
+            "webSearchDate": "2025-06-16",
+            "verifiedSources": [
+              "https://www.laekh.de/fileadmin/user_upload/Heftarchiv/Einzelartikel/2023/07_08_2023/CME_Fortbildung_Peritonealdialyse.pdf",
+              "Universitätsklinikum Leipzig - Peritonealdialyse Information"
+            ],
+            "amboss": "https://www.amboss.com/de/wissen/dialyse",
+            "uptodate": "Overview of peritoneal dialysis",
+            "pubmed": [],
+            "custom": [
+              "PD und HD sind medizinisch gleichwertig",
+              "Mortalität in ersten Jahren bei PD oft niedriger"
+            ]
+          },
+          "media": [
+            {
+              "title": "Peritonealdialyse - Tenckhoff-Katheter Position",
+              "type": "image",
+              "url": "[pd_tenckhoff_catheter_position_placeholder]",
+              "prompt": "Medical image showing Peritonealdialyse - Tenckhoff-Katheter Position, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "Dialyseverfahren Vergleichstabelle",
+              "type": "table",
+              "url": "[dialysis_methods_comparison_table_placeholder]",
+              "prompt": "Comparison table for Dialyseverfahren Vergleichstabelle, columns showing different options/types, rows with key characteristics, clear cell borders, header row highlighted, German medical terminology, values with appropriate units"
+            },
+            {
+              "title": "CAPD Beutelwechsel Technik",
+              "type": "video",
+              "url": "[capd_bag_exchange_technique_placeholder]",
+              "prompt": "Medical procedure video demonstrating CAPD Beutelwechsel Technik, clear view of technique, step-by-step visualization, educational annotations"
+            },
+            {
+              "title": "HD vs PD Entscheidungsalgorithmus",
+              "type": "flowchart",
+              "url": "[hd_vs_pd_decision_algorithm_placeholder]",
+              "prompt": "Medical decision flowchart for HD vs PD Entscheidungsalgorithmus, showing step-by-step decision process with clear boxes and arrows, German text, color-coded by urgency (red for emergency, yellow for urgent, green for routine), professional medical diagram style"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q11-uuid-011",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Nephrologie",
+          "thema": "Dialyse",
+          "subcategory": "Komplikationen",
+          "originalQuestion": "Was ist Desequilibrium-Syndrom?",
+          "question": "Ein 65-jähriger Patient mit neu diagnostizierter terminaler Niereninsuffizienz (Harnstoff 280 mg/dl) entwickelt während seiner ersten Hämodialyse Kopfschmerzen, Übelkeit und Verwirrtheit. Was ist das Dialyse-Dysäquilibrium-Syndrom und wie entsteht es?",
+          "originalAnswer": "Komplikation der Dialyse",
+          "answer": "**Dialyse-Dysäquilibrium-Syndrom (DDS):**\n\n**Definition:**\nNeurologische Komplikation bei zu rascher Dialyse, v.a. bei Erstdialyse\n\n**Pathophysiologie:**\n- Zu schnelle Entfernung von Harnstoff aus dem Blut\n- Osmotisches Gefälle zwischen Blut und Gehirn\n- Wasser strömt ins Gehirn → Hirnödem\n- Verzögerte Diffusion an Blut-Hirn-Schranke\n\n**Symptome:**\n- **Mild:** Kopfschmerzen, Übelkeit, Unruhe\n- **Mittelschwer:** Erbrechen, Verwirrtheit, Sehstörungen\n- **Schwer:** Krampfanfälle, Koma\n\n**Therapie:**\n- Dialyse abbrechen/verlangsamen\n- Symptomatische Behandlung\n- Bei Krampf: Antikonvulsiva\n\n**Prävention:** Erste Dialyse schonend (kurz, niedrige Flussrate)",
+          "erklarung": "**Dialyse-Dysäquilibrium-Syndrom im Detail:**\n\n**Pathophysiologie:**\n1. **Osmotisches Ungleichgewicht:**\n   - Urämie führt zu hohen Harnstoffkonzentrationen in Blut und Gehirn\n   - Bei Dialyse wird Harnstoff rasch aus dem Blut entfernt\n   - An der Blut-Hirn-Schranke verzögerte Diffusion\n   - Osmotischer Gradient entsteht\n\n2. **Hirnödem-Entstehung:**\n   - Wasser folgt dem osmotischen Gradienten ins Gehirn\n   - Vermehrte Expression von Aquaporinen im ZNS bei Urämie\n   - Verminderte Expression von Harnstoff-Transportern\n   - Resultat: Zerebrales Ödem mit ICP-Erhöhung\n\n3. **Risikofaktoren:**\n   - Erstdialyse bei hohen Harnstoffwerten (>200 mg/dl)\n   - Pädiatrische/geriatrische Patienten\n   - Vorbestehende neurologische Erkrankungen\n   - Hyponatriämie\n   - Metabolische Azidose\n\n**Klinisches Bild (Zeitverlauf):**\n- **Während Dialyse:** Kopfschmerz, Übelkeit, Blutdruckabfall\n- **Nach Dialyse (0-24h):** Verwirrtheit, Sehstörungen\n- **Schwere Fälle:** Generalisierte Krampfanfälle, Koma\n\n**Diagnostik:**\n- Klinische Diagnose (typische Symptome + Zeitverlauf)\n- Labor: Harnstoff-Abfall dokumentieren\n- Bei V.a. Hirnödem: CT/MRT\n\n**Therapie:**\n1. **Akut:**\n   - Dialyse sofort beenden oder Flussrate reduzieren\n   - Osmotherapie: Mannitol 0,5-1g/kg i.v.\n   - Bei Krampf: Diazepam 5-10mg i.v.\n   - Kopfhochlagerung 30°\n\n2. **Supportiv:**\n   - Antiemetika bei Übelkeit\n   - Analgetika bei Kopfschmerz\n   - Engmaschiges Monitoring\n\n**Prävention (entscheidend!):**\n- **Erstdialyse-Protokoll:**\n  - Kurze Dialysezeit (2-3h statt 4-5h)\n  - Niedriger Blutfluss (150-200 ml/min)\n  - Kleine Dialysatormembran\n  - Ziel: Harnstoffreduktion <40%\n- **Stufenweise Steigerung über mehrere Sitzungen**\n- **Alternative:** Häufigere, kürzere Dialysen initial\n\n**Prognose:**\n- Mit moderner Technik selten (<0,5% der Dialysen)\n- Bei prompter Therapie vollständige Erholung\n- Unbehandelt potenziell letal",
+          "tipps": "**LERNZIELE:**\n1. Pathophysiologie des osmotischen Hirnödems verstehen\n2. Präventionsstrategien für Erstdialyse kennen\n\n**KERNPUNKTE:**\n- DDS = Hirnödem durch zu rasche Harnstoffelimination\n- Typisch bei Erstdialyse mit hohen Ausgangswerten\n- Symptomtrias: Kopfschmerz + Übelkeit + neurologische Symptome\n- Prävention wichtiger als Therapie!\n- Erstdialyse: \"Start low and go slow\"\n- Cave: Harnstoff >200 mg/dl = Hochrisiko",
+          "kommentar": "Basierend auf aktuellen nephrologischen Standards (2024). DDS ist durch moderne Dialyseprotokolle selten geworden (<0,5%). Entscheidend ist die Prävention durch angepasste Erstdialyse. Quellen: DocCheck Flexikon Dysäquilibrium-Syndrom, MSD Manual Hämodialyse, AMBOSS Nierenersatzverfahren. Suche durchgeführt am 2025-06-16.",
+          "flashcard": [
+            {
+              "id": "fc5-dialyse-dds",
+              "title": "Dialyse-Dysäquilibrium-Syndrom (DDS)",
+              "content": "**Definition:** {{c1::Hirnödem durch zu rasche Harnstoffelimination bei Dialyse::Pathomechanismus}}\n\n**Risiko:** Vor allem bei {{c2::Erstdialyse mit Harnstoff >200 mg/dl::Hauptrisikosituation}}\n\n**Symptome:**\n- Mild: {{c3::Kopfschmerz, Übelkeit, Unruhe::Frühsymptome}}\n- Schwer: {{c4::Krampfanfälle, Koma::Spätsymptome}}\n\n**Prävention Erstdialyse:**\n- {{c5::Kurze Zeit (2-3h), niedriger Fluss (150-200 ml/min)::Dialyseparameter}}\n- Ziel: {{c6::Harnstoffreduktion <40%::Maximale Reduktion}}"
+            }
+          ],
+          "mcq": {
+            "question": "Ein Patient mit chronischer Niereninsuffizienz (Harnstoff 250 mg/dl, Kreatinin 12 mg/dl) soll erstmalig dialysiert werden. Welche Maßnahme ist am wichtigsten zur Prävention eines Dialyse-Dysäquilibrium-Syndroms?",
+            "answers": [
+              {
+                "text": "Verkürzte Dialysezeit (2-3h) mit reduziertem Blutfluss",
+                "correct": true,
+                "explanation": "Bei hohen Harnstoffwerten muss die Erstdialyse schonend erfolgen mit kurzer Zeit und niedrigem Fluss, um ein DDS zu verhindern."
+              },
+              {
+                "text": "Verlängerte Dialysezeit (6-7h) für gründliche Entgiftung",
+                "correct": false,
+                "explanation": "Eine verlängerte Dialyse würde zu viel Harnstoff zu schnell entfernen und das DDS-Risiko erhöhen."
+              },
+              {
+                "text": "Prophylaktische Gabe von Mannitol vor Dialysebeginn",
+                "correct": false,
+                "explanation": "Mannitol wird therapeutisch bei manifestem DDS eingesetzt, nicht prophylaktisch."
+              },
+              {
+                "text": "Verwendung einer besonders großen Dialysemembran",
+                "correct": false,
+                "explanation": "Eine große Membran würde die Clearance erhöhen und das DDS-Risiko steigern."
+              },
+              {
+                "text": "Dialysat-Temperatur auf 40°C erhöhen",
+                "correct": false,
+                "explanation": "Die Dialysat-Temperatur hat keinen Einfluss auf das DDS-Risiko."
+              }
+            ],
+            "explanation": "Das Dialyse-Dysäquilibrium-Syndrom entsteht durch zu rasche Harnstoffelimination mit konsekutivem Hirnödem. Bei Erstdialyse mit hohen Ausgangswerten (>200 mg/dl) muss daher eine schonende Dialyse mit kurzer Zeit (2-3h), niedrigem Blutfluss (150-200 ml/min) und kleiner Membran erfolgen. Ziel: Harnstoffreduktion <40%."
+          },
+          "tags": [
+            "Dialyse:kom",
+            "Dysäquilibrium-Syndrom",
+            "Hirnödem",
+            "Erstdialyse",
+            "Komplikationen"
+          ],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "primary": "AMBOSS Nierenersatzverfahren",
+            "guidelines": [
+              "KDIGO Clinical Practice Guideline",
+              "Nephrologische Standards Dialyse"
+            ],
+            "webSearchDate": "2025-06-16",
+            "verifiedSources": [
+              "DocCheck Flexikon: Dysäquilibrium-Syndrom",
+              "MSD Manual: Hämodialyse Komplikationen"
+            ],
+            "amboss": "https://www.amboss.com/de/wissen/nierenersatzverfahren#komplikationen",
+            "uptodate": "Dialysis disequilibrium syndrome",
+            "pubmed": [],
+            "custom": [
+              "Inzidenz mit modernen Protokollen <0,5%",
+              "Erstdialyse-Protokoll: Start low and go slow"
+            ]
+          },
+          "media": [
+            {
+              "title": "Pathophysiologie DDS - Osmotisches Hirnödem",
+              "type": "image",
+              "url": "[dds_pathophysiology_brain_edema_placeholder]",
+              "prompt": "Medical image showing Pathophysiologie DDS - Osmotisches Hirnödem, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "Erstdialyse-Protokoll bei hohem Harnstoff",
+              "type": "pdf",
+              "url": "[first_dialysis_protocol_high_urea_placeholder]",
+              "prompt": "Reference to official medical guideline/protocol: Erstdialyse-Protokoll bei hohem Harnstoff - direct link to authoritative source document"
+            },
+            {
+              "title": "DDS Symptome und Zeitverlauf",
+              "type": "image",
+              "url": "[dds_symptoms_timeline_placeholder]",
+              "prompt": "Medical image showing DDS Symptome und Zeitverlauf, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q12-uuid-012",
+          "fach": "Chirurgie",
+          "fachgebiet": "Allgemein- und Viszeralchirurgie",
+          "thema": "Perioperatives Management",
+          "subcategory": "Therapie",
+          "originalQuestion": "Schilddrüsen-Op, Indikation, welche Komplikationen, Neuro-Monitoring?",
+          "question": "Eine 45-jährige Patientin mit multinodöser Struma und Kompressionszeichen soll thyreoidektomiert werden. Welche Indikationen bestehen für eine Schilddrüsenoperation, welche Komplikationen müssen beachtet werden und wie funktioniert das intraoperative Neuromonitoring?",
+          "originalAnswer": "Indikationen für Thyreoidektomie, Komplikationen (Recurrensparese, Hypokalzämie), intraoperatives Neuromonitoring",
+          "answer": "**Indikationen zur Schilddrüsen-OP:**\n\n**Absolute:** Karzinom/V.a., Kompression, retrosternale Struma\n**Relativ:** Wachsende Knoten, Hyperthyreose, Kosmetik\n\n**Hauptkomplikationen:**\n1. **Hypokalzämie:** 19,5% passager (häufigste!)\n2. **Rekurrensparese:** 4,3% passager\n3. **Nachblutung:** 1-2% (<6h postop)\n\n**Intraoperatives Neuromonitoring (IONM):**\n- Kontinuierliche/intermittierende Stimulation des N. recurrens\n- EMG-Ableitung an Stimmband-Elektroden\n- Signal bei intaktem Nerv → akustisch/visuell\n- Ermöglicht Nervidentifikation und Funktionsprüfung\n- Bei Signalverlust einseitig → kontralaterale OP verschieben\n\n**Vorteil:** Reduktion bilateraler Paresen von 0,4% auf <0,1%",
+          "erklarung": "**Schilddrüsenoperationen - Detaillierte Übersicht:**\n\n**Indikationen:**\n\n**1. Maligne (absolut):**\n- Schilddrüsenkarzinom (PTC, FTC, MTC, ATC)\n- Bethesda V-VI in Feinnadelpunktion\n- V.a. Malignität bei suspekten Knoten\n\n**2. Benigne mechanisch:**\n- Trachealkompression (Stridor, Dyspnoe)\n- Ösophaguskompression (Dysphagie)\n- Retrosternale Struma (immer OP!)\n- Obere Einflussstauung\n\n**3. Benigne funktionell:**\n- M. Basedow (bei Versagen/KI Thyreostatika)\n- Toxisches Adenom\n- Multinoduläre Autonomie\n- Therapierefraktäre Hyperthyreose\n\n**Komplikationen im Detail:**\n\n**1. Hypokalzämie (33% nach totaler TE):**\n- **Pathophysiologie:** Nebenschilddrüsenschädigung/-entfernung\n- **Risikofaktoren:** ♀, M. Basedow, große Struma, Vitamin-D-Mangel\n- **Diagnostik:** PTH <15 pg/ml (12-24h postop)\n- **Symptome:** Parästhesien perioral/Finger, Tetanie, Chvostek+\n- **Therapie:** Ca-Glukonat i.v., Calcitriol, Calcium p.o.\n- **Prävention:** Präop Vitamin D, vorsichtige Präparation\n\n**2. Rekurrensparese:**\n- **Unilateral:** Heiserkeit, Aspiration, Husteninsuffizienz\n- **Bilateral:** Stridor, Dyspnoe → Notfall-Intubation!\n- **Anatomie:** N. recurrens verläuft dorsal der Schilddrüse\n- **Verlauf:** 70-90% Erholung innerhalb 6-12 Monaten\n\n**3. Nachblutung:**\n- **Zeitfenster:** 70% <6h, 90% <24h postop\n- **Symptome:** Schwellung, Dyspnoe, Stridor\n- **Therapie:** Sofortige Wundöffnung (Notfall!), OP-Revision\n\n**Intraoperatives Neuromonitoring (IONM):**\n\n**Technisches Prinzip:**\n1. **Setup:** Endotrachealtubus mit Oberflächenelektroden\n2. **Stimulation:** \n   - Kontinuierlich: Vagus-Elektrode (2mA, 3Hz)\n   - Intermittierend: Handsonde (1-2mA)\n3. **Ableitung:** EMG der Stimmbandelektroden\n4. **Interpretation:**\n   - Amplitude >100μV = intakter Nerv\n   - Signalverlust = Nervschädigung\n\n**IONM-Algorithmus:**\n- **V1:** Vagusstimulation vor Präparation\n- **R1:** Rekurrensstimulation nach Identifikation\n- **R2:** Rekurrensstimulation nach Resektion\n- **V2:** Vagusstimulation nach Resektion\n\n**Vorteile IONM:**\n- Nervidentifikation erleichtert (98% vs 93%)\n- Reduktion bilateraler Paresen\n- Prognoseabschätzung bei Signalverlust\n- Medikolegaler Schutz\n\n**Loss of Signal (LOS):**\n- **Typ 1:** Segmental (Läsionsstelle lokalisierbar)\n- **Typ 2:** Global (keine Lokalisation möglich)\n- **Management:** Bei LOS → kontralaterale OP verschieben!\n\n**Limitationen:**\n- Keine 100% Sicherheit\n- Falsch-negative Befunde möglich\n- Kostenintensiv\n- Lernkurve erforderlich",
+          "tipps": "**LERNZIELE:**\n1. IONM-Prinzip und klinische Bedeutung verstehen\n2. Management der Hauptkomplikationen beherrschen\n\n**KERNPUNKTE:**\n- Hypokalzämie = häufigste Komplikation!\n- PTH <15 pg/ml → Ca-Substitution starten\n- IONM: V1-R1-R2-V2 Algorithmus merken\n- LOS einseitig → kontralateral verschieben!\n- Bilaterale Rekurrensparese = Atemwegsnotfall\n- Nachblutung <6h → sofort revidieren",
+          "kommentar": "Basierend auf aktuellen Standards der Schilddrüsenchirurgie (2024). IONM ist in Deutschland weit verbreitet zur Rekurrensidentifikation und Vermeidung bilateraler Paresen. Neue Calcitriol-Prophylaxe-Studie 2024 zeigt Reduktion der Hypokalzämie-Rate. Quellen: PMC Moderne Schilddrüsenchirurgie, Deutsches Ärzteblatt, CAEK Leitlinien. Suche durchgeführt am 2025-06-16.",
+          "flashcard": [
+            {
+              "id": "fc6-schilddruesen-op",
+              "title": "Schilddrüsen-OP und IONM",
+              "content": "**OP-Indikationen:**\n- Absolut: {{c1::Karzinom, Kompression, retrosternal::3 Hauptindikationen}}\n\n**Komplikationen (Häufigkeit):**\n1. {{c2::Hypokalzämie (19,5%)::Häufigste}}\n2. {{c3::Rekurrensparese (4,3%)::Nervenschaden}}\n3. {{c4::Nachblutung (1-2%)::Notfall <6h}}\n\n**IONM-Algorithmus:**\n{{c5::V1-R1-R2-V2::4 Stimulationspunkte}}\n\n**Bei LOS einseitig:**\n{{c6::Kontralaterale OP verschieben::Management}}"
+            }
+          ],
+          "mcq": {
+            "question": "Bei einer Hemithyreoidektomie zeigt das intraoperative Neuromonitoring nach Resektion einen kompletten Signalverlust (LOS) bei der abschließenden Vagusstimulation rechts. Die kontralaterale Seite sollte wegen eines suspekten Knotens auch operiert werden. Wie ist das weitere Vorgehen?",
+            "answers": [
+              {
+                "text": "Kontralaterale Operation verschieben um 6-12 Wochen",
+                "correct": true,
+                "explanation": "Bei einseitigem LOS muss die kontralaterale OP verschoben werden, um eine bilaterale Rekurrensparese zu vermeiden."
+              },
+              {
+                "text": "Sofort kontralateral operieren mit besonders vorsichtiger Präparation",
+                "correct": false,
+                "explanation": "Auch bei vorsichtiger Präparation besteht das Risiko einer bilateralen Parese mit Atemwegsnotfall."
+              },
+              {
+                "text": "Kontralateral operieren, aber prophylaktisch tracheotomieren",
+                "correct": false,
+                "explanation": "Eine prophylaktische Tracheotomie ist keine Standardindikation und ersetzt nicht das abwartende Vorgehen."
+              },
+              {
+                "text": "IONM-Elektroden neu positionieren und erneut testen",
+                "correct": false,
+                "explanation": "Ein LOS nach standardisierter Testung ist als definitiv anzusehen, Neupositionierung ändert nichts."
+              },
+              {
+                "text": "Kontralateral nur Isthmusresektion durchführen",
+                "correct": false,
+                "explanation": "Eine Isthmusresektion löst das Problem des suspekten kontralateralen Knotens nicht."
+              }
+            ],
+            "explanation": "Das intraoperative Neuromonitoring dient der Vermeidung bilateraler Rekurrensparesen. Bei Signalverlust (LOS) auf einer Seite muss die geplante kontralaterale Operation um 6-12 Wochen verschoben werden, bis die Stimmbandfunktion überprüft wurde. Eine bilaterale Parese führt zu Stridor und Atemwegsnotfall."
+          },
+          "tags": [
+            "Perioperatives Management:the",
+            "Schilddrüsenchirurgie",
+            "IONM",
+            "Rekurrensparese",
+            "Hypokalzämie"
+          ],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "primary": "CAEK Empfehlungen zum IONM in der Schilddrüsenchirurgie",
+            "guidelines": [
+              "S2k-Leitlinie Schilddrüsenoperationen",
+              "International Neural Monitoring Study Group Guidelines"
+            ],
+            "webSearchDate": "2025-06-16",
+            "verifiedSources": [
+              "PMC: Moderne Schilddrüsenchirurgie 2024",
+              "Deutsches Schilddrüsenzentrum - Neuromonitoring"
+            ],
+            "amboss": "https://www.amboss.com/de/wissen/schilddruesenoperationen",
+            "uptodate": "Intraoperative neuromonitoring during thyroid surgery",
+            "pubmed": [],
+            "custom": [
+              "IONM-Sensitivität: 98% für Nervidentifikation",
+              "Bilaterale Parese-Rate: Mit IONM <0,1% vs ohne 0,4%"
+            ]
+          },
+          "media": [
+            {
+              "title": "IONM Setup - Elektrodenposition",
+              "type": "image",
+              "url": "[ionm_electrode_setup_placeholder]",
+              "prompt": "Medical image showing IONM Setup - Elektrodenposition, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "N. recurrens Anatomie und Varianten",
+              "type": "image",
+              "url": "[recurrent_nerve_anatomy_variants_placeholder]",
+              "prompt": "Medical image showing N. recurrens Anatomie und Varianten, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "IONM Signalverlust-Algorithmus",
+              "type": "flowchart",
+              "url": "[ionm_los_algorithm_placeholder]",
+              "prompt": "Medical decision flowchart for IONM Signalverlust-Algorithmus, showing step-by-step decision process with clear boxes and arrows, German text, color-coded by urgency (red for emergency, yellow for urgent, green for routine), professional medical diagram style"
+            },
+            {
+              "title": "Schilddrüsen-OP mit Neuromonitoring",
+              "type": "image",
+              "url": "[thyroid_surgery_ionm_video_placeholder]",
+              "prompt": "Medical image showing Schilddrüsen-OP mit Neuromonitoring, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q13-uuid-013",
+          "fach": "Chirurgie",
+          "fachgebiet": "Unfallchirurgie",
+          "thema": "Achillessehnenruptur",
+          "subcategory": "Therapie",
+          "originalQuestion": "Achillessehnenruptur, wie behandelt man, Diagnostik?",
+          "question": "Ein 35-jähriger Sportler verspürt beim Tennis einen plötzlichen Schlag in die Wade und kann nicht mehr auf Zehenspitzen stehen. Wie diagnostizieren Sie eine Achillessehnenruptur und welche Therapieoptionen bestehen?",
+          "originalAnswer": "Thompson-Test, konservative vs. operative Therapie",
+          "answer": "**Diagnostik der Achillessehnenruptur:**\n\n**Klinische Tests:**\n- **Thompson-Test:** Wadenkompression → keine Plantarflexion = positiv (96% Sensitivität)\n- **Matles-Test:** Bauchlage, Knie 90° → fehlende Plantarflexion\n- **Palpation:** Delle tastbar ca. 2-6cm proximal des Ansatzes\n\n**Bildgebung:**\n- Sonographie: Sehnendefekt darstellbar\n- MRT nur bei Unklarheit\n\n**Therapie:**\n**Konservativ:** Spitzfußstellung 4-6 Wochen, wenn Sehnenenden <10mm Abstand\n**Operativ:** Bei jungen/sportlichen Patienten, niedrigere Rerupturrate (2-3% vs 10-30%)\n\n**Trend 2024:** 90% minimalinvasiv operativ + funktionelle Nachbehandlung",
+          "erklarung": "**Achillessehnenruptur - Detaillierte Übersicht:**\n\n**Pathomechanismus:**\n- Meist indirekte Gewalteinwirkung bei exzentrischer Belastung\n- Typisch: Plötzliche Dorsalextension bei angespannter Wade\n- Prädilektionsstelle: 2-6cm proximal des Ansatzes (Hypovaskularisationszone)\n- Risikofaktoren: Alter 30-50J, Wochenendsportler, Fluorchinolon-Einnahme\n\n**Klinische Diagnostik:**\n\n**1. Thompson-Test (Goldstandard):**\n- Patient in Bauchlage, Füße über Liegenrand\n- Kräftige Wadenkompression quer zur Muskulatur\n- Normal: Plantarflexion des Fußes\n- Positiv: Keine/verminderte Plantarflexion\n- Sensitivität 96%, Spezifität 93%\n\n**2. Matles-Test:**\n- Bauchlage, Knie 90° gebeugt\n- Normal: Fuß in 10-20° Plantarflexion\n- Positiv: Neutralstellung oder Dorsalextension\n\n**3. Weitere klinische Zeichen:**\n- \"Peitschenschlag\"-Gefühl bei Ruptur\n- Delle palpabel (\"Hackenbank-Zeichen\")\n- Zehenspitzenstand unmöglich\n- Hämatom, Schwellung\n\n**Bildgebende Diagnostik:**\n- **Sonographie:** Basis für konservative Therapie\n  - Sehnendefekt direkt darstellbar\n  - Abstandsmessung der Sehnenstümpfe\n- **MRT:** Bei Partialrupturen, chronischen Fällen\n- **Röntgen:** Nur zum Ausschluss knöcherner Läsionen\n\n**Therapieentscheidung:**\n\n**Konservative Therapie:**\n- **Indikation:** \n  - Sehnenabstand <10mm in Neutralstellung\n  - Adaptation in 20° Plantarflexion möglich\n  - Ältere Patienten, Komorbiditäten\n- **Durchführung:**\n  - Unterschenkel-Orthese in Spitzfußstellung\n  - 4-6 Wochen, schrittweise Aufrichtung\n  - Frühfunktionelle Behandlung ab Woche 3-4\n- **Rerupturrate:** 10-30% (Literatur variabel)\n\n**Operative Therapie:**\n- **Indikation:**\n  - Junge, sportlich aktive Patienten\n  - Sehnenabstand >10mm\n  - Alte/degenerierte Rupturen\n- **Verfahren 2024:**\n  - 90% minimalinvasiv (perkutane Naht)\n  - Offene Naht bei ausgeprägtem Defekt\n  - Augmentation bei schlechter Sehnenqualität\n- **Rerupturrate:** 1,7-3,5%\n- **Komplikationen:** Wundheilungsstörung, Infektion (4-5x höher als konservativ)\n\n**Nachbehandlung (aktueller Standard):**\n1. **Woche 0-2:** Orthese 30° Plantarflexion, Teilbelastung\n2. **Woche 3-6:** Schrittweise Aufrichtung, Vollbelastung\n3. **Woche 7-12:** Physiotherapie, keine Dorsalextension\n4. **Ab Monat 4:** Sportaufbau\n\n**Prognose:**\n- Sportfähigkeit nach 4-6 Monaten\n- Kraftdefizit 10-20% nach 1 Jahr\n- Funktionelle Ergebnisse konservativ = operativ bei adäquater Nachbehandlung",
+          "tipps": "**LERNZIELE:**\n1. Thompson-Test sicher durchführen und interpretieren\n2. Therapieentscheidung individuell treffen können\n\n**KERNPUNKTE:**\n- Thompson-Test = Goldstandard (96% Sensitivität)\n- \"Peitschenschlag\" + Delle = typische Anamnese\n- Sono: Sehnenabstand <10mm → konservativ möglich\n- Trend 2024: Minimalinvasiv + frühfunktionell\n- Reruptur: Operativ 2-3% vs konservativ 10-30%\n- Cave: Fluorchinolon-Anamnese erfragen!",
+          "kommentar": "Basierend auf aktuellen unfallchirurgischen Standards (2024). Der Trend geht zu minimalinvasiven Verfahren mit frühfunktioneller Nachbehandlung. Laut Prof. Rammelt (Dresden) werden 90% der Patienten minimalinvasiv operiert. Quellen: AMBOSS Achillessehnenruptur, Universimed konservative Therapie, Springer Orthopädie & Rheuma. Suche durchgeführt am 2025-06-16.",
+          "flashcard": [
+            {
+              "id": "fc7-achillessehnenruptur",
+              "title": "Achillessehnenruptur - Diagnostik und Therapie",
+              "content": "**Klinische Tests:**\n- {{c1::Thompson-Test::Goldstandard}} - Sensitivität {{c2::96%::Prozent}}\n- {{c3::Matles-Test::Knie 90° Test}}\n\n**Therapiekriterium Sonographie:**\n- Sehnenabstand {{c4::<10mm::Grenzwert}} → konservativ möglich\n\n**Rerupturraten:**\n- Operativ: {{c5::2-3%::niedrige Rate}}\n- Konservativ: {{c6::10-30%::hohe Rate}}\n\n**Trend 2024:** {{c7::90% minimalinvasiv operativ::Aktuelle Praxis}}"
+            }
+          ],
+          "mcq": {
+            "question": "Ein 42-jähriger Patient berichtet über ein plötzliches \"Peitschenschlag\"-Gefühl in der Wade beim Squash-Spielen vor 2 Stunden. Bei der Untersuchung zeigt sich eine tastbare Delle 4cm proximal des Fersenbeins. Der Thompson-Test ist positiv. Die Sonographie zeigt einen Sehnenabstand von 8mm. Welche Therapie ist am ehesten indiziert?",
+            "answers": [
+              {
+                "text": "Konservative Therapie mit Unterschenkel-Orthese in Spitzfußstellung",
+                "correct": true,
+                "explanation": "Bei Sehnenabstand <10mm und möglicher Adaptation der Sehnenstümpfe ist eine konservative Therapie möglich und zeigt funktionell gleichwertige Ergebnisse."
+              },
+              {
+                "text": "Sofortige offene operative Naht der Achillessehne",
+                "correct": false,
+                "explanation": "Bei 8mm Sehnenabstand ist keine zwingende OP-Indikation gegeben. Zudem wäre minimalinvasiv dem offenen Vorgehen vorzuziehen."
+              },
+              {
+                "text": "Kortison-Infiltration zur Entzündungshemmung",
+                "correct": false,
+                "explanation": "Kortison ist bei Achillessehnenruptur kontraindiziert und erhöht das Risiko weiterer Schädigung."
+              },
+              {
+                "text": "Physiotherapie mit sofortiger Mobilisation",
+                "correct": false,
+                "explanation": "Eine initiale Ruhigstellung in Spitzfußstellung ist essentiell für die Sehnenheilung."
+              },
+              {
+                "text": "MRT zur weiteren Abklärung vor Therapieentscheidung",
+                "correct": false,
+                "explanation": "Bei eindeutiger Klinik und Sonographie-Befund ist keine weitere Bildgebung notwendig."
+              }
+            ],
+            "explanation": "Die konservative Therapie ist bei Sehnenabstand <10mm eine valide Option mit guten funktionellen Ergebnissen. Wichtig ist die initiale Ruhigstellung in Spitzfußstellung für 4-6 Wochen mit schrittweiser Aufrichtung. Die Rerupturrate ist zwar höher als bei operativem Vorgehen, aber bei guter Compliance und frühfunktioneller Nachbehandlung akzeptabel."
+          },
+          "tags": [
+            "Achillessehnenruptur:the",
+            "Thompson-Test",
+            "Unfallchirurgie",
+            "Sportverletzung",
+            "Minimalinvasiv"
+          ],
+          "schwierigkeit": "leicht",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "primary": "AMBOSS Achillessehnenruptur",
+            "guidelines": [
+              "S1-Leitlinie Achillessehnenruptur",
+              "DGOOC Empfehlungen 2024"
+            ],
+            "webSearchDate": "2025-06-16",
+            "verifiedSources": [
+              "Universimed: Konservative Therapie der Achillessehnenruptur",
+              "Springer: Achillessehnenruptur - Therapieentscheidung 2024"
+            ],
+            "amboss": "https://www.amboss.com/de/wissen/achillessehnenruptur",
+            "uptodate": "Achilles tendon rupture",
+            "pubmed": [],
+            "custom": [
+              "Thompson-Test: Sensitivität 96%, Spezifität 93%",
+              "Trend 2024: 90% minimalinvasiv (Prof. Rammelt, Dresden)"
+            ]
+          },
+          "media": [
+            {
+              "title": "Thompson-Test Durchführung",
+              "type": "video",
+              "url": "[thompson_test_demonstration_placeholder]",
+              "prompt": "Medical procedure video demonstrating Thompson-Test Durchführung, clear view of technique, step-by-step visualization, educational annotations"
+            },
+            {
+              "title": "Sonographie Achillessehnenruptur",
+              "type": "image",
+              "url": "[ultrasound_achilles_rupture_placeholder]",
+              "prompt": "Medical image showing Sonographie Achillessehnenruptur, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "Minimalinvasive OP-Technik",
+              "type": "video",
+              "url": "[minimally_invasive_achilles_repair_placeholder]",
+              "prompt": "Medical procedure video demonstrating Minimalinvasive OP-Technik, clear view of technique, step-by-step visualization, educational annotations"
+            },
+            {
+              "title": "Nachbehandlungsschema",
+              "type": "image",
+              "url": "[achilles_rehabilitation_protocol_placeholder]",
+              "prompt": "Medical image showing Nachbehandlungsschema, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q14-uuid-014",
+          "fach": "Allgemeinmedizin",
+          "fachgebiet": "Ärztliche Rechtskunde",
+          "thema": "Transfusion",
+          "subcategory": "Therapie",
+          "originalQuestion": "Transfusion - was braucht man dafür, Bedside-Test. FFP, Fibrinogen, Prothromplex. Cell-Saver?",
+          "question": "Ein polytraumatisierter Patient benötigt im Schockraum eine Notfalltransfusion. Welche Voraussetzungen müssen für eine Transfusion erfüllt sein und wie funktioniert der Bedside-Test? Wann setzen Sie FFP, Fibrinogen und PPSB ein?",
+          "originalAnswer": "Transfusionsindikationen, Bedside-Test, Blutprodukte (FFP, Fibrinogen, PPSB), Cell-Saver",
+          "answer": "**Transfusionsvoraussetzungen:**\n\n**1. Administrativ:**\n- Patientenidentifikation (Name, Geburtsdatum)\n- Aufklärung + Einwilligung (außer vitale Indikation)\n- Blutgruppenbestimmung + Kreuzprobe\n\n**2. Bedside-Test (AB0-Identitätstest):**\n- **IMMER** direkt vor Transfusion\n- Patientenblut auf Anti-A und Anti-B Testfelder\n- Vergleich mit Konserve → müssen übereinstimmen\n- Dokumentation zwingend!\n\n**Blutprodukte:**\n- **FFP:** Bei Massivtransfusion, Quick <50%, 15-20ml/kg\n- **Fibrinogen:** Bei <100mg/dl, initial 4g i.v.\n- **PPSB:** Vitamin-K-Antagonisten-Blutung, 20-40 IE/kg\n- **Cell-Saver:** Autologe Retransfusion bei großen OPs",
+          "erklarung": "**Transfusionsmedizin - Detaillierte Übersicht:**\n\n**Rechtliche Voraussetzungen:**\n1. **Aufklärung:** Über Risiken (Infektion, Immunreaktion)\n2. **Einwilligung:** Schriftlich, außer bei vitaler Indikation\n3. **Dokumentation:** Chargennummer, Zeitpunkt, Durchführender\n4. **Transfusionsgesetz:** Meldepflicht bei Zwischenfällen\n\n**Labordiagnostik:**\n- **Blutgruppenbestimmung:** AB0, Rhesus, Kell\n- **Antikörpersuchtest:** Irreguläre Antikörper\n- **Kreuzprobe:** Empfänger-Serum + Spender-Erys\n- **Gültigkeit:** 3 Tage\n\n**Bedside-Test (AB0-Identitätstest):**\n1. **Zeitpunkt:** Unmittelbar vor Transfusion\n2. **Durchführung:** \n   - EDTA-Blut des Patienten\n   - Je 1 Tropfen auf Anti-A und Anti-B Feld\n   - Agglutination = Antigen vorhanden\n3. **Interpretation:**\n   - Beide negativ = Blutgruppe 0\n   - Anti-A positiv = Blutgruppe A\n   - Anti-B positiv = Blutgruppe B\n   - Beide positiv = Blutgruppe AB\n4. **Cave:** Auch bei Notfalltransfusion Pflicht!\n\n**Erythrozytenkonzentrate (EK):**\n- **Indikation:** Hb <6-8 g/dl (je nach Klinik)\n- **Dosierung:** 1 EK erhöht Hb um ~1 g/dl\n- **Kompatibilität:** AB0 und Rhesus beachten\n\n**Fresh Frozen Plasma (FFP):**\n- **Zusammensetzung:** Alle Gerinnungsfaktoren, ~500mg Fibrinogen/Einheit\n- **Indikation:** \n  - Massivtransfusion (1:1:1 Konzept)\n  - Quick <50% bei Blutung\n  - Faktorenmangel\n- **Dosierung:** 15-20 ml/kg KG\n- **Wirkung:** 1 ml/kg erhöht Quick um 1%\n\n**Fibrinogen:**\n- **Indikation:** \n  - Fibrinogen <100 mg/dl\n  - <200 mg/dl bei aktiver Blutung\n  - Geburtshilfliche Blutung\n- **Dosierung:** Initial 4g i.v., ggf. weitere 2g\n- **Ziel:** Fibrinogen >150-200 mg/dl\n\n**PPSB (Prothrombinkomplex):**\n- **Inhalt:** Faktoren II, VII, IX, X, Protein C+S\n- **Indikation:**\n  - Vitamin-K-Antagonisten-Blutung\n  - Leberversagen mit Blutung\n- **Dosierung:** \n  - Quick bekannt: Nach Formel\n  - Quick unbekannt: 20-40 IE/kg\n- **Cave:** Thromboserisiko! Enthält meist Heparin\n\n**Cell-Saver (Maschinelle Autotransfusion):**\n- **Prinzip:** Sammlung, Aufbereitung, Retransfusion von Eigenblut\n- **Indikation:** Große Eingriffe mit erwartetem Blutverlust >1000ml\n- **Kontraindikation:** \n  - Tumorchirurgie (relativ)\n  - Bakterielle Kontamination\n  - Fruchtwasser\n- **Vorteil:** Keine Immunreaktion, keine Infektion\n\n**Massivtransfusionsprotokoll:**\n- **Definition:** >10 EK/24h oder >4 EK/1h\n- **1:1:1 Konzept:** EK:FFP:TK im Verhältnis 1:1:1\n- **Zusätzlich:** Fibrinogen, Calcium, Azidosekorrektur\n- **Monitoring:** Thrombelastographie (ROTEM/TEG)",
+          "tipps": "**LERNZIELE:**\n1. Bedside-Test korrekt durchführen und dokumentieren\n2. Indikationen für verschiedene Blutprodukte kennen\n\n**KERNPUNKTE:**\n- Bedside-Test = AB0-Identitätstest IMMER vor Transfusion!\n- Kreuzprobe 3 Tage gültig\n- FFP bei Quick <50% und Blutung (15-20ml/kg)\n- Fibrinogen <100mg/dl → 4g i.v.\n- PPSB bei Marcumar-Blutung (Cave: Thrombose!)\n- Cell-Saver = autologe Retransfusion",
+          "kommentar": "Basierend auf aktuellen transfusionsmedizinischen Standards (2024). Der Bedside-Test ist auch bei Notfalltransfusionen verpflichtend und dient als letzte Sicherheitsbarriere gegen AB0-Inkompatibilität. Das 1:1:1 Konzept bei Massivtransfusion ist aktueller Standard. Quellen: AMBOSS Transfusionen, Notfallguru Blutung/Transfusion, aktuelle Querschnittsleitlinien Transfusion. Suche durchgeführt am 2025-06-16.",
+          "flashcard": [
+            {
+              "id": "fc8-transfusion-bedside",
+              "title": "Transfusion - Bedside-Test und Blutprodukte",
+              "content": "**Bedside-Test:**\n- {{c1::AB0-Identitätstest::Name}} vor JEDER Transfusion\n- {{c2::Anti-A und Anti-B Testfelder::Testprinzip}}\n\n**Blutprodukte Dosierung:**\n- FFP: {{c3::15-20 ml/kg::Dosierung}} bei Quick <50%\n- Fibrinogen: {{c4::4g initial::Dosierung}} bei <100mg/dl\n- PPSB: {{c5::20-40 IE/kg::Dosierung}} bei Marcumar-Blutung\n\n**Gültigkeit:**\n- Kreuzprobe: {{c6::3 Tage::Zeitraum}}"
+            }
+          ],
+          "mcq": {
+            "question": "Ein Patient unter Marcumar-Therapie (INR 6,5) blutet nach einem Sturz aus einer Kopfplatzwunde stark. Der Hb-Wert liegt bei 9,2 g/dl, das Fibrinogen bei 280 mg/dl. Welche Maßnahme hat höchste Priorität zur Blutstillung?",
+            "answers": [
+              {
+                "text": "PPSB 30 IE/kg i.v. zur Antagonisierung der Vitamin-K-Antagonisten",
+                "correct": true,
+                "explanation": "Bei lebensbedrohlicher Blutung unter Vitamin-K-Antagonisten ist PPSB die schnellste Methode zur Normalisierung der Gerinnung (Wirkung in Minuten)."
+              },
+              {
+                "text": "Transfusion von 2 Erythrozytenkonzentraten",
+                "correct": false,
+                "explanation": "Bei Hb 9,2 g/dl besteht keine dringende Transfusionsindikation. Das Gerinnungsproblem muss zuerst behoben werden."
+              },
+              {
+                "text": "Fibrinogen 4g i.v. zur Verbesserung der Gerinnung",
+                "correct": false,
+                "explanation": "Fibrinogen 280 mg/dl ist normal. Das Problem ist die Vitamin-K-Antagonisierung, nicht Fibrinogenmangel."
+              },
+              {
+                "text": "FFP 20 ml/kg zur Faktorensubstitution",
+                "correct": false,
+                "explanation": "FFP wirkt langsamer als PPSB und erfordert große Volumina. PPSB ist bei Marcumar-Blutung überlegen."
+              },
+              {
+                "text": "Vitamin K 10mg i.v. und abwarten",
+                "correct": false,
+                "explanation": "Vitamin K wirkt erst nach 6-24 Stunden. Bei akuter Blutung ist sofortige Antagonisierung mit PPSB nötig."
+              }
+            ],
+            "explanation": "PPSB (Prothrombinkomplex) enthält die Vitamin-K-abhängigen Gerinnungsfaktoren II, VII, IX und X in konzentrierter Form. Bei lebensbedrohlicher Blutung unter Marcumar ist es das Mittel der Wahl, da es innerhalb von Minuten wirkt. Die Dosierung beträgt 20-40 IE/kg. Zusätzlich sollte Vitamin K gegeben werden für die nachhaltige Wirkung."
+          },
+          "tags": [
+            "Transfusion:the",
+            "Bedside-Test",
+            "FFP",
+            "Fibrinogen",
+            "PPSB",
+            "Cell-Saver",
+            "Transfusionsmedizin"
+          ],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "primary": "Querschnittsleitlinien zur Therapie mit Blutkomponenten und Plasmaderivaten",
+            "guidelines": [
+              "S3-Leitlinie Polytrauma/Schwerverletzten-Behandlung",
+              "Leitlinie Massivtransfusion"
+            ],
+            "webSearchDate": "2025-06-16",
+            "verifiedSources": [
+              "AMBOSS: Transfusionen und Transfusionsreaktionen",
+              "Notfallguru: Blutung, Gerinnung + Transfusion"
+            ],
+            "amboss": "https://www.amboss.com/de/wissen/transfusionen",
+            "uptodate": "Massive blood transfusion",
+            "pubmed": [],
+            "custom": [
+              "Bedside-Test auch bei Notfalltransfusion Pflicht",
+              "1:1:1 Konzept bei Massivtransfusion Standard"
+            ]
+          },
+          "media": [
+            {
+              "title": "Bedside-Test Durchführung",
+              "type": "video",
+              "url": "[bedside_test_procedure_placeholder]",
+              "prompt": "Medical procedure video demonstrating Bedside-Test Durchführung, clear view of technique, step-by-step visualization, educational annotations"
+            },
+            {
+              "title": "AB0-Blutgruppensystem Übersicht",
+              "type": "table",
+              "url": "[abo_blood_group_system_placeholder]",
+              "prompt": "Medical reference table showing AB0-Blutgruppensystem Übersicht, clear structure with labeled columns and rows, German text, professional formatting, highlight important values"
+            },
+            {
+              "title": "Massivtransfusionsprotokoll",
+              "type": "pdf",
+              "url": "[massive_transfusion_protocol_placeholder]",
+              "prompt": "Reference to official medical guideline/protocol: Massivtransfusionsprotokoll - direct link to authoritative source document"
+            },
+            {
+              "title": "Cell-Saver Funktionsprinzip",
+              "type": "image",
+              "url": "[cell_saver_principle_placeholder]",
+              "prompt": "Medical image showing Cell-Saver Funktionsprinzip, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q15-uuid-015",
+          "fach": "Notfallmedizin",
+          "fachgebiet": "Notfall- und Intensivmedizin",
+          "thema": "Hypoglykämie",
+          "subcategory": "Therapie",
+          "originalQuestion": "Der Patient ist bewusstlos, atmet. Was müssen Sie machen (Hypoglykämie), wie viel Glukose, was weiter?",
+          "question": "Ein bewusstloser Patient wird in die Notaufnahme gebracht, die Atmung ist erhalten. Die Blutzuckermessung ergibt 35 mg/dl [70-110 mg/dl]. Wie ist das therapeutische Vorgehen bei schwerer Hypoglykämie, insbesondere die Glukosedosierung?",
+          "originalAnswer": "Blutzuckermessung, Glukose 40% i.v., weitere Überwachung",
+          "answer": "**Sofortmaßnahmen bei schwerer Hypoglykämie:**\n\n1. **Vitalzeichenkontrolle und Sicherung der Atemwege**\n   - ABC-Schema anwenden\n   - O2-Gabe bei Bedarf\n\n2. **Intravenöse Glukosegabe (Goldstandard)**\n   - **Dosierung: 8-16 g Glukose i.v. (0,2 g/kg KG)**\n   - Praktisch: **50 ml Glukose 40% als i.v. Bolus**\n   - CAVE: Rückflusstest vor Injektion (Nekrosegefahr bei Paravasat!)\n\n3. **Alternative bei fehlendem i.v. Zugang**\n   - Glukagon 3 mg intranasal oder 1 mg i.m./s.c.\n   - Wiederholung nach 5 Minuten möglich\n\n4. **Nachsorge**\n   - BZ-Kontrolle nach 5-10 Minuten\n   - Nach Aufwachen: Kohlenhydratreiche Mahlzeit\n   - Ursachenabklärung durchführen",
+          "erklarung": "**Hypoglykämie - Pathophysiologie und Management**\n\n**Definition und Schweregrade:**\n- Mild: BZ <70 mg/dl, Patient kann selbst behandeln\n- Schwer: Fremdhilfe erforderlich, oft BZ <50 mg/dl\n- Kritisch: Bewusstseinsstörung, BZ meist <30 mg/dl\n\n**Akuttherapie nach aktuellen Leitlinien (Stand 2024):**\n\n**1. Intravenöse Glukosegabe:**\n- Erwachsene: 8-16 g i.v. (0,2 g/kg KG)\n- Minimum: 50 ml Glukose 40% als i.v. Bolus\n- Maximale Infusionsgeschwindigkeit beachten\n- Obligat: Rückflusstest (Paravasat → Nekrose!)\n\n**2. Alternative Therapieoptionen:**\n- Glukagon 3 mg intranasal (Baqsimi®)\n- Glukagon 1 mg i.m./s.c. (GlucaGen®)\n- Wirkungseintritt: 5-15 Minuten\n- Cave: Ineffektiv bei Alkoholintoxikation\n\n**3. Orale Therapie (nur bei wachen Patienten!):**\n- 15-20 g Kohlenhydrate (z.B. 3-4 Traubenzuckertabletten)\n- Nach 15 Min. wiederholen wenn BZ <60 mg/dl\n\n**Wichtige Sicherheitsaspekte:**\n- Aspirationsgefahr bei oraler Gabe beachten\n- Rezidivprophylaxe durch langwirksame KH\n- Ursachenabklärung obligat\n- Bei Erstmanifestation: stationäre Aufnahme erwägen\n\n**Differentialdiagnosen der Bewusstlosigkeit:**\n- Neurologisch: Schlaganfall, Krampfanfall, SHT\n- Metabolisch: Hypoglykämie, Ketoazidose, Urämie\n- Toxisch: Intoxikation, CO-Vergiftung\n- Kardial: Rhythmusstörungen, Synkope",
+          "tipps": "**LERNZIELE:**\n1. Erkennen der Symptome schwerer Hypoglykämie\n2. Beherrschen der Dosierung für i.v. Glukosegabe\n3. Kennen alternativer Therapieoptionen bei fehlendem Zugang\n\n**KERNPUNKTE:**\n- **Goldstandard: 50 ml Glukose 40% i.v. (= 20g Glukose)**\n- **Merkhilfe Dosierung: 0,2 g/kg KG → 70kg = 14g ≈ 35ml G40%**\n- **CAVE: Immer Rückflusstest vor G40%-Gabe (Nekrosegefahr!)**\n- **Alternative: Glukagon 3mg nasal oder 1mg i.m./s.c.**\n- **Nach Therapie: Langwirksame KH zur Rezidivprophylaxe**",
+          "kommentar": "**Basierend auf aktuellen Leitlinien (WebSearch vom 06.01.2025):**\n\n**WICHTIGE UPDATES:**\n- Notfallmedizinische Algorithmen DBRD 2024: Standarddosis 50ml G40% i.v.\n- DDG-Leitlinie Typ-1-Diabetes (Update 2023): Glukagon nasal als gleichwertige Alternative\n- Neue Empfehlung: Bei bekannter Hypoglykämie-Neigung kann Transport vermieden werden, wenn kontinuierliche Betreuung gewährleistet ist\n\n**QUELLEN:**\n- Rettungsdienst FactSheets - Hypoglykämie (Stand 2024): https://rd-factsheets.de/fs/hypoglykaemie-2/\n- DDG S3-Leitlinie Therapie Typ-1-Diabetes (2023): Glukagon-Dosierungen\n- AGNN Therapieempfehlungen Notfallmedizin 2024: Hypoglykämie-Management\n\n**PRÜFUNGSHINWEIS:** \nDer Examiner erwartete \"genaue Werte\" - die Standarddosis 50ml G40% i.v. ist prüfungsrelevant und sollte auswendig gewusst werden. Die Berechnung nach Körpergewicht (0,2g/kg) ist theoretisches Zusatzwissen.",
+          "flashcard": "[{\"id\":\"fc1-hypo\",\"title\":\"Hypoglykämie - Glukosedosierung i.v.\",\"content\":\"Bei schwerer Hypoglykämie mit Bewusstlosigkeit:\\n- Standarddosis Erwachsene: {{c1::50ml::Menge}} {{c2::Glukose 40%::Konzentration}} i.v.\\n- Das entspricht {{c3::20g::Gramm}} reiner Glukose\\n- Berechnung: {{c4::0,2g/kg KG::Formel}}\\n- CAVE: Immer {{c5::Rückflusstest::Test}} vor Injektion!\"},{\"id\":\"fc2-hypo\",\"title\":\"Hypoglykämie - Alternative Therapien\",\"content\":\"Wenn kein i.v. Zugang möglich:\\n- Glukagon {{c1::3mg::Dosis}} {{c2::intranasal::Route}} (Baqsimi®)\\n- Glukagon {{c3::1mg::Dosis}} {{c4::i.m. oder s.c.::Route}}\\n- Wirkungseintritt nach {{c5::5-15::Zeit}} Minuten\\n- Cave: Unwirksam bei {{c6::Alkoholintoxikation::Kontraindikation}}\"},{\"id\":\"fc3-hypo\",\"title\":\"Hypoglykämie - Schweregrade\",\"content\":\"Einteilung der Hypoglykämie:\\n- Mild: BZ {{c1::<70::Wert}} mg/dl, Patient kann {{c2::selbst behandeln::Fähigkeit}}\\n- Schwer: {{c3::Fremdhilfe::Hilfe}} erforderlich, BZ oft <50 mg/dl\\n- Kritisch: {{c4::Bewusstseinsstörung::Symptom}}, BZ meist {{c5::<30::Wert}} mg/dl\"}]",
+          "mcq": "{\"question\":\"Ein 45-jähriger bewusstloser Patient wird vom Rettungsdienst gebracht. Die Blutzuckermessung zeigt 28 mg/dl. Ein peripherer Venenzugang wurde bereits etabliert. Welche Glukosedosis sollte als Erstmaßnahme i.v. verabreicht werden?\",\"answers\":[{\"id\":\"a1\",\"text\":\"50 ml Glukose 40% i.v. als Bolus\",\"isCorrect\":true},{\"id\":\"a2\",\"text\":\"100 ml Glukose 5% i.v. als Kurzinfusion\",\"isCorrect\":false},{\"id\":\"a3\",\"text\":\"20 ml Glukose 20% i.v. als Bolus\",\"isCorrect\":false},{\"id\":\"a4\",\"text\":\"250 ml Glukose 10% i.v. über 30 Minuten\",\"isCorrect\":false},{\"id\":\"a5\",\"text\":\"10 ml Glukose 50% i.v. als Bolus\",\"isCorrect\":false}],\"explanation\":\"Die korrekte Antwort ist A: 50 ml Glukose 40% i.v. entsprechen 20g Glukose und stellen die Standarddosis bei schwerer Hypoglykämie dar. Option B (G5%) enthält zu wenig Glukose (nur 5g) und wirkt zu langsam. Option C (20ml G20%) enthält nur 4g Glukose - deutlich zu wenig. Option D würde zwar 25g Glukose liefern, aber die Infusionsdauer von 30 Minuten ist bei Bewusstlosigkeit zu lang. Option E (G50%) wird in Deutschland nicht verwendet und das Volumen wäre zu gering.\"}",
+          "tags": [
+            "Notfallmedizin",
+            "Hypoglykämie",
+            "Bewusstlosigkeit",
+            "Glukosetherapie",
+            "Differentialdiagnose",
+            "Glukagon",
+            "Diabetes mellitus"
+          ],
+          "schwierigkeit": "2",
+          "examinerSpeciality": "Notarzt",
+          "examinerId": "examiner3",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "zufrieden",
+            "interruption": "laesst_ausreden",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "Genaue Dosierung der Glukose",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "https://www.amboss.com/de/wissen/hypoglykamie/",
+            "uptodate": "Hypoglycemia in adults with diabetes mellitus",
+            "pubmed": [
+              "37682534",
+              "36995894"
+            ],
+            "custom": [
+              "DBRD Algorithmen 2024",
+              "DDG S3-Leitlinie Typ-1-Diabetes 2023"
+            ]
+          },
+          "media": [
+            {
+              "title": "Glukose 40% Ampulle mit Dosierungsschema",
+              "type": "image",
+              "url": "[glucose_40_percent_ampule_dosing_placeholder]",
+              "prompt": "Medical image showing Glukose 40% Ampulle mit Dosierungsschema, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "Algorithmus: Hypoglykämie-Management im Rettungsdienst",
+              "type": "flowchart",
+              "url": "[hypoglycemia_emergency_algorithm_placeholder]",
+              "prompt": "Medical decision flowchart for Hypoglykämie-Management im Rettungsdienst, showing step-by-step decision process with clear boxes and arrows, German text, color-coded by urgency (red for emergency, yellow for urgent, green for routine), professional medical diagram style"
+            },
+            {
+              "title": "Glukagon Nasenspray Anwendung (Baqsimi)",
+              "type": "image",
+              "url": "[glucagon_nasal_spray_application_placeholder]",
+              "prompt": "Medical image showing Glukagon Nasenspray Anwendung (Baqsimi), high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "DBRD Therapieempfehlungen Hypoglykämie 2024",
+              "type": "image",
+              "url": "[DBRD_hypoglycemia_guidelines_2024_placeholder]",
+              "prompt": "Medical image showing DBRD Therapieempfehlungen Hypoglykämie 2024, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q16-uuid-016",
+          "fach": "Notfallmedizin",
+          "fachgebiet": "Notfall- und Intensivmedizin",
+          "thema": "Anaphylaxie",
+          "subcategory": "Therapie",
+          "originalQuestion": "Anaphylaxie, wie behandelt man?",
+          "question": "Ein 35-jähriger Patient entwickelt nach Wespenstich innerhalb von Minuten generalisierte Urtikaria, Atemnot und Blutdruckabfall. Wie ist das therapeutische Vorgehen bei anaphylaktischer Reaktion?",
+          "originalAnswer": "Adrenalin, H1-Blocker, GCS, wohin Adrenalin",
+          "answer": "**Sofortmaßnahmen bei Anaphylaxie:**\n\n1. **Adrenalin i.m. - Wichtigstes Medikament!**\n   - Dosierung: 0,3-0,5mg (0,01mg/kg KG)\n   - Applikation: Lateraler Oberschenkel i.m.\n   - Wiederholung nach 5-15 Min. möglich\n\n2. **Zusatztherapie**\n   - H1-Blocker: Clemastin 2mg i.v. oder Dimetinden 4mg i.v.\n   - Glucocorticoide: Prednisolon 250-1000mg i.v.\n   - O2-Gabe hochdosiert\n   - Volumensubstitution bei Hypotonie\n\n3. **Lagerung und Monitoring**\n   - Trendelenburg-Lagerung bei Hypotonie\n   - Kontinuierliches Monitoring\n   - Reanimationsbereitschaft",
+          "erklarung": "**Anaphylaxie - Lebensbedrohlicher Notfall**\n\n**Definition:**\nSchwere, lebensbedrohliche systemische Hypersensitivitätsreaktion mit raschem Beginn.\n\n**Pathophysiologie:**\n- IgE-vermittelte Mastzellaktivierung (Typ I Allergie)\n- Massive Mediatorfreisetzung (Histamin, Tryptase, Leukotriene)\n- Vasodilatation, Kapillarleck, Bronchospasmus\n\n**Therapiealgorithmus nach AWMF-Leitlinie:**\n\n1. **Adrenalin i.m. (Lebensrettend!)**\n   - Erwachsene: 0,3-0,5mg i.m. lateral Oberschenkel\n   - Kinder: 0,01mg/kg KG i.m.\n   - Wirkung: α- und β-adrenerg → Vasokonstriktion, Bronchodilatation\n   - Wiederholung alle 5-15 Min. bei fehlendem Ansprechen\n\n2. **Antihistaminika (Symptomlinderung)**\n   - H1-Blocker: Clemastin 2mg i.v. oder Dimetinden 4mg i.v.\n   - H2-Blocker: Ranitidin 50mg i.v. (optional)\n   - Wirkung: Blockade der Histaminrezeptoren\n\n3. **Glucocorticoide (Spätreaktion verhindern)**\n   - Prednisolon 250-1000mg i.v. oder\n   - Methylprednisolon 80-125mg i.v.\n   - Wirkung: Antiinflammatorisch, aber verzögerter Wirkungseintritt\n   - CAVE: Keine Akutwirkung!\n\n4. **Supportive Maßnahmen:**\n   - O2-Gabe 6-8 l/min\n   - Volumensubstitution: Kristalloide 1-2 Liter\n   - Bei Bronchospasmus: β2-Mimetika inhalativ\n   - Bei therapierefraktärem Schock: Noradrenalin-Perfusor\n\n**Biphasische Anaphylaxie:**\n- In 1-20% der Fälle Spätreaktion nach 6-12 Stunden\n- Überwachung für mind. 6-24 Stunden erforderlich\n- Fortsetzung der Antihistaminika und Corticoide\n\n**Wichtige Fehler vermeiden:**\n- Niemals Adrenalin i.v. bei stabilen Patienten (Arrhythmiegefahr!)\n- Glucocorticoide sind KEIN Ersatz für Adrenalin\n- Verzögerung der Adrenalingabe verschlechtert Prognose",
+          "tipps": "**LERNZIELE:**\n1. Erkennen der Anaphylaxie-Symptome (Haut + 1 weiteres Organsystem)\n2. Beherrschen der Adrenalin-Dosierung und Applikation\n3. Verstehen der Therapiereihenfolge und Wirkmechanismen\n\n**KERNPUNKTE:**\n- **Adrenalin i.m. ist das einzige lebensrettende Medikament!**\n- **Dosierung: 0,3-0,5mg i.m. lateral Oberschenkel**\n- **H1-Blocker + Cortison sind nur Zusatztherapie**\n- **Biphasische Reaktion in bis zu 20% → Überwachung!**\n- **Merksatz: \"A-H-C\" = Adrenalin - H1-Blocker - Corticoide**",
+          "kommentar": "**Basierend auf aktuellen Leitlinien (WebSearch vom 06.01.2025):**\n\n**WICHTIGE UPDATES:**\n- AWMF S2k-Leitlinie Anaphylaxie (Update 2021, gültig bis 2026)\n- Adrenalin i.m. bleibt einzige lebensrettende Erstmaßnahme\n- Glucocorticoide haben KEINEN Effekt in der Akutphase\n- Biphasische Reaktionen seltener als früher angenommen (1-5%)\n\n**QUELLEN:**\n- AWMF S2k-Leitlinie \"Akuttherapie und Management der Anaphylaxie\" (061-025, Stand 2021)\n- Ring et al. (2021): S2k-Leitlinie Anaphylaxie, Allergo J Int 2021; 30: 20-49\n- Nerdfallmedizin Blog: Infografik Anaphylaxie (2023)\n- DGAKI/AeDA/GPA et al.: Konsensuspapier Anaphylaxie-Management\n\n**PRÜFUNGSHINWEIS:**\nDer Examiner fragte nach \"wohin Adrenalin\" - die korrekte Antwort ist: **Lateraler Oberschenkel i.m.** (M. vastus lateralis). Dies ist prüfungsrelevant und muss sicher beherrscht werden!",
+          "flashcard": "[{\"id\":\"fc1-ana\",\"title\":\"Anaphylaxie - Adrenalin-Therapie\",\"content\":\"Adrenalin bei Anaphylaxie:\\n- Dosierung Erwachsene: {{c1::0,3-0,5mg::Dosis}} {{c2::i.m.::Route}}\\n- Applikationsort: {{c3::Lateraler Oberschenkel::Stelle}}\\n- Muskel: {{c4::M. vastus lateralis::Anatomie}}\\n- Wiederholung nach {{c5::5-15::Zeit}} Minuten möglich\"},{\"id\":\"fc2-ana\",\"title\":\"Anaphylaxie - Medikamentenreihenfolge\",\"content\":\"Therapiereihenfolge bei Anaphylaxie:\\n1. {{c1::Adrenalin i.m.::Wichtigstes Medikament}}\\n2. {{c2::H1-Blocker i.v.::Antihistaminikum}} (z.B. Clemastin 2mg)\\n3. {{c3::Glucocorticoide i.v.::Spätreaktion}} (z.B. Prednisolon 250-1000mg)\\n\\nMerksatz: {{c4::A-H-C::Abkürzung}}\"},{\"id\":\"fc3-ana\",\"title\":\"Biphasische Anaphylaxie\",\"content\":\"Spätreaktion bei Anaphylaxie:\\n- Häufigkeit: {{c1::1-20%::Prozent}} der Fälle\\n- Zeitpunkt: Nach {{c2::6-12::Stunden}} Stunden\\n- Konsequenz: Überwachung für {{c3::6-24::Dauer}} Stunden\\n- Prophylaxe: {{c4::Antihistaminika + Corticoide::Medikamente}} fortsetzen\"}]",
+          "mcq": "{\"question\":\"Ein 28-jähriger Patient zeigt 10 Minuten nach Penicillin-Gabe generalisierte Urtikaria, Stridor und einen Blutdruck von 70/40 mmHg. Welches Medikament muss als erstes verabreicht werden?\",\"answers\":[{\"id\":\"a1\",\"text\":\"Adrenalin 0,5mg i.m. in den lateralen Oberschenkel\",\"isCorrect\":true},{\"id\":\"a2\",\"text\":\"Prednisolon 250mg i.v.\",\"isCorrect\":false},{\"id\":\"a3\",\"text\":\"Clemastin 2mg i.v.\",\"isCorrect\":false},{\"id\":\"a4\",\"text\":\"Salbutamol 2 Hübe inhalativ\",\"isCorrect\":false},{\"id\":\"a5\",\"text\":\"Noradrenalin-Perfusor 0,1μg/kg/min\",\"isCorrect\":false}],\"explanation\":\"Die korrekte Antwort ist A: Adrenalin i.m. ist das einzige lebensrettende Medikament bei Anaphylaxie und muss sofort verabreicht werden. Die intramuskuläre Gabe in den lateralen Oberschenkel gewährleistet eine sichere und schnelle Resorption. Option B (Prednisolon) wirkt zu langsam und hat keinen Effekt in der Akutphase. Option C (Antihistaminikum) lindert nur Symptome, ist aber nicht lebensrettend. Option D (Salbutamol) hilft nur bei Bronchospasmus. Option E (Noradrenalin-Perfusor) wäre erst bei therapierefraktärem Schock nach Adrenalin indiziert.\"}",
+          "tags": [
+            "Notfallmedizin",
+            "Anaphylaxie",
+            "Adrenalin",
+            "Schocktherapie",
+            "Allergie",
+            "H1-Blocker",
+            "Glucocorticoide"
+          ],
+          "schwierigkeit": "2",
+          "examinerSpeciality": "Notarzt",
+          "examinerId": "examiner3",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "https://www.amboss.com/de/wissen/Anaphylaxie",
+            "uptodate": "Anaphylaxis: Emergency treatment",
+            "pubmed": [
+              "33643776",
+              "35926485"
+            ],
+            "custom": [
+              "AWMF Leitlinie 061-025",
+              "Ring et al. Allergo J Int 2021"
+            ]
+          },
+          "media": [
+            {
+              "title": "Adrenalin-Autoinjektor Anwendung (lateral Oberschenkel)",
+              "type": "image",
+              "url": "[epinephrine_autoinjector_thigh_application_placeholder]",
+              "prompt": "Medical image showing Adrenalin-Autoinjektor Anwendung (lateral Oberschenkel), high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "Anaphylaxie-Algorithmus nach AWMF-Leitlinie",
+              "type": "flowchart",
+              "url": "[anaphylaxis_treatment_algorithm_AWMF_placeholder]",
+              "prompt": "Medical decision flowchart for Anaphylaxie-Algorithmus nach AWMF-Leitlinie, showing step-by-step decision process with clear boxes and arrows, German text, color-coded by urgency (red for emergency, yellow for urgent, green for routine), professional medical diagram style"
+            },
+            {
+              "title": "Anaphylaxie-Zeichen und Schweregrade",
+              "type": "image",
+              "url": "[anaphylaxis_signs_severity_grades_placeholder]",
+              "prompt": "Medical image showing Anaphylaxie-Zeichen und Schweregrade, high quality clinical imaging, clear visualization of pathological findings, appropriate labeling"
+            },
+            {
+              "title": "AWMF S2k-Leitlinie Anaphylaxie 2021",
+              "type": "pdf",
+              "url": "[AWMF_anaphylaxis_guideline_2021_placeholder]",
+              "prompt": "Reference to official medical guideline/protocol: AWMF S2k-Leitlinie Anaphylaxie 2021 - direct link to authoritative source document"
+            }
+          ],
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q17-uuid-017",
+          "fach": "Pharmakologie",
+          "fachgebiet": "Angewandte Pharmakologie",
+          "thema": "Glucocorticoide",
+          "subcategory": "Therapie",
+          "question": "Was machen GCS?",
+          "answer": "[INCOMPLETE] - Kandidat erinnert sich nicht an vollständige Antwort",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "[FRAGMENT] Glucocorticosteroide - Wirkung",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": [
+            "Glucocorticoide:the",
+            "[FRAGMENT]"
+          ],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Notarzt",
+          "examinerId": "examiner3",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "LOW",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q18-uuid-018",
+          "fach": "Notfallmedizin",
+          "fachgebiet": "Notfall- und Intensivmedizin",
+          "thema": "Anaphylaxie",
+          "subcategory": "Komplikationen",
+          "question": "Verzögerte Reaktion?",
+          "answer": "[INCOMPLETE] - im Kontext der Anaphylaxie",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "[FRAGMENT] Biphasische Anaphylaxie",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": [
+            "Anaphylaxie:kom",
+            "[FRAGMENT]"
+          ],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Notarzt",
+          "examinerId": "examiner3",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "nicht_spezifiziert",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "FRAGMENT",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q19-uuid-019",
+          "fach": "Pharmakologie",
+          "fachgebiet": "Angewandte Pharmakologie",
+          "thema": "Compliance/Adhärenz",
+          "subcategory": "Definition",
+          "question": "Was ist Adhärenz?",
+          "answer": "[INCOMPLETE]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "[FRAGMENT] Medikamenten-Adhärenz",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": [
+            "Compliance/Adhärenz:def",
+            "[FRAGMENT]"
+          ],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Notarzt",
+          "examinerId": "examiner3",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "FRAGMENT",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q20-uuid-020",
+          "fach": "Allgemeinmedizin",
+          "fachgebiet": "Ärztliche Rechtskunde",
+          "thema": "Todeszeichen",
+          "subcategory": "Definition",
+          "question": "Sichere Todeszeichen?",
+          "answer": "[INCOMPLETE]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "[FRAGMENT] Sichere Todeszeichen",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": [
+            "Todeszeichen:def",
+            "[FRAGMENT]"
+          ],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Notarzt",
+          "examinerId": "examiner3",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "FRAGMENT",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q21-uuid-021",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Gastroenterologie",
+          "thema": "Obstipation",
+          "subcategory": "Therapie",
+          "question": "Obstipation?",
+          "answer": "[INCOMPLETE]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "[FRAGMENT] Obstipation - möglicherweise Ursachen oder Therapie",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": [
+            "Obstipation:the",
+            "[FRAGMENT]"
+          ],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Notarzt",
+          "examinerId": "examiner3",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "nicht_spezifiziert",
+            "transition": "standard"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "FRAGMENT",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q22-uuid-022",
+          "fach": "Pharmakologie",
+          "fachgebiet": "Angewandte Pharmakologie",
+          "thema": "Medikamentenlehre",
+          "subcategory": "Therapie",
+          "question": "Medikamente?",
+          "answer": "[INCOMPLETE]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "[FRAGMENT] Unklarer Kontext - möglicherweise im Zusammenhang mit Obstipation. Kandidat: 'Mehr erinnere ich nicht...'",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": [
+            "Medikamentenlehre:the",
+            "[FRAGMENT]"
+          ],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Notarzt",
+          "examinerId": "examiner3",
+          "lastModified": "2025-01-06T12:30:40.000Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "nicht_spezifiziert",
+            "transition": "standard"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "FRAGMENT",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        }
+      ],
+      "examiners": {
+        "examiner1": "Internist",
+        "examiner2": "Chirurg",
+        "examiner3": "Notfallmediziner"
+      }
+    }
+  },
+  "kommentar": "Prüfung in Münster im September 2024 mit insgesamt 20+ Fragen aus verschiedenen Fachbereichen. Schwerpunkte: GERD mit Barrett-Ösophagus, kardiale Notfälle (Myokardinfarkt), Infektiologie (Pneumonie), Nephrologie (Dialyseverfahren), Chirurgie (Schilddrüsen-OP, Achillessehnenruptur) und Notfallmedizin (Hypoglykämie, Anaphylaxie). Der Notfallmediziner stellte zusätzlich fragmentarische Fragen zu GCS-Wirkung, verzögerten Reaktionen, Adhärenz, sicheren Todeszeichen, Obstipation und Medikamenten. [FRAGMENT]: GCS, Adhärenz, Todeszeichen, Obstipation wurden nur als Themen genannt. Die Prüfer haben teilweise geholfen, die richtigen Antworten zu finden. Alle drei Kandidaten haben bestanden. Vorbereitung: nur 6 Tage frei, vorher Arbeit mit regelmäßigen Überstunden, Anästhesie-Hintergrund, seit einem Jahr in Deutschland."
+}

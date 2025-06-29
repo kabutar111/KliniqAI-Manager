@@ -1,0 +1,189 @@
+{
+  "version": "2.0",
+  "lastUpdated": "2025-01-06",
+  "basedOn": "@References/ai-question-field-guidelines.md",
+  
+  "specialist_system": {
+    "orchestrator_phases": {
+      "phase1": "WebSearch for guidelines",
+      "phase2": "Parallel specialist execution",
+      "phase3": "Quality validation"
+    },
+    "specialists": [
+      "vignette_specialist",
+      "differential_expert",
+      "treatment_specialist",
+      "pathophysiology_professor",
+      "imaging_interpreter",
+      "laboratory_specialist",
+      "pharmacology_expert",
+      "emergency_specialist",
+      "legal_ethics_advisor",
+      "learning_designer",
+      "quality_validator"
+    ],
+    "activation_rules": {
+      "pharmacology": "Only when drugs mentioned",
+      "emergency": "Only for Notfall scenarios",
+      "legal_ethics": "Only for legal/ethical questions"
+    }
+  },
+
+  "quality_thresholds": {
+    "medical_accuracy": 0.97,
+    "guideline_compliance": 1.0,
+    "language_clarity": 0.95,
+    "completeness": 0.98,
+    "pedagogical_effectiveness": 0.95,
+    "processing_time": 180,
+    "cost_per_generation": 0.45
+  },
+
+  "required_fields": {
+    "question_identification": {
+      "id": "q[n]-uuid-[random] format",
+      "fach": "From approved list (Innere Medizin, Chirurgie, etc.)",
+      "fachgebiet": "From Categories.fachgebiete[fach]",
+      "thema": "From Categories.themen[fachgebiet]",
+      "subcategory": "From Categories.subcategories",
+      "schwierigkeit": "leicht/mittel/schwer",
+      "examinerSpeciality": "Internist/Chirurg/etc",
+      "examinerId": "examiner[1-3]",
+      "lastModified": "ISO timestamp"
+    },
+    "dual_approach": {
+      "originalQuestion": "PRESERVE EXACT ORIGINAL",
+      "question": "30-80 word clinical vignette (or reformatted for simple)",
+      "originalAnswer": "PRESERVE EXACT ORIGINAL",
+      "answer": "Structured examinee response"
+    },
+    "expert_content": {
+      "erklarung": "100-200 words pathophysiology + clinical reasoning",
+      "tipps": "String or array with LERNZIELE and KERNPUNKTE",
+      "kommentar": "WebSearch results with guideline citations",
+      "tags": "Array of relevant tags (minimum 3)"
+    },
+    "learning_materials": {
+      "flashcard": "JSON string, max 2 cards, 3 clozes each",
+      "mcq": "JSON string, exactly 5 options, concept-testing",
+      "media": "Array 1-3 items: [{title, type, url, prompt}]",
+      "_processedFlashcards": "Empty array placeholder"
+    },
+    "examiner_tracking": {
+      "examinerBehavior": {
+        "reaction": "zufrieden/unzufrieden/neutral/half_dabei/not_specified",
+        "interruption": "unterbricht_schnell/laesst_ausreden/nicht_erkennbar",
+        "expectedStyle": "will_genaue_werte/will_stichwörter/will_ausfuehrlich/nicht_spezifiziert",
+        "transition": "themawechsel/vertieft_thema/naechste_frage/standard"
+      },
+      "examinerNotes": {
+        "specificPhrase": "Exact memorable quotes",
+        "wantedAnswer": "What examiner expected",
+        "timeComment": "Timing notes"
+      }
+    },
+    "references": {
+      "amboss": "URL or empty string",
+      "uptodate": "Topic name or empty string",
+      "pubmed": "Array of PMIDs",
+      "custom": "Array of custom references",
+      "primary": "Main guideline used",
+      "guidelines": "All guidelines checked",
+      "webSearchDate": "Date of orchestrator search",
+      "verifiedSources": "Direct AWMF/ESC links"
+    },
+    "quality_metadata": {
+      "extractionConfidence": "HIGH/MEDIUM/LOW/FRAGMENT"
+    }
+  },
+
+  "validation_rules": {
+    "guideline_traceability": {
+      "rule": "Every medical fact must trace to orchestrator's guidelines",
+      "check": "Citation with page/section reference"
+    },
+    "question_alignment": {
+      "rule": "Answer must address original question",
+      "check": "Quality validator confirms alignment"
+    },
+    "specialist_consistency": {
+      "rule": "All specialists use same guideline version",
+      "check": "Cross-reference guideline citations"
+    },
+    "media_limits": {
+      "rule": "1-3 media items only",
+      "check": "Count array length"
+    }
+  },
+
+  "output_formats": {
+    "protocol_structure": {
+      "storage": "Single protocol JSON file preserving complete structure",
+      "format": "Follow muenster-2024-09-extracted.json structure exactly",
+      "questions": "Enhanced within content.teil3.questions array",
+      "metadata": "All protocol metadata preserved at top level",
+      "required_protocol_fields": {
+        "version": "v001",
+        "id": "KP-[STATE]-[CITY]-[YEAR]-[MONTH]-[FACH]-[FACHGEBIET]-Q[COUNT]-DIF-[1-3]-X-v1-[TIMESTAMP]",
+        "isDraft": "false for complete protocols",
+        "state": "Full state name from Categories.germanStates",
+        "stadt": "City name from Categories.cities[state]",
+        "examYear": "2-digit year",
+        "examMonth": "2-digit month",
+        "fach": "From Categories.faecher",
+        "fachgebiet": "From Categories.fachgebiete[fach]",
+        "thema": "From Categories.themen[fachgebiet]",
+        "schwierigkeit": "1-3 scale",
+        "hauptThemen": "Comma-separated main topics",
+        "verbundenThemen": "Related topics from Categories",
+        "schlagwoerter": "Keywords for search",
+        "metadata": "Protocol metadata object",
+        "content": "Content with teil1, teil2, teil3"
+      }
+    },
+    "no_separate_files": {
+      "rule": "NEVER create individual question files",
+      "lab_values": "Include within question content if relevant",
+      "medications": "Include within question content if relevant"
+    }
+  },
+
+  "example_outputs": {
+    "enhanced_vignette": {
+      "input": "Herzinsuffizienz Symptome?",
+      "question": "Eine 72-jährige Patientin mit Hypertonie stellt sich mit seit 3 Wochen zunehmender Belastungsdyspnoe vor. Sie berichtet über nächtliches Erwachen mit Luftnot und muss mit 3 Kissen schlafen. Bei der Untersuchung zeigen sich beidseits basal feinblasige RGs und Unterschenkelödeme. Welche Diagnose ist am wahrscheinlichsten?",
+      "quality_markers": [
+        "Demographics included",
+        "Timeline specified",
+        "Classic symptoms (Orthopnoe)",
+        "Physical findings",
+        "Clear question"
+      ]
+    },
+    "differential_with_guidelines": {
+      "diagnosis": "Herzinsuffizienz",
+      "source": "ESC Guidelines Heart Failure 2023",
+      "keyFindings": [
+        "BNP >100 pg/ml → HI wahrscheinlich",
+        "BNP <35 pg/ml → HI unwahrscheinlich"
+      ],
+      "guidelineLink": "https://www.escardio.org/Guidelines/Clinical-Practice-Guidelines/Heart-Failure"
+    }
+  },
+
+  "quality_assurance_process": {
+    "step1": "Orchestrator WebSearch",
+    "step2": "Parallel specialist generation",
+    "step3": "Quality validation",
+    "step4": "Revision if needed (max 2 cycles)",
+    "step5": "Final synthesis"
+  },
+
+  "success_criteria": {
+    "single_guideline_source": true,
+    "all_specialists_aligned": true,
+    "learning_materials_relevant": true,
+    "complete_traceability": true,
+    "exam_focus_maintained": true
+  }
+}

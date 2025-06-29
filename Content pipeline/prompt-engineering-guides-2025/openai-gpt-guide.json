@@ -1,0 +1,286 @@
+{
+  "openai_gpt_prompt_engineering_guide_2025": {
+    "metadata": {
+      "provider": "OpenAI",
+      "model_family": "GPT",
+      "last_updated": "2025-06-19",
+      "official_documentation": "https://platform.openai.com/docs/guides/prompt-engineering"
+    },
+    "official_resources": {
+      "platform_guide": "https://platform.openai.com/docs/guides/prompt-engineering",
+      "cookbook": "https://cookbook.openai.com/examples/gpt4-1_prompting_guide",
+      "help_center": "https://help.openai.com/en/articles/6654000-best-practices-for-prompt-engineering-with-the-openai-api",
+      "community_discussion": "https://community.openai.com/t/openais-dec-17th-2023-prompt-engineering-guide/562526"
+    },
+    "six_core_strategies": {
+      "strategy_1_write_clear_instructions": {
+        "description": "Ensure prompts are clear, specific, with sufficient context",
+        "importance": "Clarity and specificity are crucial for effective responses",
+        "tactics": {
+          "provide_details": {
+            "description": "Include specific details and context in queries",
+            "example": "Instead of 'Summarize the meeting', use 'Summarize the key decisions and action items from the Q3 planning meeting, focusing on budget allocations and timeline changes'"
+          },
+          "adopt_persona": {
+            "description": "Instruct model to adopt specific persona or style",
+            "example": "You are a senior financial analyst. Provide insights on this data as you would to a board of directors."
+          },
+          "use_delimiters": {
+            "description": "Use clear delimiters to separate sections",
+            "examples": ["Triple quotes: \"\"\"", "XML tags: <section>", "Markdown: ###"]
+          },
+          "specify_steps": {
+            "description": "Specify sequential steps for task completion",
+            "example": "Step 1: Identify all stakeholders\nStep 2: Analyze their requirements\nStep 3: Propose solutions"
+          },
+          "provide_examples": {
+            "description": "Include relevant examples in queries",
+            "benefit": "Demonstrates desired format and style"
+          },
+          "specify_length": {
+            "description": "Indicate desired response length",
+            "examples": ["In 50 words", "In 2-3 paragraphs", "As a detailed report"]
+          }
+        }
+      },
+      "strategy_2_provide_reference_text": {
+        "description": "Give model source material to work with",
+        "benefits": [
+          "Reduces hallucinations",
+          "Improves accuracy",
+          "Grounds responses in provided information"
+        ],
+        "implementation": "Include relevant documents, data, or context as part of the prompt",
+        "example": "Using the following product specifications [insert specs], create a comparison table..."
+      },
+      "strategy_3_split_complex_tasks": {
+        "description": "Break down complex tasks into simpler subtasks",
+        "techniques": {
+          "task_decomposition": "Identify component parts of complex problems",
+          "sequential_processing": "Handle subtasks in logical order",
+          "prompt_chaining": "Use outputs from one prompt as inputs to next"
+        },
+        "benefits": [
+          "Improved accuracy",
+          "Easier debugging",
+          "Better handling of multi-step processes"
+        ],
+        "example": "Instead of 'Build a marketing strategy', break into: 1) Market analysis, 2) Target audience, 3) Channel selection, 4) Budget allocation"
+      },
+      "strategy_4_give_time_to_think": {
+        "description": "Allow model to reason through problems step-by-step",
+        "technique": "Chain-of-thought prompting",
+        "implementation": [
+          "Request step-by-step reasoning",
+          "Ask for working to be shown",
+          "Use phrases like 'Think step by step' or 'Let's work through this systematically'"
+        ],
+        "use_cases": [
+          "Mathematical problems",
+          "Logical reasoning",
+          "Complex analysis",
+          "Multi-step planning"
+        ]
+      },
+      "strategy_5_use_external_tools": {
+        "description": "Interface GPT with other systems and tools",
+        "examples": {
+          "code_execution": {
+            "approach": "Generate Python code for calculations instead of direct math",
+            "benefit": "More accurate computational results"
+          },
+          "api_integration": "Connect to external APIs for real-time data",
+          "database_queries": "Generate and execute SQL queries",
+          "web_scraping": "Create scripts to gather information"
+        },
+        "cookbook_references": "Detailed examples available in OpenAI Cookbook"
+      },
+      "strategy_6_test_changes_systematically": {
+        "description": "Empirically validate prompt improvements",
+        "framework": "OpenAI Evals",
+        "process": [
+          "Define success metrics",
+          "Create test cases",
+          "Compare prompt variations",
+          "Use model to check its own work against gold standards"
+        ],
+        "best_practices": [
+          "Build comprehensive test suites",
+          "Track performance metrics",
+          "Iterate based on results",
+          "Document successful patterns"
+        ]
+      }
+    },
+    "gpt_4_1_specific_features": {
+      "release_info": {
+        "version": "GPT-4.1",
+        "focus": "Enhanced agentic capabilities",
+        "year": "2025"
+      },
+      "agentic_capabilities": {
+        "description": "Enhanced agent functionality for autonomous task completion",
+        "key_requirement": "Include three key types of reminders in agent prompts",
+        "reminders_types": [
+          "Task context and objectives",
+          "Available tools and constraints",
+          "Success criteria and checkpoints"
+        ],
+        "performance": {
+          "benchmark": "SWE-bench Verified",
+          "score": "55% problem-solving rate",
+          "significance": "State-of-the-art for non-reasoning models"
+        }
+      },
+      "empirical_approach": {
+        "principle": "AI engineering is inherently empirical",
+        "implications": [
+          "Results vary with different inputs",
+          "Continuous testing required",
+          "Iteration is essential"
+        ],
+        "recommendation": "Build informative evals and iterate often to ensure prompt changes yield benefits"
+      },
+      "nondeterministic_nature": {
+        "description": "Large language models are inherently nondeterministic",
+        "mitigation": [
+          "Use temperature settings appropriately",
+          "Test with multiple runs",
+          "Build robust evaluation frameworks"
+        ]
+      }
+    },
+    "api_specific_considerations": {
+      "chat_completion_api": {
+        "system_message": {
+          "purpose": "Sets assistant behavior and context",
+          "usage": "Define persona, constraints, and guidelines",
+          "example": "You are a helpful assistant specializing in Python programming. Always provide code examples with explanations."
+        },
+        "message_structure": [
+          {"role": "system", "content": "System instructions"},
+          {"role": "user", "content": "User query"},
+          {"role": "assistant", "content": "Model response"}
+        ]
+      },
+      "completion_api": {
+        "note": "Legacy API, Chat Completion recommended for new projects",
+        "format": "Single text prompt without role distinctions"
+      },
+      "few_shot_learning": {
+        "description": "Include input/output examples in prompt",
+        "types": {
+          "zero_shot": "No examples provided",
+          "one_shot": "Single example provided",
+          "few_shot": "Multiple examples (2-5 typically)"
+        },
+        "important_note": "Conditions model for current inference only, not permanent learning"
+      }
+    },
+    "prompt_engineering_research": {
+      "the_prompt_report": {
+        "description": "Most comprehensive prompt engineering study",
+        "scope": {
+          "papers_analyzed": "1,500+",
+          "techniques_covered": "200+",
+          "pages": 76
+        },
+        "collaborators": [
+          "OpenAI",
+          "Microsoft",
+          "Google",
+          "Princeton",
+          "Stanford"
+        ]
+      },
+      "key_techniques_from_research": {
+        "chain_of_thought": "Step-by-step reasoning",
+        "self_consistency": "Multiple reasoning paths",
+        "recursive_summarization": "Hierarchical information processing",
+        "constitutional_ai": "Value-aligned responses"
+      }
+    },
+    "technical_implementation": {
+      "model_interaction": {
+        "description": "Prompt-based interaction model",
+        "process": [
+          "User enters text prompt",
+          "Model generates text completion",
+          "Completion continues input text"
+        ]
+      },
+      "model_specific_notes": {
+        "gpt_3_3_5_4": "Prompt-based models",
+        "o_series": "Different techniques recommended (not covered here)"
+      }
+    },
+    "best_practices_summary": {
+      "fundamental_principles": [
+        "Clarity and specificity are fundamental",
+        "Test systematically with frameworks",
+        "Integrate with external tools when beneficial",
+        "Iterate based on empirical results"
+      ],
+      "implementation_tips": [
+        "Start simple and add complexity gradually",
+        "Document successful prompt patterns",
+        "Build reusable prompt templates",
+        "Create evaluation frameworks early"
+      ],
+      "common_patterns": {
+        "instruction_following": "Clear directive + context + constraints",
+        "analysis_tasks": "Data + specific questions + output format",
+        "creative_tasks": "Style guidance + examples + constraints",
+        "coding_tasks": "Requirements + language + best practices"
+      }
+    },
+    "advanced_techniques": {
+      "prompt_chaining": {
+        "description": "Sequential prompt execution",
+        "implementation": "Output of prompt N becomes input of prompt N+1",
+        "use_cases": [
+          "Complex document analysis",
+          "Multi-stage data processing",
+          "Iterative refinement"
+        ]
+      },
+      "meta_prompting": {
+        "description": "Using GPT to generate or improve prompts",
+        "approach": "GPT-4 is the best prompt engineer for GPT-4",
+        "application": "Automated prompt optimization"
+      },
+      "evaluation_frameworks": {
+        "openai_evals": {
+          "description": "Official evaluation framework",
+          "features": [
+            "Standardized testing",
+            "Performance metrics",
+            "Regression detection"
+          ]
+        },
+        "custom_evals": {
+          "components": [
+            "Test case definition",
+            "Success metrics",
+            "Automated scoring",
+            "Performance tracking"
+          ]
+        }
+      }
+    },
+    "key_takeaways": {
+      "2024_2025_focus": [
+        "Empirical approach with continuous testing",
+        "Enhanced agentic capabilities in GPT-4.1",
+        "Systematic evaluation using frameworks",
+        "Integration with external tools and systems"
+      ],
+      "success_factors": [
+        "Clear communication remains fundamental",
+        "Testing and iteration are essential",
+        "No one-size-fits-all approach",
+        "Experimentation tailored to specific use cases"
+      ]
+    }
+  }
+}

@@ -1,0 +1,9 @@
+[submodule "apps/kpfg"]
+	path = apps/kpfg
+	url = https://github.com/kabutar111/KPFG
+[submodule "apps/kp-medizin-trainer"]
+	path = apps/kp-medizin-trainer
+	url = https://github.com/kabutar111/kp-medizin-trainer
+[submodule "apps/kpcg"]
+	path = apps/kpcg
+	url = https://github.com/kabutar111/KPCG

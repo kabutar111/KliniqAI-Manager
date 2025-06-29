@@ -1,0 +1,308 @@
+{
+  "cross_platform_prompt_engineering_best_practices_2025": {
+    "metadata": {
+      "title": "Universal Prompt Engineering Best Practices",
+      "description": "Common techniques and principles that work across all major LLM platforms",
+      "last_updated": "2025-06-19",
+      "applicable_to": ["Anthropic Claude", "Google Gemini", "OpenAI GPT"]
+    },
+    "universal_principles": {
+      "1_clarity_and_specificity": {
+        "principle": "Be specific and clear in instructions",
+        "why_it_matters": "All LLMs perform better with unambiguous, detailed instructions",
+        "implementation": [
+          "State exactly what you want",
+          "Define success criteria",
+          "Specify output format",
+          "Include all necessary context"
+        ]
+      },
+      "2_example_driven_learning": {
+        "principle": "Use examples to demonstrate desired behavior",
+        "optimal_count": "2-5 examples for most tasks",
+        "benefits": [
+          "Reduces ambiguity",
+          "Shows exact format needed",
+          "Demonstrates edge cases",
+          "Improves consistency"
+        ]
+      },
+      "3_task_decomposition": {
+        "principle": "Break complex tasks into manageable steps",
+        "techniques": [
+          "Sequential breakdown",
+          "Hierarchical decomposition",
+          "Parallel subtasks",
+          "Iterative refinement"
+        ]
+      },
+      "4_systematic_testing": {
+        "principle": "Test and iterate systematically",
+        "process": [
+          "Define metrics",
+          "Create test cases",
+          "Compare variations",
+          "Document results"
+        ]
+      },
+      "5_model_awareness": {
+        "principle": "Consider model-specific capabilities",
+        "considerations": [
+          "Context window limits",
+          "Multimodal capabilities",
+          "Tool use features",
+          "Output constraints"
+        ]
+      }
+    },
+    "universal_prompt_structure": {
+      "template": {
+        "components": [
+          "[Role/System Instruction]",
+          "[Context/Background]",
+          "[Examples (if applicable)]",
+          "[Task Instructions]",
+          "[Input Data]",
+          "[Output Specifications]",
+          "[Constraints/Guidelines]"
+        ]
+      },
+      "example": {
+        "role": "You are an expert data analyst specializing in e-commerce metrics.",
+        "context": "We need to analyze Q4 sales data to identify trends and opportunities.",
+        "examples": "Example: Input: [Q3 data] → Output: [Trend analysis with 3 key insights]",
+        "task": "Analyze the following sales data and identify the top 3 trends.",
+        "input": "[Sales data here]",
+        "output_spec": "Format: 1. Trend name (% change) - Brief explanation",
+        "constraints": "Focus only on statistically significant trends (>5% change)"
+      }
+    },
+    "common_techniques": {
+      "chain_of_thought": {
+        "description": "Encourage step-by-step reasoning",
+        "universal_triggers": [
+          "Think step by step",
+          "Let's work through this systematically",
+          "Show your reasoning",
+          "Explain your thought process"
+        ],
+        "when_to_use": [
+          "Mathematical problems",
+          "Complex analysis",
+          "Multi-step reasoning",
+          "Decision making"
+        ]
+      },
+      "few_shot_prompting": {
+        "description": "Provide examples of input-output pairs",
+        "best_practices": [
+          "Make examples diverse",
+          "Cover edge cases",
+          "Match target complexity",
+          "Use consistent formatting"
+        ],
+        "template": "Example 1:\nInput: [X]\nOutput: [Y]\n\nExample 2:\nInput: [A]\nOutput: [B]\n\nNow process:\nInput: [New]"
+      },
+      "task_decomposition": {
+        "description": "Split complex problems into sub-problems",
+        "approaches": {
+          "sequential": "Step 1 → Step 2 → Step 3",
+          "hierarchical": "Main task → Subtasks → Details",
+          "parallel": "Independent tasks processed simultaneously"
+        }
+      },
+      "structured_output": {
+        "description": "Use formatting to organize responses",
+        "common_formats": [
+          "JSON structure",
+          "Markdown formatting",
+          "XML/HTML tags",
+          "Numbered lists",
+          "Table format"
+        ]
+      },
+      "iterative_refinement": {
+        "description": "Progressively improve prompts",
+        "process": [
+          "Start with basic prompt",
+          "Identify issues",
+          "Add clarifications",
+          "Test improvements",
+          "Document what works"
+        ]
+      }
+    },
+    "optimization_strategies": {
+      "start_simple": {
+        "approach": "Begin with minimal prompt, add complexity as needed",
+        "benefits": [
+          "Easier debugging",
+          "Faster iteration",
+          "Clear understanding of each component's impact"
+        ]
+      },
+      "leverage_strengths": {
+        "approach": "Use model-specific features when available",
+        "examples": [
+          "Claude: XML tags and system prompts",
+          "Gemini: Multimodal inputs",
+          "GPT: External tool integration"
+        ]
+      },
+      "performance_monitoring": {
+        "metrics": [
+          "Response accuracy",
+          "Consistency across runs",
+          "Task completion rate",
+          "Output quality scores"
+        ],
+        "tools": [
+          "Evaluation frameworks",
+          "A/B testing",
+          "User feedback",
+          "Automated scoring"
+        ]
+      },
+      "documentation": {
+        "what_to_document": [
+          "Successful prompt patterns",
+          "Common failure modes",
+          "Edge cases",
+          "Performance metrics"
+        ],
+        "format": "Maintain a prompt library with version control"
+      }
+    },
+    "common_pitfalls": {
+      "over_complexity": {
+        "problem": "Starting with overly complex prompts",
+        "solution": "Build incrementally from simple foundations",
+        "impact": "Harder to debug and optimize"
+      },
+      "ignoring_model_differences": {
+        "problem": "Using same prompt across all models without adaptation",
+        "solution": "Test and adjust for each platform",
+        "impact": "Suboptimal performance"
+      },
+      "insufficient_testing": {
+        "problem": "Not testing edge cases or variations",
+        "solution": "Create comprehensive test suites",
+        "impact": "Unexpected failures in production"
+      },
+      "assuming_determinism": {
+        "problem": "Expecting identical outputs every time",
+        "solution": "Account for variability in testing and design",
+        "impact": "Brittle applications"
+      },
+      "neglecting_evaluation": {
+        "problem": "No systematic way to measure improvements",
+        "solution": "Implement evaluation frameworks early",
+        "impact": "Can't prove value of optimizations"
+      }
+    },
+    "advanced_patterns": {
+      "meta_prompting": {
+        "description": "Using LLMs to generate or improve prompts",
+        "application": "Automated prompt optimization",
+        "example": "Generate 5 variations of this prompt optimized for clarity..."
+      },
+      "recursive_processing": {
+        "description": "Output feeds back as input for refinement",
+        "use_cases": [
+          "Iterative improvement",
+          "Self-correction",
+          "Quality enhancement"
+        ]
+      },
+      "ensemble_approaches": {
+        "description": "Combine outputs from multiple prompts/models",
+        "benefits": [
+          "Increased reliability",
+          "Diverse perspectives",
+          "Error reduction"
+        ]
+      },
+      "dynamic_prompting": {
+        "description": "Adjust prompts based on context or previous outputs",
+        "implementation": [
+          "Conditional logic",
+          "Adaptive complexity",
+          "Context-aware adjustments"
+        ]
+      }
+    },
+    "prompt_engineering_workflow": {
+      "1_define_objective": {
+        "actions": [
+          "Clear goal statement",
+          "Success criteria",
+          "Constraints identification"
+        ]
+      },
+      "2_initial_design": {
+        "actions": [
+          "Draft basic prompt",
+          "Identify required components",
+          "Consider model capabilities"
+        ]
+      },
+      "3_testing": {
+        "actions": [
+          "Create test cases",
+          "Run initial tests",
+          "Identify failure modes"
+        ]
+      },
+      "4_refinement": {
+        "actions": [
+          "Add clarifications",
+          "Include examples",
+          "Adjust parameters"
+        ]
+      },
+      "5_validation": {
+        "actions": [
+          "Comprehensive testing",
+          "Edge case verification",
+          "Performance measurement"
+        ]
+      },
+      "6_deployment": {
+        "actions": [
+          "Documentation",
+          "Monitoring setup",
+          "Feedback collection"
+        ]
+      },
+      "7_maintenance": {
+        "actions": [
+          "Performance tracking",
+          "Iterative improvements",
+          "Version management"
+        ]
+      }
+    },
+    "quick_reference": {
+      "universal_prompt_starters": [
+        "You are a [role]. Your task is to [objective].",
+        "Given [context], please [action] following these guidelines:",
+        "Analyze [input] and provide [output] in the format:",
+        "Based on [background], help me [goal] by:"
+      ],
+      "effectiveness_boosters": [
+        "Be specific about format",
+        "Include success examples",
+        "State what NOT to do",
+        "Provide evaluation criteria",
+        "Use structured formatting"
+      ],
+      "debugging_checklist": [
+        "Is the instruction clear and unambiguous?",
+        "Are all necessary details included?",
+        "Have I provided examples?",
+        "Is the output format specified?",
+        "Have I tested edge cases?"
+      ]
+    }
+  }
+}

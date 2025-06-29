@@ -1,0 +1,12 @@
+Hallo zusammen! Heute habe ich die Prüfung abgelegt und bestanden. 
+Der Fall - GERD. 63-jährige Patientin, seit 6 Monaten retrosternale Schmerzen und Reflux, Heiserkeit morgens und Reihhusten. Z.n. Schulterluxation und geschlossene Reposition, Achillessehneruptur, Z.n. Hemithyreoidektomie, BZ erhöht, hat aber noch keine Diagnose und Behandlung, nimmt L-Thyroxin ein. Raucht, hat Allergie gegen Senf mit Urtikaria und Tachykardie. Mutter 89J, hat ähnliche Beschwerden, Vater 90J, hatte vor kurzem Pneumonie, Bruder - BAA, operiert, hatte hämorrhagischen Schock während der OP, Schwester dialysepflichtig. Arbeit ist stressig. Bei der KU: nur epigastrale Schmerzen. Musste den Zugang legen. 
+Teil 2: nichts besonderes, habe KU nicht geschrieben.
+Teil 3: Fallvorstellung, was werden Sie machen? Das Bild von ÖGD, was sehen Sie. Los-Angeles Klassifikation, Barrett Ösophagus, warum gefährlich. Dann DD Thorax Schmerzen, EKG mit komplettem LSB, dann Vorderwandinfarkt, was werden Sie machen? Ass, prasugrel/Tikagrelor, Clopidogrel nur wenn erhöhte Blutungsrisiko (Alter, Patient nimmt Marcumar), dann Pci, weitere Behandlung (Thrombozytenaggregationshemmer), dann Rö-Bild Pneumonie, welche Antibiotoka und wann, was, wenn Penicilinallergie. Dialyse, welche Verfahren sind bekannt (Bild von peritoneale Dialyse), was ist Desequilibrium-Syndrom.
+Chirurg: Schilddrüsen-Op, Indikation, welche Komplikationen, Neuro-Monitoring, Dann Achillessehneruptur, wie behandelt man, Diagnostik. Transfusion - was braucht man dafür, Bedside-Test. FFsp, Fibrinogen, Prothromplex. Cell-Saver. 
+Der Notfall-Mediziner: Der Pat. Ist bewusstlos, atmet. Was müssen Sie machen (Hypoglykämie), wie viel Glukose, was weiter. Dann Anaphylaxie, wie behandelt man (Adrenalin, H1-Blocker, GCS, wohin Adrenalin, was machen Gcs, verzögerte Reaktion), was ist Adhärenz, sichere Todeszeichen., Obstipation, Medikamente. Mehr errinere ich nicht...
+
+Ich habe nicht alle Fragen beantwortet, die Prüfern haben selbst etwas erzählt, haben auch geholfen, richtige Antwort zu finden. 
+
+Wir hatten heute wohl einen „guten Stern“ über uns, die andere 2 Kollegen haben auch bestanden.
+
+Über Vorbereitung: hatte nur 6 Tagen frei, vorher - Arbeit mit den regelmäßigen Überstunden. Bin Anästhesie und seit einem Jahr in Deutschland.

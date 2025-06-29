@@ -1,0 +1,137 @@
+{
+  "version": "v001",
+  "id": "TEST-PROTOCOL-2025-01-20",
+  "state": "Nordrhein-Westfalen",
+  "stadt": "Münster",
+  "examYear": "25",
+  "examMonth": "01",
+  "fach": "Innere Medizin",
+  "fachgebiet": "Gastroenterologie",
+  "thema": "GERD",
+  "metadata": {
+    "examinerCount": 1,
+    "createdAt": "2025-01-20T10:00:00.000Z"
+  },
+  "content": {
+    "teil1": {
+      "anamnese": "63-jährige Patientin mit seit 6 Monaten bestehenden retrosternalen Schmerzen und Reflux, morgendlicher Heiserkeit.",
+      "untersuchung": "Epigastrale Druckschmerzen"
+    },
+    "teil2": {
+      "inhalt": "Körperliche Untersuchung",
+      "schwierigkeit": "mittel"
+    },
+    "teil3": {
+      "id": "teil3-uuid",
+      "inhalt": "Vertiefende Fragen",
+      "schwierigkeit": "mittel",
+      "questions": [
+        {
+          "id": "q1",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Gastroenterologie",
+          "thema": "GERD",
+          "originalQuestion": "Was ist GERD?",
+          "question": "Was ist die gastroösophageale Refluxkrankheit?",
+          "originalAnswer": "",
+          "answer": "**Definition GERD:**\n- Rückfluss von Mageninhalt in die Speiseröhre\n- Symptome: Sodbrennen, Regurgitation\n- Komplikationen: Ösophagitis, Barrett-Ösophagus",
+          "erklarung": "Die gastroösophageale Refluxkrankheit (GERD) entsteht durch eine Insuffizienz des unteren Ösophagussphinkters. Dadurch kommt es zum Reflux von saurem Mageninhalt, der die Ösophagusschleimhaut schädigt.",
+          "tipps": "**LERNZIELE:**\n1. GERD-Definition kennen\n2. Hauptsymptome benennen\n\n**KERNPUNKTE:**\n- Sodbrennen = Leitsymptom\n- Los-Angeles-Klassifikation",
+          "kommentar": "Basierend auf S2k-Leitlinie GERD DGVS 2023",
+          "flashcard": "[{\"id\":\"fc1\",\"content\":\"GERD steht für {{c1::Gastroösophageale Refluxkrankheit::Ausgeschrieben}}\"}]",
+          "mcq": "{\"question\":\"Was ist das Leitsymptom der GERD?\",\"answers\":[{\"id\":\"a1\",\"text\":\"Sodbrennen\",\"isCorrect\":true},{\"id\":\"a2\",\"text\":\"Dysphagie\",\"isCorrect\":false},{\"id\":\"a3\",\"text\":\"Übelkeit\",\"isCorrect\":false},{\"id\":\"a4\",\"text\":\"Völlegefühl\",\"isCorrect\":false},{\"id\":\"a5\",\"text\":\"Durchfall\",\"isCorrect\":false}],\"explanation\":\"Sodbrennen ist das Leitsymptom der GERD.\"}",
+          "media": [
+            {
+              "title": "Los-Angeles-Klassifikation",
+              "type": "table",
+              "url": "[placeholder]"
+            }
+          ],
+          "references": {
+            "primary": "S2k-Leitlinie GERD DGVS 2023",
+            "guidelines": ["S2k-Leitlinie Gastroösophageale Refluxkrankheit"],
+            "webSearchDate": "2025-01-20",
+            "verifiedSources": ["https://register.awmf.org/de/leitlinien/detail/021-013"]
+          },
+          "schwierigkeit": "1",
+          "tags": ["GERD", "Definition"],
+          "examinerSpeciality": "Internist"
+        },
+        {
+          "id": "q2",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Gastroenterologie",
+          "thema": "GERD",
+          "originalQuestion": "Patient bewusstlos, RR 80/40, EKG zeigt VT, Notfallmanagement?",
+          "question": "Ein 65-jähriger Patient wird bewusstlos mit einem Blutdruck von 80/40 mmHg aufgefunden. Das EKG zeigt eine ventrikuläre Tachykardie. Wie gehen Sie im Notfallmanagement vor?",
+          "originalAnswer": "",
+          "answer": "**Sofortmaßnahmen bei VT mit hämodynamischer Instabilität:**\n\n1. **ABCDE-Algorithmus**\n   - Atemwege sichern, O2-Gabe\n   - Monitoring anlegen\n\n2. **Kardioversion**\n   - Sofort synchronisierte Kardioversion (150-200J biphasisch)\n   - Bei Bewusstlosigkeit keine Sedierung nötig\n\n3. **Medikamentös**\n   - Amiodaron 300mg i.v. über 10-20min\n   - Ggf. Adrenalin 1mg i.v. bei Verschlechterung\n\n4. **Ursachensuche**\n   - 4H/4T bedenken\n   - Labor, Troponin, Elektrolyte",
+          "erklarung": "**Pathophysiologie der VT mit kardiogenem Schock:**\n\nDie ventrikuläre Tachykardie führt durch die hohe Frequenz und unkoordinierte Kontraktion zu einem drastischen Abfall des Herzzeitvolumens. Der systolische Blutdruck von 80 mmHg zeigt eine kritische Organminderperfusion.\n\n**Therapieprinzipien:**\n1. Rhythmusstabilisierung durch elektrische Kardioversion\n2. Hämodynamische Stabilisierung\n3. Antiarrhythmische Therapie mit Amiodaron\n4. Ursachenbehandlung (z.B. Myokardinfarkt, Elektrolytstörung)\n\n**Prognose:** Ohne sofortige Behandlung droht der Übergang in Kammerflimmern.",
+          "tipps": "**LERNZIELE:**\n1. Erkennen der hämodynamischen Instabilität bei VT\n2. Indikation zur sofortigen Kardioversion\n3. ABCDE-Algorithmus anwenden\n\n**KERNPUNKTE:**\n- RR <90 mmHg = instabil → Kardioversion\n- Amiodaron 300mg als First-Line\n- 4H/4T immer bedenken\n- Monitoring: 12-Kanal-EKG nach Konversion",
+          "kommentar": "**Basierend auf aktuellen Leitlinien:**\n\n- ERC Guidelines 2021 für Advanced Life Support\n- ESC Guidelines 2022 für ventrikuläre Arrhythmien\n- DGAI S3-Leitlinie Intravasale Volumentherapie\n\n**Wichtig:** Bei instabiler VT ist die elektrische Kardioversion die Therapie der Wahl!",
+          "flashcard": "[{\"id\":\"fc1\",\"title\":\"VT-Notfalltherapie\",\"content\":\"Bei hämodynamisch instabiler VT ist die {{c1::synchronisierte Kardioversion::Therapie}} mit {{c2::150-200J biphasisch::Energie}} indiziert.\"},{\"id\":\"fc2\",\"title\":\"Antiarrhythmikum bei VT\",\"content\":\"First-Line Antiarrhythmikum bei VT: {{c1::Amiodaron::Medikament}} {{c2::300mg i.v.::Dosis}} über {{c3::10-20min::Zeit}}\"}]",
+          "mcq": "{\"question\":\"Ein bewusstloser Patient mit VT und RR 80/40 mmHg. Was ist die sofortige Therapie?\",\"answers\":[{\"id\":\"a1\",\"text\":\"Synchronisierte Kardioversion\",\"isCorrect\":true},{\"id\":\"a2\",\"text\":\"Amiodaron 300mg langsam i.v.\",\"isCorrect\":false},{\"id\":\"a3\",\"text\":\"Lidocain 100mg i.v.\",\"isCorrect\":false},{\"id\":\"a4\",\"text\":\"Betablocker i.v.\",\"isCorrect\":false},{\"id\":\"a5\",\"text\":\"Abwarten und Monitoring\",\"isCorrect\":false}],\"explanation\":\"Bei hämodynamisch instabiler VT (Bewusstlosigkeit, Hypotonie) ist die sofortige synchronisierte Kardioversion indiziert. Medikamente sind Zweitlinientherapie.\"}",
+          "media": [
+            {
+              "title": "VT-Algorithmus bei Instabilität",
+              "type": "flowchart",
+              "url": "[placeholder]",
+              "prompt": "Create a flowchart showing VT emergency management: Patient unconscious → Check pulse → VT confirmed → BP <90 → Synchronized cardioversion 150-200J → If unsuccessful → Amiodaron 300mg → Repeat cardioversion"
+            },
+            {
+              "title": "EKG ventrikuläre Tachykardie",
+              "type": "image",
+              "url": "[placeholder]",
+              "prompt": "Show typical wide-complex tachycardia ECG pattern with regular rhythm, rate >150/min, wide QRS complexes"
+            },
+            {
+              "title": "4H und 4T Ursachen",
+              "type": "table",
+              "url": "[placeholder]",
+              "prompt": "Table with two columns: 4H (Hypoxie, Hypovolämie, Hypo-/Hyperkaliämie, Hypothermie) and 4T (Thrombose, Tamponade, Toxine, Tension pneumothorax)"
+            }
+          ],
+          "references": {
+            "primary": "ERC Guidelines 2021",
+            "guidelines": [
+              "ERC Guidelines 2021 - Advanced Life Support",
+              "ESC Guidelines 2022 - Ventricular Arrhythmias",
+              "DGAI S3-Leitlinie Intravasale Volumentherapie"
+            ],
+            "webSearchDate": "2025-01-20",
+            "verifiedSources": [
+              "https://www.erc.edu/guidelines",
+              "https://www.escardio.org/Guidelines"
+            ],
+            "amboss": "https://www.amboss.com/de/wissen/Ventrikulaere_Tachykardie",
+            "pubmed": ["PMID: 33773830", "PMID: 36066703"]
+          },
+          "schwierigkeit": "3",
+          "tags": ["Notfall", "VT", "Schock"],
+          "examinerSpeciality": "Notfallmediziner"
+        }
+      ]
+    }
+  },
+  "enhancement_metadata": {
+    "enhanced_at": "2025-01-20T10:45:00.000Z",
+    "dispatcher_version": "2.0",
+    "routing_decisions": {
+      "q1": {
+        "agent": "enhancement-agent-jobcards.md",
+        "complexity_score": 0.1,
+        "processing_time_ms": 1200
+      },
+      "q2": {
+        "agent": "enhancement-agent-role.md",
+        "complexity_score": 0.9,
+        "specialists_used": ["vignette", "differential", "treatment", "emergency", "learning", "quality"],
+        "processing_time_ms": 3500
+      }
+    },
+    "total_questions": 2,
+    "quality_score": 0.98,
+    "guidelines_found": 5,
+    "enhancement_flags": []
+  }
+}

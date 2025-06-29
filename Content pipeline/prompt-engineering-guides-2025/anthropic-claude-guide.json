@@ -1,0 +1,272 @@
+{
+  "anthropic_claude_prompt_engineering_guide_2025": {
+    "metadata": {
+      "provider": "Anthropic",
+      "model_family": "Claude",
+      "last_updated": "2025-06-19",
+      "official_documentation": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview"
+    },
+    "official_resources": {
+      "documentation": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/overview",
+      "interactive_tutorial": "https://github.com/anthropics/prompt-eng-interactive-tutorial",
+      "claude_4_best_practices": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering/claude-4-best-practices",
+      "claude_code": "https://www.anthropic.com/engineering/claude-code-best-practices"
+    },
+    "core_techniques": {
+      "1_prompt_generator": {
+        "description": "Use Anthropic Console's prompt generator for creating first drafts",
+        "benefits": "Rapid prototyping of effective prompts",
+        "access": "Available in Anthropic Console"
+      },
+      "2_be_clear_and_direct": {
+        "description": "Provide explicit, specific instructions",
+        "tips": [
+          "State exactly what you want Claude to do",
+          "Avoid ambiguity in instructions",
+          "Be specific about output format",
+          "Include all necessary context"
+        ],
+        "example": "Instead of 'Summarize this', use 'Provide a 3-paragraph summary of this article, focusing on the main arguments, key evidence, and conclusions'"
+      },
+      "3_use_examples": {
+        "description": "Multishot prompting with input/output examples",
+        "implementation": "Include 2-5 examples showing desired behavior",
+        "benefits": "Helps Claude understand exact format and style needed",
+        "best_practice": "Make examples diverse and representative"
+      },
+      "4_chain_of_thought": {
+        "description": "Let Claude think step-by-step before answering",
+        "usage": "Add 'Think step by step' to prompts for complex reasoning",
+        "when_to_use": [
+          "Complex mathematical problems",
+          "Multi-step reasoning tasks",
+          "Decision-making scenarios",
+          "Analysis requiring careful consideration"
+        ]
+      },
+      "5_xml_tags": {
+        "description": "Use XML tags to structure input clearly",
+        "example": "<context>Background information here</context>\n<data>Input data here</data>\n<question>What you want Claude to do</question>",
+        "benefits": [
+          "Clear separation of different input types",
+          "Easier for Claude to parse",
+          "Reduces confusion in complex prompts"
+        ]
+      },
+      "6_system_prompts": {
+        "description": "Define Claude's role and behavior",
+        "best_practice": "Set clear context and constraints upfront",
+        "components": [
+          "Role definition",
+          "Behavioral guidelines",
+          "Output constraints",
+          "Domain expertise"
+        ]
+      },
+      "7_prefilling": {
+        "description": "Start Claude's response to guide output",
+        "use_case": "Control response format and style",
+        "example": "Assistant: Based on my analysis, here are the three key points:\n1."
+      },
+      "8_prompt_chaining": {
+        "description": "Break complex tasks into sequential prompts",
+        "benefit": "Improved accuracy on multi-step problems",
+        "implementation": "Use output from one prompt as input to the next"
+      }
+    },
+    "claude_4_specific_features": {
+      "enhanced_instruction_following": {
+        "description": "Claude 4 models trained for precise instruction adherence",
+        "recommendation": "Provide context/motivation behind instructions",
+        "tip": "Claude 4 can generalize from explanations of your goals"
+      },
+      "parallel_tool_execution": {
+        "description": "Claude 4 excels at simultaneous tool calls",
+        "magic_prompt": "For maximum efficiency, whenever you need to perform multiple independent operations, invoke all relevant tools simultaneously rather than sequentially.",
+        "success_rate": "~100% with proper prompting",
+        "use_cases": [
+          "Multiple file operations",
+          "Concurrent API calls",
+          "Parallel data processing"
+        ]
+      },
+      "thinking_capabilities": {
+        "description": "Enhanced reasoning for reflection and multi-step tasks",
+        "use_cases": [
+          "Complex problem solving",
+          "Post-tool-use reflection",
+          "Strategic planning",
+          "Error analysis and debugging"
+        ],
+        "activation": "Particularly helpful after tool use or for complex reasoning"
+      }
+    },
+    "interactive_tutorial_curriculum": {
+      "overview": {
+        "total_chapters": 9,
+        "format": "Interactive lessons with exercises",
+        "model_used": "Claude 3 Haiku (for cost efficiency)"
+      },
+      "beginner_level": {
+        "chapter_1": {
+          "title": "Basic Prompt Structure",
+          "topics": [
+            "Components of a prompt",
+            "Basic formatting",
+            "Clear communication"
+          ]
+        },
+        "chapter_2": {
+          "title": "Being Clear and Direct",
+          "topics": [
+            "Specificity in instructions",
+            "Avoiding ambiguity",
+            "Providing context"
+          ]
+        },
+        "chapter_3": {
+          "title": "Assigning Roles",
+          "topics": [
+            "Persona assignment",
+            "Domain expertise",
+            "Behavioral guidelines"
+          ]
+        }
+      },
+      "intermediate_level": {
+        "chapter_4": {
+          "title": "Separating Data from Instructions",
+          "topics": [
+            "Using delimiters",
+            "XML tags",
+            "Clear structure"
+          ]
+        },
+        "chapter_5": {
+          "title": "Formatting Output & Speaking for Claude",
+          "topics": [
+            "Output specifications",
+            "Prefilling techniques",
+            "Format control"
+          ]
+        },
+        "chapter_6": {
+          "title": "Precognition (Thinking Step by Step)",
+          "topics": [
+            "Chain of thought",
+            "Reasoning processes",
+            "Step-by-step analysis"
+          ]
+        },
+        "chapter_7": {
+          "title": "Using Examples",
+          "topics": [
+            "Few-shot learning",
+            "Example selection",
+            "Pattern demonstration"
+          ]
+        }
+      },
+      "advanced_level": {
+        "chapter_8": {
+          "title": "Avoiding Hallucinations",
+          "topics": [
+            "Grounding techniques",
+            "Fact-checking prompts",
+            "Uncertainty handling"
+          ]
+        },
+        "chapter_9": {
+          "title": "Building Complex Prompts (Industry Use Cases)",
+          "topics": [
+            "Chatbot development",
+            "Legal services prompting",
+            "Financial services prompts",
+            "Coding-related prompts"
+          ]
+        }
+      },
+      "appendix": {
+        "additional_topics": [
+          "Chaining Prompts",
+          "Tool Use",
+          "Search & Retrieval"
+        ]
+      }
+    },
+    "claude_code_best_practices": {
+      "design_philosophy": {
+        "description": "Low-level, unopinionated, flexible power tool",
+        "principles": [
+          "Close to raw model access",
+          "No forced workflows",
+          "Customizable and scriptable",
+          "Safety-first approach"
+        ]
+      },
+      "slash_commands": {
+        "description": "Store prompt templates in .claude/commands folder",
+        "benefit": "Reusable workflows via git-versioned templates",
+        "implementation": "Templates become available as slash commands in CLI"
+      },
+      "multi_instance_pattern": {
+        "description": "Use multiple Claude instances for different roles",
+        "example": "One Claude writes code, another reviews/tests",
+        "benefits": [
+          "Better separation of concerns",
+          "Improved quality through peer review",
+          "Specialized instances for specific tasks"
+        ]
+      }
+    },
+    "business_applications": {
+      "key_benefits": {
+        "accuracy": "Reduced hallucination rates through proper prompting",
+        "consistency": "Cohesive end-user experiences across interactions",
+        "usefulness": "Targeted experiences for specific industries and use cases"
+      },
+      "case_study": {
+        "subject": "Fortune 500 company",
+        "implementation": "Claude-powered customer assistant",
+        "results": "Enhanced accuracy and speed in customer query responses"
+      },
+      "optimization_areas": [
+        "Customer service automation",
+        "Document analysis and summarization",
+        "Code generation and review",
+        "Content creation and editing"
+      ]
+    },
+    "safety_and_ethics": {
+      "constitutional_ai": {
+        "description": "Built-in safety rules and ethical principles",
+        "features": [
+          "Automatic harmful content avoidance",
+          "Privacy-respecting design",
+          "Ethical decision-making framework"
+        ]
+      },
+      "best_practices": [
+        "Respect the constitutional principles",
+        "Don't try to bypass safety features",
+        "Use Claude for beneficial purposes"
+      ]
+    },
+    "prompt_engineering_principles": {
+      "core_philosophy": "Prompt engineering is far faster than other methods like finetuning",
+      "key_advantages": [
+        "Immediate results",
+        "No training data required",
+        "Preserves model capabilities",
+        "Cost-effective optimization"
+      ],
+      "iteration_process": [
+        "Start with basic prompt",
+        "Test and identify issues",
+        "Apply techniques incrementally",
+        "Measure improvements",
+        "Document successful patterns"
+      ]
+    }
+  }
+}

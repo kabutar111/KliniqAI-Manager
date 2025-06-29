@@ -1,0 +1,257 @@
+{
+  "google_gemini_prompt_engineering_guide_2025": {
+    "metadata": {
+      "provider": "Google DeepMind",
+      "model_family": "Gemini",
+      "last_updated": "2025-06-19",
+      "official_documentation": "https://ai.google.dev/gemini-api/docs/prompting-strategies"
+    },
+    "official_resources": {
+      "api_documentation": "https://ai.google.dev/gemini-api/docs/prompting-strategies",
+      "intro_guide": "https://ai.google.dev/gemini-api/docs/prompting-intro",
+      "workspace_guide": "https://workspace.google.com/learning/content/gemini-prompt-guide",
+      "io_2025_updates": "https://blog.google/technology/google-deepmind/google-gemini-updates-io-2025/",
+      "workspace_prompt_guide_pdf": "https://services.google.com/fh/files/misc/gemini-for-google-workspace-prompting-guide-101.pdf"
+    },
+    "fundamental_principles": {
+      "prompt_design_definition": "The process of creating prompts, or natural language requests, that elicit accurate, high quality responses from a language model",
+      "core_approach": "Craft prompts that guide the AI to generate precise, relevant, and helpful responses tailored to specific needs"
+    },
+    "core_strategies": {
+      "1_clear_specific_instructions": {
+        "description": "Provide precise guidance on task requirements",
+        "implementation": {
+          "use_specific_details": "Include all necessary context and constraints",
+          "avoid_ambiguity": "Be explicit about expectations",
+          "break_down_complexity": "Decompose complex requests"
+        },
+        "input_types": {
+          "question_input": {
+            "description": "Direct queries",
+            "example": "What are the key features of quantum computing?"
+          },
+          "task_input": {
+            "description": "Specific actions to perform",
+            "example": "Generate a Python function that sorts a list of dictionaries by a specific key"
+          },
+          "entity_input": {
+            "description": "Classification or identification tasks",
+            "example": "Classify the following text as positive, negative, or neutral sentiment"
+          },
+          "partial_input_completion": {
+            "description": "Model continues or completes content",
+            "example": "Complete this story: Once upon a time in a digital kingdom..."
+          }
+        }
+      },
+      "2_zero_shot_vs_few_shot": {
+        "recommendation": "Include few-shot examples when possible",
+        "implementation": {
+          "example_count": "2-5 examples typically optimal",
+          "example_diversity": "Use specific, varied examples",
+          "pattern_demonstration": "Show desired response format and style"
+        },
+        "few_shot_template": "Here are some examples:\nExample 1: [Input] -> [Output]\nExample 2: [Input] -> [Output]\nNow, process this: [New Input]"
+      },
+      "3_context_addition": {
+        "description": "Include contextual information for constraints",
+        "tips": [
+          "Provide relevant background details",
+          "Specify domain or industry context",
+          "Include any constraints or limitations",
+          "Define technical terminology if needed"
+        ],
+        "example": "Context: You are analyzing medical data for a pediatric clinic. Patient privacy is paramount. Task: Summarize the trends without revealing individual information."
+      },
+      "4_prefix_techniques": {
+        "types": {
+          "input_prefixes": {
+            "purpose": "Signal semantic meaning",
+            "examples": ["USER:", "SYSTEM:", "CONTEXT:", "DATA:"]
+          },
+          "output_prefixes": {
+            "purpose": "Indicate expected response format",
+            "examples": ["ANALYSIS:", "SUMMARY:", "SOLUTION:"]
+          },
+          "example_prefixes": {
+            "purpose": "Clear labeling of examples",
+            "examples": ["EXAMPLE 1:", "CORRECT:", "INCORRECT:"]
+          }
+        }
+      },
+      "5_prompt_decomposition": {
+        "description": "Break complex prompts into simpler components",
+        "techniques": {
+          "sequential_chaining": "Use output from one prompt as input for next",
+          "parallel_processing": "Aggregate responses from multiple parallel tasks",
+          "hierarchical_breakdown": "Start with high-level tasks, then detail"
+        },
+        "benefits": [
+          "Improved accuracy on complex tasks",
+          "Easier debugging",
+          "Better resource utilization"
+        ]
+      }
+    },
+    "experimental_parameters": {
+      "max_output_tokens": {
+        "description": "Control response length",
+        "range": "Varies by model",
+        "tip": "Set based on expected output complexity"
+      },
+      "temperature": {
+        "description": "Randomness control",
+        "range": "0-2",
+        "guidelines": {
+          "0": "Most deterministic, factual tasks",
+          "0.5": "Balanced creativity and consistency",
+          "1.0": "Default setting",
+          "2.0": "Maximum creativity, may be less coherent"
+        }
+      },
+      "topK": {
+        "description": "Token selection diversity",
+        "function": "Limits vocabulary to K most likely tokens",
+        "use_case": "Control vocabulary diversity"
+      },
+      "topP": {
+        "description": "Probability-based selection",
+        "function": "Nucleus sampling - selects from tokens whose cumulative probability exceeds P",
+        "range": "0-1"
+      },
+      "stop_sequences": {
+        "description": "Custom completion triggers",
+        "use_case": "Define when model should stop generating",
+        "example": ["\\n\\n", "END", "###"]
+      }
+    },
+    "gemini_2_5_features": {
+      "thought_summaries": {
+        "description": "Organize model's raw thoughts into clear format",
+        "components": [
+          "Structured headers",
+          "Key details highlighted",
+          "Model actions information",
+          "Decision rationale"
+        ],
+        "availability": "Gemini API and Vertex AI"
+      },
+      "thinking_budgets": {
+        "description": "Control cost by balancing latency and quality",
+        "available_models": ["2.5 Flash", "2.5 Pro"],
+        "use_cases": [
+          "Quick responses with lower cost",
+          "Deep analysis with higher quality",
+          "Adaptive processing based on task complexity"
+        ]
+      },
+      "deep_think_mode": {
+        "description": "Experimental enhanced reasoning for 2.5 Pro",
+        "capabilities": [
+          "Complex multi-step reasoning",
+          "Advanced problem solving",
+          "Deeper analysis capabilities"
+        ],
+        "status": "Experimental feature"
+      },
+      "new_capabilities": {
+        "native_audio_output": "Direct audio generation without text intermediary",
+        "advanced_security_safeguards": "Enhanced safety filters and controls",
+        "computer_use_capabilities": "Ability to interact with computer interfaces"
+      }
+    },
+    "model_capabilities": {
+      "multimodal_support": {
+        "description": "Native support for multiple input types",
+        "supported_modalities": [
+          "Text",
+          "Images",
+          "Video",
+          "Audio",
+          "Code"
+        ],
+        "crossmodal_reasoning": "Impressive ability to reason across different modalities"
+      },
+      "benchmark_performance": {
+        "state_of_art": "Advances state of art in 30 of 32 benchmarks",
+        "mmlu_score": {
+          "result": "90.0%",
+          "significance": "First model to achieve human-expert performance"
+        },
+        "mmmu_score": "62.4%",
+        "technical_report": "Detailed performance metrics available"
+      }
+    },
+    "iteration_strategies": {
+      "prompt_refinement": [
+        "Rephrase prompts for clarity",
+        "Switch to analogous tasks if stuck",
+        "Experiment with content order",
+        "Adjust level of detail",
+        "Try different framing approaches"
+      ],
+      "testing_approach": [
+        "Start with simple versions",
+        "Incrementally add complexity",
+        "A/B test different approaches",
+        "Document what works"
+      ]
+    },
+    "practical_tips": {
+      "cautions": [
+        "Avoid relying on models for factual information without verification",
+        "Use caution with math and logic problems",
+        "Verify outputs for critical applications"
+      ],
+      "best_practices": [
+        "Experiment with different phrasings",
+        "Use the most appropriate model for your task",
+        "Leverage multimodal capabilities when relevant",
+        "Test edge cases thoroughly"
+      ]
+    },
+    "workspace_integration": {
+      "description": "Gemini for Google Workspace integration",
+      "benefits": [
+        "Enhanced productivity in Google apps",
+        "Seamless workflow integration",
+        "Context-aware assistance"
+      ],
+      "use_cases": [
+        "Email composition in Gmail",
+        "Document creation in Docs",
+        "Data analysis in Sheets",
+        "Presentation design in Slides"
+      ]
+    },
+    "recommended_tools": {
+      "google_ai_studio": {
+        "description": "Interactive environment for prompt experimentation",
+        "features": [
+          "Real-time testing",
+          "Parameter adjustment",
+          "Response comparison"
+        ]
+      },
+      "vertex_ai": {
+        "description": "Enterprise-grade deployment platform",
+        "features": [
+          "Model management",
+          "Scaling capabilities",
+          "Integration tools"
+        ]
+      }
+    },
+    "prompt_structure_template": {
+      "recommended_format": [
+        "[Optional System Instruction]",
+        "[Context/Background]",
+        "[Few-shot Examples]",
+        "[Specific Instructions]",
+        "[Input Data]",
+        "[Output Format Specification]"
+      ],
+      "example": "Context: You are a helpful assistant specializing in data analysis.\n\nExamples:\nInput: [Sales data] -> Output: [Trend analysis]\n\nTask: Analyze the following quarterly revenue data and identify key trends:\n[Data here]\n\nFormat your response as a bullet-point summary."
+    }
+  }
+}

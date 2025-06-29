@@ -1,0 +1,1913 @@
+{
+  "version": "v001",
+  "id": "KP-NRW-MÜNSTER-24-11-INNERE-GASTRO-Q39-DIF-2-X-v1-20241119",
+  "isDraft": false,
+  
+  "state": "Nordrhein-Westfalen",
+  "stadt": "Münster",
+  "examYear": "24",
+  "examMonth": "11",
+  "fach": "Innere Medizin",
+  "fachgebiet": "Gastroenterologie",
+  "thema": "Refluxkrankheit",
+  "schwierigkeit": "2",
+  "hauptThemen": "GERD, Myokardinfarkt, Pneumonie, Dialyse, Schilddrüsen-OP, Transfusion, Notfallmedizin",
+  "verbundenThemen": "Ösophagitis, Barrett-Ösophagus, Thoraxschmerz, Anaphylaxie",
+  "schlagwoerter": "GERD, Reflux, Barrett, Los-Angeles, LSB, STEMI, PCI, Dialyse, Thyreoidektomie, Anaphylaxie, Hypoglykämie",
+  
+  "metadata": {
+    "examinerCount": 3,
+    "createdAt": "2024-11-19T10:00:00Z",
+    "lastModified": "2024-11-19T10:00:00Z",
+    "loadedAt": null,
+    "questionStats": {
+      "total": 39,
+      "byDifficulty": {
+        "leicht": 12,
+        "mittel": 20,
+        "schwer": 7
+      }
+    },
+    "examiners": {
+      "examiner1": {
+        "specialty": "Internist",
+        "count": 17
+      },
+      "examiner2": {
+        "specialty": "Chirurg",
+        "count": 11
+      },
+      "examiner3": {
+        "specialty": "Notfallmediziner",
+        "count": 11
+      }
+    }
+  },
+  
+  "content": {
+    "teil1": {
+      "id": "teil1-uuid-001",
+      "anamnese": "63-jährige Patientin mit seit 6 Monaten bestehenden retrosternalen Schmerzen und Refluxbeschwerden. Zusätzlich Heiserkeit morgens und Reizhusten. Vorerkrankungen: Z.n. Schulterluxation mit geschlossener Reposition, Z.n. Achillessehneruptur, Z.n. Hemithyreoidektomie. Blutzucker erhöht, jedoch noch keine Diagnose oder Behandlung. Medikation: L-Thyroxin. Nikotinabusus positiv. Allergie gegen Senf mit Urtikaria und Tachykardie. Familienanamnese: Mutter 89J mit ähnlichen Beschwerden, Vater 90J kürzlich Pneumonie, Bruder mit BAA (operiert, intraoperativ hämorrhagischer Schock), Schwester dialysepflichtig. Sozialanamnese: Arbeit stressig.",
+      "untersuchung": "Körperliche Untersuchung: Epigastrale Druckschmerzen. Prozedur: Zugang gelegt.",
+      "schwierigkeit": "mittel",
+      "questions": []
+    },
+    "teil2": {
+      "id": "teil2-uuid-001",
+      "inhalt": "Nichts besonderes, KU nicht geschrieben",
+      "schwierigkeit": "mittel"
+    },
+    "teil3": {
+      "id": "teil3-uuid-001",
+      "inhalt": "Vertiefende Fragen zu speziellen Aspekten",
+      "schwierigkeit": "mittel",
+      "questions": [
+        {
+          "id": "q1-uuid-001",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Gastroenterologie",
+          "thema": "Refluxkrankheit",
+          "subcategory": "Diagnostik",
+          "question": "Fallvorstellung GERD - Was werden Sie machen?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["GERD:Diagnostik", "Refluxkrankheit:Management"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "MEDIUM",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q2-uuid-002",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Gastroenterologie",
+          "thema": "Refluxkrankheit",
+          "subcategory": "Diagnostik",
+          "question": "ÖGD Bild - Was sehen Sie?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["ÖGD:Befundung", "Endoskopie:Interpretation"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q3-uuid-003",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Gastroenterologie",
+          "thema": "Refluxkrankheit",
+          "subcategory": "Klassifikation",
+          "question": "Los-Angeles Klassifikation?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["GERD:Klassifikation", "Ösophagitis:Einteilung"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q4-uuid-004",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Gastroenterologie",
+          "thema": "Barrett-Ösophagus",
+          "subcategory": "Komplikationen",
+          "question": "Barrett Ösophagus - warum gefährlich?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Barrett:Komplikationen", "Präkanzerose:Risiko"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q5-uuid-005",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Kardiologie und Angiologie",
+          "thema": "Thoraxschmerz",
+          "subcategory": "Differentialdiagnosen",
+          "question": "DD Thorax Schmerzen?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "Thoraxschmerz erfordert eine systematische Differentialdiagnose mit Fokus auf lebensbedrohliche Ursachen ('Serious Six'). Die Evaluation erfolgt nach dem A.C.S.-Schema (Abnormalities im EKG, Clinical Context, Clinical/hämodynamische Stability) der ESC 2023 Guidelines. Die initiale Triage nutzt High-Sensitivity-Troponin-Algorithmen (0/1h-Algorithmus) für Akute Koronarsyndrome. \n\n**Kardiovaskuläre Ursachen (häufigste bei ED-Präsentation):**\n1. **Akute Koronarsyndrome (10% der ED-Thoraxschmerzen):** STEMI, NSTEMI, instabile Angina\n2. **Perikarditis/Myokarditis:** typischer scharfer, atemabhängiger Schmerz\n3. **Aortendissektion:** reißender, wandernder Schmerz, Blutdruckdifferenz\n4. **Herzinsuffizienz (5%):** meist belastungsabhängig mit Dyspnoe\n5. **Arrhythmien (5%):** Palpitationen, Herzstolpern\n\n**Pulmonale Ursachen:**\n6. **Lungenembolie:** plötzlicher Beginn, Dyspnoe, Hypoxie\n7. **Spannungspneumothorax:** akute Dyspnoe, abgeschwächtes Atemgeräusch\n8. **Pneumonie/COPD-Exazerbation (10%):** Fieber, produktiver Husten\n\n**Gastrointestinale Ursachen:**\n9. **Refluxösophagitis (5%):** brennender Schmerz, postprandial\n10. **Ösophagusruptur (Boerhaave-Syndrom):** nach Erbrechen, Pneumomediastinum\n\n**Muskuloskeletale Ursachen:**\n11. **Kostochondritis:** druckschmerzhaft, reproduzierbar bei Palpation\n12. **Intercostalneuralgie:** gürtelförmig, dermatomal\n\n**Psychiatrische Ursachen:**\n13. **Panikattacke:** Angst, Hyperventilation, Parästhesien",
+          "tipps": "**HEART-Score für Risikostratifikation nutzen:**\n- H: History (Anamnese) - typisch/atypisch/unspezifisch\n- E: ECG - signifikante ST-Veränderungen/unspezifisch/normal\n- A: Age - Alter >65J erhöht Risiko\n- R: Risk factors - kardiovaskuläre Risikofaktoren\n- T: Troponin - erhöht >3x oberer Normwert/1-3x/normal\n\n**Sofortige Diagnostik bei Thoraxschmerz:**\n1. EKG binnen 10 Minuten (ESC 2023)\n2. Hs-Troponin (0/1h-Algorithmus für 60% der Patienten)\n3. Vitalparameter, O2-Sättigung\n4. Röntgen-Thorax bei V.a. pulmonale Ursache\n\n**Red Flags für lebensbedrohliche Ursachen:**\n- Reißender, wandernder Schmerz (Aortendissektion)\n- Plötzlicher Beginn mit Dyspnoe/Hypoxie (LAE)\n- ST-Hebungen/neue LSB (STEMI)\n- Hämodynamische Instabilität",
+          "kommentar": "Die Differential-Diagnostik erfolgt nach strukturiertem Schema mit Priorität auf die 'Serious Six' lebensbedrohlichen Ursachen. ESC 2023 Guidelines betonen das A.C.S.-Assessment und High-Sensitivity-Troponin-Algorithmen für effiziente Triage. Bei 63-jähriger Patientin mit Refluxbeschwerden müssen kardiale und gastrointestinale Ursachen gleichermaßen bedacht werden.",
+          "flashcard": "**Front:** Systematische DD Thoraxschmerz - 'Serious Six' lebensbedrohliche Ursachen?\n\n**Back:** \n1. **ACS** (STEMI/NSTEMI) - EKG, Troponin\n2. **Aortendissektion** - reißend, wandernd, BD-Differenz\n3. **Lungenembolie** - plötzlich, Dyspnoe, D-Dimer\n4. **Spannungspneumothorax** - Dyspnoe, ↓Atemgeräusch\n5. **Perikardtamponade** - Beck-Trias, Pulsus paradoxus\n6. **Ösophagusruptur** - nach Erbrechen, Pneumomediastinum\n\n**Triage:** A.C.S.-Schema (ESC 2023)\n**Diagnostik:** EKG <10min, Hs-Troponin 0/1h-Algorithmus",
+          "mcq": {
+            "answers": [
+              {
+                "option": "A",
+                "text": "Primär gastrointestinale Ursachen bei retrosternalen Schmerzen",
+                "correct": false,
+                "explanation": "Bei Thoraxschmerz müssen primär die 'Serious Six' lebensbedrohlichen Ursachen ausgeschlossen werden, bevor weniger dringliche Diagnosen erwogen werden."
+              },
+              {
+                "option": "B",
+                "text": "Systematische Evaluation nach A.C.S.-Schema mit Fokus auf lebensbedrohliche Ursachen",
+                "correct": true,
+                "explanation": "Korrekt. ESC 2023 Guidelines empfehlen das A.C.S.-Schema (Abnormalities/Clinical Context/Stability) mit primärem Ausschluss der 'Serious Six' lebensbedrohlichen Ursachen."
+              },
+              {
+                "option": "C",
+                "text": "Troponin-Bestimmung nur bei typischen kardialen Symptomen",
+                "correct": false,
+                "explanation": "High-Sensitivity-Troponin mit 0/1h-Algorithmus wird bei unklarem Thoraxschmerz standardmäßig eingesetzt, da atypische Präsentationen häufig sind."
+              },
+              {
+                "option": "D",
+                "text": "EKG-Diagnostik kann bis zur Laborauswertung warten",
+                "correct": false,
+                "explanation": "EKG muss binnen 10 Minuten nach ED-Ankunft erfolgen (ESC 2023) zur sofortigen STEMI-Erkennung und Reperfusionstherapie-Einleitung."
+              }
+            ],
+            "explanation": "Die moderne Thoraxschmerz-Diagnostik folgt den ESC 2023 Guidelines mit systematischem A.C.S.-Assessment. Der HEART-Score und High-Sensitivity-Troponin-Algorithmen ermöglichen effiziente Risikostratifikation bei 60-65% der Patienten."
+          },
+          "tags": ["Thoraxschmerz:DD", "Leitsymptom:Differentialdiagnose", "ACS:Triage", "HEART-Score:Anwendung", "ESC-Guidelines:2023"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "Serious Six zuerst",
+            "wantedAnswer": "Strukturierte DD mit Fokus auf lebensbedrohliche Ursachen",
+            "timeComment": "Systematisch vorgehen"
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "Thoraxschmerz - Differentialdiagnose",
+            "uptodate": "Approach to the adult with chest pain in the emergency department",
+            "pubmed": ["37622654", "31958018"],
+            "custom": ["ESC 2023 ACS Guidelines", "2021 AHA/ACC Chest Pain Guidelines"]
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q6-uuid-006",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Kardiologie und Angiologie",
+          "thema": "EKG-Diagnostik",
+          "subcategory": "Diagnostik",
+          "question": "EKG mit komplettem LSB - Interpretation?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "Kompletter Linksschenkelblock (LSB) erschwert die STEMI-Diagnostik erheblich. Aktuelle Guidelines (ESC 2023) behandeln 'neuen oder vermutlich neuen LSB' NICHT mehr als STEMI-Äquivalent. Die Diagnose eines akuten MI bei LSB erfordert spezielle EKG-Kriterien und klinische Korrelation.\n\n**EKG-Kriterien kompletter LSB:**\n1. **QRS-Dauer ≥120 ms** (≥3 kleine Kästchen)\n2. **Breite, gekerbte R-Zacken** in I, aVL, V5, V6\n3. **QS- oder rS-Komplexe** in V1, V2, V3\n4. **Fehlende Q-Zacken** in Lateralableitungen (I, aVL, V5, V6)\n5. **Verlängerte Erregungsrückbildung:** ST-Senkungen und T-Negativierungen in V5, V6\n\n**STEMI-Diagnostik bei LSB - Modifizierte Sgarbossa-Kriterien (2024):**\n\n**Original Sgarbossa (Score ≥3 Punkte):**\n- Konkordante ST-Hebung ≥1mm in Ableitungen mit positivem QRS (5 Punkte)\n- Konkordante ST-Senkung ≥1mm in V1-V3 (3 Punkte)\n- Diskordante ST-Hebung ≥5mm in Ableitungen mit negativem QRS (2 Punkte)\n\n**Smith-Modifizierte Sgarbossa-Kriterien (höhere Sensitivität):**\n- ST-Hebung/S-Zacken-Amplitude ≥ -0,25 (statt absoluter 5mm-Grenze)\n- Sensitivität: 91% vs. 52% (Original)\n- Spezifität: 90% vs. 96% (Original)\n\n**Barcelona-Kriterien (2024 - beste Performance):**\n1. Konkordante ST-Hebung ≥1mm\n2. Konkordante ST-Senkung ≥1mm (nicht nur V1-V3)\n3. Diskordante ST-Deviation ≥1mm bei niedrigvoltigen QRS-Komplexen\n\n**Klinische Bedeutung LSB:**\n- **Neu/vermutlich neu:** Zeichen schwerer KHK, aber nicht automatisch STEMI\n- **Chronisch:** Meist bei Kardiomyopathie, Hypertonie, Aortenstenose\n- **Prognose:** LSB verschlechtert Prognose bei Herzinsuffizienz",
+          "tipps": "**Praktisches Vorgehen bei LSB + Thoraxschmerz:**\n\n**1. Klinische Evaluation:**\n- Vorherige EKGs zum Vergleich suchen\n- Hs-Troponin (0/1h-Algorithmus)\n- Echokardiographie (Wandbewegungsstörungen)\n\n**2. EKG-Analyse systematisch:**\n- QRS-Breite messen (≥120ms)\n- Sgarbossa-Kriterien anwenden\n- Bei Unklarheit: Smith-modifizierte Kriterien\n- Barcelona-Kriterien bei niedrigvoltigen Komplexen\n\n**3. Entscheidung zur Katheterintervention:**\n- Positive Sgarbossa-Kriterien → primäre PCI\n- Klinisch instabil + LSB → Herzkatheter erwägen\n- Hohe Troponin-Dynamik → invasive Diagnostik\n\n**4. Wichtige Cutoffs:**\n- Smith-modifiziert: ST/S-Ratio ≤ -0,25 (oder -0,20 für höhere Sensitivität)\n- Barcelona: ≥1mm ST-Deviation bei QRS <6mm\n\n**Merksatz:** 'LSB maskiert STEMI - Sgarbossa deckt auf!'",
+          "kommentar": "Die EKG-Interpretation bei LSB ist komplex und erfordert spezialisierte Kriterien. Die 2024 aktualisierten Barcelona-Kriterien zeigen beste diagnostische Performance (93% Sensitivität, 94% Spezifität). Wichtig: 'Neuer LSB' ist seit 2013 AHA Guidelines kein STEMI-Äquivalent mehr. Die Entscheidung zur Reperfusionstherapie basiert auf spezifischen EKG-Kriterien plus klinischem Kontext.",
+          "flashcard": "**Front:** LSB + Thoraxschmerz - Wie STEMI diagnostizieren?\n\n**Back:** \n**Modifizierte Sgarbossa-Kriterien:**\n• **Konkordant ST↑ ≥1mm** (5 Pkt)\n• **Konkordant ST↓ ≥1mm V1-V3** (3 Pkt)\n• **ST↑/S-Ratio ≤ -0,25** (Smith-modifiziert)\n\n**Barcelona 2024 (beste Performance):**\n• Konkordant ST±1mm (alle Ableitungen)\n• ST±1mm bei QRS <6mm\n\n**Wichtig:** LSB ≠ STEMI-Äquivalent!\n**Entscheidung:** Positive Kriterien → primäre PCI",
+          "mcq": {
+            "answers": [
+              {
+                "option": "A",
+                "text": "Neuer Linksschenkelblock ist automatisch ein STEMI-Äquivalent",
+                "correct": false,
+                "explanation": "Falsch. Seit 2013 AHA Guidelines ist 'neuer LSB' NICHT mehr als STEMI-Äquivalent definiert. ESC 2023 bestätigt diese Haltung."
+              },
+              {
+                "option": "B",
+                "text": "STEMI-Diagnostik bei LSB erfordert spezielle Kriterien wie modifizierte Sgarbossa-Kriterien",
+                "correct": true,
+                "explanation": "Korrekt. Modifizierte Sgarbossa-Kriterien (Smith-modifiziert) oder Barcelona-Kriterien sind erforderlich für STEMI-Diagnostik bei LSB."
+              },
+              {
+                "option": "C",
+                "text": "ST-Hebungen sind bei LSB nicht bewertbar",
+                "correct": false,
+                "explanation": "Falsch. Konkordante ST-Hebungen ≥1mm in Ableitungen mit positivem QRS sind hochspezifisch für STEMI (Sgarbossa 5 Punkte)."
+              },
+              {
+                "option": "D",
+                "text": "QRS-Dauer <120ms schließt kompletten LSB aus",
+                "correct": true,
+                "explanation": "Korrekt. Kompletter LSB erfordert QRS-Dauer ≥120ms. Bei <120ms liegt inkompletter LSB oder andere Leitungsstörung vor."
+              }
+            ],
+            "explanation": "Die STEMI-Diagnostik bei LSB erfordert spezielle EKG-Kriterien. Die Barcelona-Kriterien (2024) zeigen beste diagnostische Performance mit 93% Sensitivität und 94% Spezifität. Der ST/S-Ratio-Cutoff von ≤-0,25 (Smith-modifiziert) verbessert die Sensitivität erheblich."
+          },
+          "tags": ["EKG:LSB", "Schenkelblock:Diagnostik", "Sgarbossa:Kriterien", "STEMI:LSB", "Barcelona-Kriterien:2024"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "Sgarbossa-Kriterien",
+            "wantedAnswer": "QRS ≥120ms, Sgarbossa-Kriterien für STEMI",
+            "timeComment": "Spezielle Kriterien erforderlich"
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "Linksschenkelblock - EKG-Diagnostik",
+            "uptodate": "Left bundle branch block and acute myocardial infarction",
+            "pubmed": ["32063104", "30955971"],
+            "custom": ["Smith-Modified Sgarbossa Criteria", "Barcelona Algorithm 2024"]
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q7-uuid-007",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Kardiologie und Angiologie",
+          "thema": "Myokardinfarkt",
+          "subcategory": "Therapie",
+          "question": "Vorderwandinfarkt - was werden Sie machen?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "Vorderwandinfarkt (Anterior-STEMI) ist ein kardiologischer Notfall mit hoher Mortalität. Das Management folgt den ESC 2023 ACS Guidelines mit zeitkritischer Reperfusionstherapie als prioritäres Ziel. Der Vorderwandinfarkt betrifft typischerweise das LAD-Stromgebiet (V1-V6, I, aVL).\n\n**SOFORTMASSNAHMEN (TIME IS MUSCLE):**\n\n**1. Primäre Diagnostik & Monitoring:**\n- **EKG-Kontrolle:** ST-Hebungen V1-V6, I, aVL\n- **Vitalparameter:** RR, HF, SpO2, Temperatur\n- **Monitoring:** kontinuierliches EKG, Defibrillator bereit\n- **I.v.-Zugang:** großlumiger Venenzugang\n- **Labor:** Hs-Troponin, BNP, Kreatinin, Lipidstatus\n\n**2. Reperfusionstherapie (KLASSE I-Empfehlung):**\n- **Primäre PCI:** innerhalb 120 Minuten bei STEMI\n- **Door-to-Balloon-Zeit:** <90 Min (optimal <60 Min)\n- **Alternative:** Fibrinolyse wenn PCI >120 Min nicht möglich\n- **Rescue-PCI:** bei erfolgloser Lyse\n\n**3. Antiplättchen-Therapie (DAPT):**\n- **ASS:** 160-325mg p.o. loading, dann 75-100mg täglich\n- **P2Y12-Inhibitor:**\n  - Ticagrelor 180mg loading, dann 90mg 2x täglich (bevorzugt)\n  - Prasugrel 60mg loading, dann 10mg täglich\n  - Clopidogrel 600mg loading bei Blutungsrisiko\n\n**4. Antikoagulation:**\n- **Heparin:** UFH 70-100 IE/kg i.v. (bei PCI)\n- **Bivalirudin:** Alternative bei hohem Blutungsrisiko\n- **Enoxaparin:** bei Fibrinolyse\n\n**5. Begleittherapie:**\n- **Beta-Blocker:** Metoprolol 25mg 2x täglich (bei stabiler Hämodynamik)\n- **ACE-Hemmer:** nach 24h bei stabiler Hämodynamik\n- **Statin:** Atorvastatin 80mg (hochdosiert)\n- **Analgetika:** Morphin bei persistierenden Schmerzen\n\n**6. Komplikationsmanagement:**\n- **Herzrhythmusstörungen:** VT/VF → Defibrillation\n- **Kardiogener Schock:** IABP, Vasopressoren, ECMO erwägen\n- **Mechanische Komplikationen:** Chirurgie-Konsil\n\n**7. Sekundärprävention:**\n- **Vollständige Revaskularisation:** innerhalb 45 Tage\n- **Rehabilitation:** Anschlussheilbehandlung\n- **Risikofaktoren-Management:** Diabetes, Hypertonie, Rauchen",
+          "tipps": "**STEMI-Akutmanagement - Zeitfenster beachten:**\n\n**Goldene Stunde (0-60 Min):**\n- EKG in 10 Minuten\n- DAPT-Loading sofort\n- Door-to-Balloon <90 Min\n- Herzkatheterlabor aktivieren\n\n**Critical Decisions:**\n1. **PCI vs. Lyse:** Entfernung zum Herzkatheterlabor\n2. **Culprit-only vs. Multivessel-PCI:** bei Schock Mehrgefäß-PCI\n3. **Radial vs. Femoral:** Radial bevorzugt (weniger Blutungen)\n4. **IABP-Indikation:** kardiogener Schock ohne Kontraindikation\n\n**Besonderheiten Vorderwandinfarkt:**\n- **Große Infarktfläche:** V1-V6 (gesamte Vorderwand)\n- **Hohe Komplikationsrate:** VT/VF, Pumpversagen\n- **LAD-Verschluss:** Hauptstamm-Äquivalent bei proximaler Okklusion\n- **Kollateralen:** oft schlechter als bei RCA-Infarkten\n\n**Kontraindikationen beachten:**\n- **P2Y12:** aktive Blutung, Schlaganfall <3 Monate\n- **Beta-Blocker:** Schock, Bradykardie, Asthma\n- **ACE-Hemmer:** Hypotonie, Niereninsuffizienz\n\n**Monitoring-Parameter:**\n- Troponin-Peak (12-24h)\n- Ejektionsfraktion (Echo)\n- Nierenfunktion (Kontrastmittel)",
+          "kommentar": "Vorderwandinfarkt hat höchste Priorität im Herzkatheterlabor. ESC 2023 betont 'complete revascularization' innerhalb 45 Tage und Ticagrelor als bevorzugten P2Y12-Inhibitor. Die Door-to-Balloon-Zeit ist entscheidender Prognosefaktor. Bei proximaler LAD-Okklusion können große Infarktareale entstehen mit hohem Risiko für mechanische Komplikationen und Arrhythmien.",
+          "flashcard": "**Front:** STEMI-Vorderwandinfarkt - Akutmanagement Algorithmus?\n\n**Back:** \n**Sofort (<10 Min):**\n• EKG-Diagnose (ST↑ V1-V6)\n• DAPT-Loading (ASS + Ticagrelor)\n• Herzkatheterlabor aktivieren\n• Antikoagulation (Heparin)\n\n**Reperfusion (<90 Min):**\n• **Primäre PCI** (bevorzugt)\n• Door-to-Balloon <90 Min\n• Culprit-Lesion zuerst\n\n**Begleittherapie:**\n• Beta-Blocker (stabil)\n• ACE-Hemmer (nach 24h)\n• Statin hochdosiert\n\n**TIME IS MUSCLE!**",
+          "mcq": {
+            "answers": [
+              {
+                "option": "A",
+                "text": "Fibrinolyse ist bei Vorderwandinfarkt der primären PCI überlegen",
+                "correct": false,
+                "explanation": "Falsch. Primäre PCI ist der Goldstandard bei STEMI. Fibrinolyse nur wenn PCI nicht binnen 120 Minuten verfügbar ist."
+              },
+              {
+                "option": "B",
+                "text": "Door-to-Balloon-Zeit sollte <90 Minuten betragen",
+                "correct": true,
+                "explanation": "Korrekt. ESC 2023 Guidelines empfehlen Door-to-Balloon-Zeit <90 Min, optimal <60 Min für beste Prognose."
+              },
+              {
+                "option": "C",
+                "text": "Beta-Blocker sind bei akutem STEMI kontraindiziert",
+                "correct": false,
+                "explanation": "Falsch. Beta-Blocker sind bei hämodynamisch stabilen STEMI-Patienten innerhalb 24h indiziert (Klasse I)."
+              },
+              {
+                "option": "D",
+                "text": "Clopidogrel ist der bevorzugte P2Y12-Inhibitor beim STEMI",
+                "correct": false,
+                "explanation": "Falsch. Ticagrelor ist der bevorzugte P2Y12-Inhibitor beim STEMI (stärkere Plättchenhemmung, bessere Prognose)."
+              }
+            ],
+            "explanation": "Das STEMI-Management folgt zeitkritischen Algorithmen. Primäre PCI binnen 90 Min ist Goldstandard. DAPT mit Ticagrelor + ASS ist Standard. Complete revascularization binnen 45 Tage verbessert Langzeitprognose erheblich."
+          },
+          "tags": ["STEMI:Therapie", "Myokardinfarkt:Akutmanagement", "PCI:Timing", "DAPT:STEMI", "Door-to-Balloon:Zeit"],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "Time is muscle",
+            "wantedAnswer": "Primäre PCI, DAPT, Door-to-Balloon <90 Min",
+            "timeComment": "Zeitkritisches Management"
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "STEMI - Akuttherapie",
+            "uptodate": "Primary percutaneous coronary intervention for acute ST elevation myocardial infarction",
+            "pubmed": ["37622654", "35927638"],
+            "custom": ["ESC 2023 ACS Guidelines", "2025 ACC/AHA STEMI Guidelines"]
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q8-uuid-008",
+          "fach": "Pharmakologie",
+          "fachgebiet": "Pharmakologie",
+          "thema": "Thrombozytenaggregationshemmer",
+          "subcategory": "Therapie",
+          "question": "ASS beim Myokardinfarkt?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["ASS:Indikation", "TAH:Myokardinfarkt"],
+          "schwierigkeit": "leicht",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q9-uuid-009",
+          "fach": "Pharmakologie",
+          "fachgebiet": "Pharmakologie",
+          "thema": "Thrombozytenaggregationshemmer",
+          "subcategory": "Therapie",
+          "question": "Prasugrel/Ticagrelor - Einsatz?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["P2Y12:Inhibitoren", "DAPT:Myokardinfarkt"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q10-uuid-010",
+          "fach": "Pharmakologie",
+          "fachgebiet": "Pharmakologie",
+          "thema": "Thrombozytenaggregationshemmer",
+          "subcategory": "Therapie",
+          "question": "Clopidogrel - wann einsetzen?",
+          "answer": "Nur wenn erhöhte Blutungsrisiko (Alter, Patient nimmt Marcumar)",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Clopidogrel:Indikation", "Blutungsrisiko:Management"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "zufrieden",
+            "interruption": "laesst_ausreden",
+            "expectedStyle": "will_stichwörter",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "Erhöhtes Blutungsrisiko als Indikation",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q11-uuid-011",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Kardiologie und Angiologie",
+          "thema": "Myokardinfarkt",
+          "subcategory": "Therapie",
+          "question": "PCI beim Myokardinfarkt?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["PCI:Indikation", "STEMI:Intervention"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q12-uuid-012",
+          "fach": "Pharmakologie",
+          "fachgebiet": "Pharmakologie",
+          "thema": "Thrombozytenaggregationshemmer",
+          "subcategory": "Therapie",
+          "question": "Weitere Behandlung mit Thrombozytenaggregationshemmern?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["TAH:Langzeittherapie", "DAPT:Dauer"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "MEDIUM",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q13-uuid-013",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Pneumologie",
+          "thema": "Pneumonie",
+          "subcategory": "Diagnostik",
+          "question": "Rö-Bild Pneumonie - Befund?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Pneumonie:Radiologie", "Röntgen:Befundung"],
+          "schwierigkeit": "leicht",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q14-uuid-014",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Pneumologie",
+          "thema": "Pneumonie",
+          "subcategory": "Therapie",
+          "question": "Welche Antibiotika bei Pneumonie und wann?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Pneumonie:Antibiotika", "CAP:Therapie"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q15-uuid-015",
+          "fach": "Pharmakologie",
+          "fachgebiet": "Pharmakologie",
+          "thema": "Antibiotika",
+          "subcategory": "Therapie",
+          "question": "Was, wenn Penicilinallergie?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Penicilinallergie:Alternativen", "Antibiotika:Allergie"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q16-uuid-016",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Nephrologie",
+          "thema": "Dialyse",
+          "subcategory": "Therapie",
+          "question": "Dialyse - welche Verfahren sind bekannt?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "Bild von peritonealer Dialyse wurde gezeigt",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Dialyse:Verfahren", "Nierenersatztherapie:Arten"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q17-uuid-017",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Nephrologie",
+          "thema": "Dialyse",
+          "subcategory": "Komplikationen",
+          "question": "Was ist Desequilibrium-Syndrom?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Dialyse:Komplikationen", "Desequilibrium:Definition"],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Internist",
+          "examinerId": "examiner1",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q18-uuid-018",
+          "fach": "Chirurgie",
+          "fachgebiet": "Allgemein- und Viszeralchirurgie",
+          "thema": "Schilddrüsenchirurgie",
+          "subcategory": "Therapie",
+          "question": "Schilddrüsen-Op - Indikation?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Thyreoidektomie:Indikation", "Schilddrüse:OP"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q19-uuid-019",
+          "fach": "Chirurgie",
+          "fachgebiet": "Allgemein- und Viszeralchirurgie",
+          "thema": "Schilddrüsenchirurgie",
+          "subcategory": "Komplikationen",
+          "question": "Welche Komplikationen bei Schilddrüsen-OP?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Thyreoidektomie:Komplikationen", "Schilddrüse:Risiken"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q20-uuid-020",
+          "fach": "Chirurgie",
+          "fachgebiet": "Allgemein- und Viszeralchirurgie",
+          "thema": "Schilddrüsenchirurgie",
+          "subcategory": "Diagnostik",
+          "question": "Neuro-Monitoring bei Schilddrüsen-OP?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Neuromonitoring:Schilddrüse", "IONM:Indikation"],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q21-uuid-021",
+          "fach": "Chirurgie",
+          "fachgebiet": "Unfallchirurgie",
+          "thema": "Achillessehnenruptur",
+          "subcategory": "Therapie",
+          "question": "Achillessehneruptur - wie behandelt man?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Achillessehne:Therapie", "Sehnenruptur:Management"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q22-uuid-022",
+          "fach": "Chirurgie",
+          "fachgebiet": "Unfallchirurgie",
+          "thema": "Achillessehnenruptur",
+          "subcategory": "Diagnostik",
+          "question": "Diagnostik bei Achillessehnenruptur?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Achillessehne:Diagnostik", "Thompson-Test:Durchführung"],
+          "schwierigkeit": "leicht",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q23-uuid-023",
+          "fach": "Chirurgie",
+          "fachgebiet": "Allgemein- und Viszeralchirurgie",
+          "thema": "Transfusionsmedizin",
+          "subcategory": "Therapie",
+          "question": "Transfusion - was braucht man dafür?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Transfusion:Voraussetzungen", "Blutgruppe:Bestimmung"],
+          "schwierigkeit": "leicht",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q24-uuid-024",
+          "fach": "Chirurgie",
+          "fachgebiet": "Allgemein- und Viszeralchirurgie",
+          "thema": "Transfusionsmedizin",
+          "subcategory": "Diagnostik",
+          "question": "Bedside-Test bei Transfusion?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Bedside-Test:Durchführung", "Transfusion:Sicherheit"],
+          "schwierigkeit": "leicht",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q25-uuid-025",
+          "fach": "Chirurgie",
+          "fachgebiet": "Allgemein- und Viszeralchirurgie",
+          "thema": "Transfusionsmedizin",
+          "subcategory": "Therapie",
+          "question": "FFP (Fresh Frozen Plasma) - Indikation?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["FFP:Indikation", "Gerinnungsfaktoren:Substitution"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q26-uuid-026",
+          "fach": "Chirurgie",
+          "fachgebiet": "Allgemein- und Viszeralchirurgie",
+          "thema": "Transfusionsmedizin",
+          "subcategory": "Therapie",
+          "question": "Fibrinogen - wann geben?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Fibrinogen:Indikation", "Gerinnungsstörung:Therapie"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q27-uuid-027",
+          "fach": "Chirurgie",
+          "fachgebiet": "Allgemein- und Viszeralchirurgie",
+          "thema": "Transfusionsmedizin",
+          "subcategory": "Therapie",
+          "question": "Prothrombinkomplex - Einsatz?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "Prothrombinkomplex-Konzentrat (PCC/PPSB) ist ein hocheffektives Medikament zur Antagonisierung von Vitamin-K-Antagonisten und wird in lebensbedrohlichen Blutungssituationen eingesetzt. Aktuell wird 4-Faktor-PCC (Beriplex®/Kcentra®) gegenüber FFP bevorzugt.\n\n**Zusammensetzung 4-Faktor-PCC:**\n- **Gerinnungsfaktoren:** II (Prothrombin), VII, IX, X\n- **Antikoagulanzien:** Protein C, Protein S, Antithrombin\n- **Heparin:** zur Thromboseprophylaxe\n\n**Hauptindikationen (FDA-zugelassen):**\n\n**1. Warfarin-Reversal (Hauptindikation):**\n- Lebensbedrohliche Blutung unter Warfarin/Phenprocoumon\n- Dringende operative Eingriffe bei VKA-Therapie\n- INR >1,8 mit aktiver Blutung\n- Intrakranielle Blutung bei VKA-Therapie\n\n**2. Dringliche Operationen:**\n- Herzchirurgie bei VKA-Therapie\n- Neurochirurgie (ICB-Patienten)\n- Traumachirurgie bei antikoagulierten Patienten\n\n**3. Off-Label-Anwendungen:**\n- DOAK-Reversal bei fehlendem spezifischen Antidot\n- Lebersynthesestörungen mit Gerinnungsdefizit\n- Komplexe Gerinnungsstörungen\n\n**Dosierung:**\n- **Warfarin-Reversal:** 25-50 IE/kg KG (je nach INR)\n- **INR 2-4:** 25 IE/kg\n- **INR 4-6:** 35 IE/kg\n- **INR >6:** 50 IE/kg\n- **Maximaldosis:** 5000 IE (100 ml)\n\n**Anwendung:**\n- Immer mit Vitamin K 10mg i.v. kombinieren\n- Langsame i.v.-Infusion (≤3 ml/min)\n- INR-Kontrolle nach 30 Min\n- Ziel-INR: <1,4\n\n**Vorteile gegenüber FFP:**\n- Sofortige Verfügbarkeit (kein Auftauen)\n- Geringes Volumen (25-100 ml vs. 600-800 ml)\n- Schnellere INR-Normalisierung\n- Geringeres Infektionsrisiko\n- Keine Blutgruppenkompatibilität erforderlich\n- Reduzierte Volumenbelastung\n\n**Kontraindikationen:**\n- Heparin-induzierte Thrombozytopenie (HIT)\n- Bekannte Thromboseneigung\n- Frische Thromboembolie (<3 Monate)\n- Protein C/S-Mangel\n\n**Monitoring:**\n- INR vor/nach Gabe\n- Thrombozyten, Fibrinogen\n- Klinische Blutungskontrolle\n- Thromboembolie-Überwachung 24-48h",
+          "tipps": "**Praktisches Vorgehen PCC-Gabe:**\n\n**1. Indikationsstellung:**\n- Lebensbedrohliche Blutung + VKA\n- INR >1,8 mit aktiver Blutung\n- Dringliche Operation (<6h)\n\n**2. Dosisberechnung:**\n- Körpergewicht × Faktor (25-50 IE/kg)\n- Bei Ungewissheit: Beginn mit 25 IE/kg\n- Wiederholung nur bei unzureichender INR-Korrektur\n\n**3. Applikation:**\n- Langsame i.v.-Infusion (≤3 ml/min)\n- Zentral-/peripher-venöser Zugang\n- Keine Verdünnung erforderlich\n- Raumtemperatur verwenden\n\n**4. Begleittherapie:**\n- **Vitamin K 10mg i.v.:** immer kombinieren\n- **Tranexamsäure:** bei Hyperfibrinolyse\n- **Fibrinogen:** bei Werten <1,5 g/l\n\n**5. Erfolgskontrolle:**\n- INR nach 30 Min/1h\n- Ziel: INR <1,4\n- Klinische Blutungskontrolle\n\n**6. Thromboembolie-Prophylaxe:**\n- Monitoring für 24-48h\n- Frühe Remobilisation\n- VKA-Restart sobald Blutungsrisiko <Thromboembolierisiko\n\n**Notfall-Checkliste:**\n□ Blutung lebensbedrohlich?\n□ VKA-Therapie bestätigt?\n□ INR-Wert aktuell?\n□ Körpergewicht bekannt?\n□ Vitamin K verfügbar?\n□ Thromboembolie-Anamnese?\n\n**Merksatz: 'PCC + Vitamin K = Schnelle Reversal'**",
+          "kommentar": "4-Faktor-PCC ist der Goldstandard für Warfarin-Reversal und hat FFP bei lebensbedrohlichen Blutungen weitgehend abgelöst. Die Kombination mit Vitamin K ist essentiell für anhaltende Wirkung. Thromboembolie-Risiko erfordert sorgfältige Nutzen-Risiko-Abwägung. Bei DOAK-Reversal sind spezifische Antidota (Idarucizumab, Andexanet alfa) zu bevorzugen.",
+          "flashcard": "**Front:** PCC (Prothrombinkomplex) - Hauptindikationen und Dosierung?\n\n**Back:** \n**Hauptindikation:**\n• Warfarin-Reversal bei lebensbedrohlicher Blutung\n• Dringliche OP bei VKA-Therapie\n\n**Dosierung:**\n• INR 2-4: 25 IE/kg\n• INR 4-6: 35 IE/kg\n• INR >6: 50 IE/kg\n• Max: 5000 IE\n\n**Immer mit Vitamin K 10mg i.v.!**\n\n**Vorteil vs. FFP:**\n• Sofort verfügbar\n• Geringes Volumen\n• Schnellere Reversal",
+          "mcq": {
+            "answers": [
+              {
+                "option": "A",
+                "text": "PCC ist nur bei INR >4,0 indiziert",
+                "correct": false,
+                "explanation": "Falsch. PCC ist bereits bei INR >1,8 mit aktiver Blutung oder dringlicher Operation indiziert."
+              },
+              {
+                "option": "B",
+                "text": "4-Faktor-PCC enthält die Gerinnungsfaktoren II, VII, IX, X",
+                "correct": true,
+                "explanation": "Korrekt. 4-Faktor-PCC (Beriplex®/Kcentra®) enthält die Vitamin-K-abhängigen Faktoren II, VII, IX, X."
+              },
+              {
+                "option": "C",
+                "text": "PCC kann ohne Vitamin K-Gabe verwendet werden",
+                "correct": false,
+                "explanation": "Falsch. PCC sollte immer mit Vitamin K 10mg i.v. kombiniert werden für anhaltende Antikoagulations-Reversal."
+              },
+              {
+                "option": "D",
+                "text": "FFP ist PCC bei Warfarin-Reversal überlegen",
+                "correct": false,
+                "explanation": "Falsch. 4-Faktor-PCC ist FFP überlegen: schnellere Reversal, geringeres Volumen, sofortige Verfügbarkeit."
+              }
+            ],
+            "explanation": "PCC ist der Goldstandard für Warfarin-Reversal bei lebensbedrohlichen Blutungen. 4-Faktor-PCC zeigt deutliche Vorteile gegenüber FFP und sollte immer mit Vitamin K kombiniert werden."
+          },
+          "tags": ["PPSB:Indikation", "Vitamin-K-Antagonisten:Antidot", "PCC:Dosierung", "Warfarin:Reversal", "4-Faktor-PCC:Vorteile"],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "4-Faktor-PCC mit Vitamin K",
+            "wantedAnswer": "Warfarin-Reversal, Dosierung nach INR",
+            "timeComment": "Lebensbedrohliche Blutung"
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "Prothrombinkomplex-Konzentrat (PCC)",
+            "uptodate": "Prothrombin complex concentrate for anticoagulant reversal",
+            "pubmed": ["37845116", "36247341"],
+            "custom": ["FDA Kcentra Guidelines 2024", "4-Factor PCC vs FFP Studies"]
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q28-uuid-028",
+          "fach": "Chirurgie",
+          "fachgebiet": "Allgemein- und Viszeralchirurgie",
+          "thema": "Transfusionsmedizin",
+          "subcategory": "Therapie",
+          "question": "Cell-Saver - was ist das?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "Cell-Saver (intraoperative Blutseparation, IOS) ist ein Verfahren der autologen Transfusion zur Rückgewinnung und Wiederaufbereitung von Eigenblut während operativer Eingriffe. Das System sammelt, wäscht und konzentriert Erythrozyten aus dem Operationsfeld zur Retransfusion an denselben Patienten.\n\n**Funktionsprinzip:**\n\n**1. Sammlung (Collection):**\n- Absaugung von Blut aus dem Operationsfeld\n- Antikoagulation mit Citrat/Heparin\n- Filtration grober Verunreinigungen\n- Sammlung in Reservoir\n\n**2. Zentrifugation (Processing):**\n- Trennung durch Zentrifugalkraft\n- Separation von Plasma, Leukozyten, Thrombozyten\n- Erythrozyten setzen sich ab\n- Mehrfache Waschzyklen mit NaCl 0,9%\n\n**3. Konzentration:**\n- Endprodukt: gewaschene Erythrozyten\n- Hämatokrit: ~60% (vs. 40% bei Vollblut)\n- Elimination von Plasma, Gerinnungsfaktoren, Thrombozyten\n- Sterile Aufbereitung\n\n**4. Retransfusion:**\n- Rückgabe über Standard-Transfusionsset\n- Leukozytendepletionsfilter empfohlen\n- Sofortige Anwendung oder kurze Lagerung\n\n**Indikationen (Association of Anaesthetists 2018):**\n\n**Empfohlen bei erwarteter Blutung:**\n- **Erwachsene:** >500 ml (>10% Blutvolumen)\n- **Kinder >10 kg:** >8 ml/kg (>10% Blutvolumen)\n\n**Haupteinsatzgebiete:**\n1. **Herzchirurgie:** Bypass-Operationen, Klappenoperationen\n2. **Orthopädie:** Hüft-/Knie-TEP, Wirbelsäulenchirurgie\n3. **Gefäßchirurgie:** Aortenaneurysmen, Rekonstruktionen\n4. **Neurochirurgie:** Tumorresektionen, Aneurysmen\n5. **Traumachirurgie:** Polytrauma, Beckenfrakturen\n6. **Transplantationschirurgie:** Leber-, Nierentransplantation\n\n**Vorteile:**\n- **Reduzierte Fremdbluttransfusion:** RR 0,63 (95% CI 0,53-0,76)\n- **Bessere Erythrozytenqualität:** keine Lagerungsschäden\n- **Immunkompatibilität:** autologe Transfusion\n- **Kosteneffektivität:** bei geeigneten Eingriffen\n- **Geringere Komplikationen:** vs. Fremdbluttransfusion\n- **Sofortige Verfügbarkeit:** keine Kreuzprobe erforderlich\n\n**Kontraindikationen:**\n\n**Absolute:**\n- Bakterielle Kontamination des Operationsfeldes\n- Maligne Erkrankungen (relativ)\n- Sepsis mit Bakteriämie\n\n**Relative:**\n- Sichelzellanämie\n- Verwendung von Kollagen-/Gelschaum\n- Kontamination mit Amnionflüssigkeit\n- Malignome (spezielle Consent erforderlich)\n\n**Besonderheiten bei Tumorchirurgie:**\n- Leukozytendepletionsfilter empfohlen\n- Aufklärung über theoretisches Metastasierungsrisiko\n- Spezielle Einverständniserklärung\n- Nutzen überwiegt meist die Risiken",
+          "tipps": "**Praktische Anwendung Cell-Saver:**\n\n**Vorbereitung:**\n- Aufklärung und Einverständnis\n- Blutgruppe bestimmen (für Notfall-Fremdblut)\n- Hb-Wert präoperativ\n- Antikoagulans bereitstellen\n\n**Intraoperative Anwendung:**\n- Frühe Aktivierung bei erwartetem Blutverlust\n- Kontinuierliche Sammlung\n- Regelmäßige Verarbeitung (alle ~500 ml)\n- Hämatokrit-Monitoring\n\n**Qualitätskontrolle:**\n- Hämatokrit Endprodukt: ~60%\n- Freies Hämoglobin: <0,8 g/l\n- Reste von Antikoagulans minimal\n- Leukozytendepletion: >99%\n\n**Monitoring während Retransfusion:**\n- Vitalparameter\n- Säure-Basen-Status\n- Gerinnung (Quick, PTT, Fibrinogen)\n- Thrombozyten\n- Elektrolyte\n\n**Komplikationen:**\n- **Verdünnung:** Gerinnung, Thrombozyten\n- **Hämolyse:** bei unsachgemäßer Handhabung\n- **Luftembolie:** technische Defekte\n- **Hypocalcämie:** Citrat-Überdosierung\n\n**Backup-Strategien:**\n- Fremdblutreserve verfügbar halten\n- Gerinnungsfaktoren bereitstellen\n- Thrombozytenkonzentrate bei Bedarf\n\n**Kosteneffektivität:**\n- Amortisation ab ~3-4 Erythrozytenkonzentraten\n- Reduktion Fremdblutkosten\n- Weniger transfusionsassoziierte Komplikationen\n\n**Anästhesiologische Aspekte:**\n- ANH kombinierbar\n- Hypotensive Anästhesie\n- Normovolämie-Erhaltung\n- Gerinnungsmonitoring\n\n**Merksatz: 'Sammeln - Waschen - Konzentrieren - Retransfundieren'**",
+          "kommentar": "Cell-Saver ist ein etabliertes Verfahren des Patient Blood Management und reduziert nachweislich Fremdbluttransfusionen um ~37%. Besonders effektiv in Herz- und Orthopädiechirurgie. Die Association of Anaesthetists Guidelines 2018 empfehlen den Einsatz bei erwarteter Blutung >500 ml. Wichtig: Leukozytendepletionsfilter bei Tumorchirurgie und spezielle Aufklärung erforderlich.",
+          "flashcard": "**Front:** Cell-Saver - Funktionsprinzip und Hauptindikationen?\n\n**Back:** \n**Prinzip:**\n• Sammlung von OP-Feld-Blut\n• Zentrifugation + Waschung\n• Konzentration auf Hkt ~60%\n• Retransfusion gewaschener RBCs\n\n**Indikationen:**\n• Erwartete Blutung >500 ml\n• Herzchirurgie, Orthopädie\n• Gefäß-/Neurochirurgie\n• Traumachirurgie\n\n**Vorteile:**\n• Reduktion Fremdblut ~37%\n• Bessere RBC-Qualität\n• Kosteneffektiv\n• Immunkompatibel",
+          "mcq": {
+            "answers": [
+              {
+                "option": "A",
+                "text": "Cell-Saver ist bei bakterieller Kontamination des OP-Feldes kontraindiziert",
+                "correct": true,
+                "explanation": "Korrekt. Bakterielle Kontamination ist eine absolute Kontraindikation für Cell-Saver-Anwendung."
+              },
+              {
+                "option": "B",
+                "text": "Das Endprodukt enthält alle Blutbestandteile in normaler Konzentration",
+                "correct": false,
+                "explanation": "Falsch. Cell-Saver produziert gewaschene Erythrozyten (Hkt ~60%) ohne Plasma, Thrombozyten oder Gerinnungsfaktoren."
+              },
+              {
+                "option": "C",
+                "text": "Cell-Saver wird ab erwarteter Blutung >500 ml empfohlen",
+                "correct": true,
+                "explanation": "Korrekt. Association of Anaesthetists Guidelines 2018 empfehlen Cell-Saver ab >500 ml oder >10% Blutvolumen."
+              },
+              {
+                "option": "D",
+                "text": "Malignome sind eine absolute Kontraindikation für Cell-Saver",
+                "correct": false,
+                "explanation": "Falsch. Malignome sind eine relative Kontraindikation. Mit Leukozytendepletionsfilter und spezieller Aufklärung verwendbar."
+              }
+            ],
+            "explanation": "Cell-Saver ist ein effektives Verfahren zur Reduktion von Fremdbluttransfusionen. Es produziert hochkonzentrierte, gewaschene Erythrozyten und wird ab erwarteter Blutung >500 ml empfohlen."
+          },
+          "tags": ["Cell-Saver:Prinzip", "Autotransfusion:Verfahren", "IOS:Indikationen", "Blutseparation:Technik", "Patient-Blood-Management:Strategie"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Chirurg",
+          "examinerId": "examiner2",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "Sammeln, waschen, konzentrieren",
+            "wantedAnswer": "Autologe Transfusion, Blutverlust >500 ml",
+            "timeComment": "Blutkonservierung"
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "Cell-Saver - Intraoperative Blutseparation",
+            "uptodate": "Surgical blood conservation: Intraoperative blood salvage",
+            "pubmed": ["29956367", "31468332"],
+            "custom": ["Association of Anaesthetists Guidelines 2018", "Cochrane Review Cell Salvage 2023"]
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q29-uuid-029",
+          "fach": "Notfallmedizin",
+          "fachgebiet": "Notfall- und Intensivmedizin",
+          "thema": "Bewusstseinsstörung",
+          "subcategory": "Diagnostik",
+          "question": "Der Patient ist bewusstlos, atmet. Was müssen Sie machen?",
+          "answer": "Hypoglykämie [weitere Antwort nicht dokumentiert]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Bewusstlosigkeit:Erstmaßnahmen", "Hypoglykämie:Diagnostik"],
+          "schwierigkeit": "leicht",
+          "examinerSpeciality": "Notfallmediziner",
+          "examinerId": "examiner3",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "zufrieden",
+            "interruption": "laesst_ausreden",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "Hypoglykämie als erste Differentialdiagnose",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q30-uuid-030",
+          "fach": "Notfallmedizin",
+          "fachgebiet": "Notfall- und Intensivmedizin",
+          "thema": "Hypoglykämie",
+          "subcategory": "Therapie",
+          "question": "Wie viel Glukose bei Hypoglykämie?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Glukose:Dosierung", "Hypoglykämie:Therapie"],
+          "schwierigkeit": "leicht",
+          "examinerSpeciality": "Notfallmediziner",
+          "examinerId": "examiner3",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_genaue_werte",
+            "transition": "naechste_frage"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q31-uuid-031",
+          "fach": "Notfallmedizin",
+          "fachgebiet": "Notfall- und Intensivmedizin",
+          "thema": "Anaphylaxie",
+          "subcategory": "Therapie",
+          "question": "Anaphylaxie - wie behandelt man?",
+          "answer": "Adrenalin, H1-Blocker, GCS [weitere Details nicht dokumentiert]",
+          "erklarung": "Anaphylaxie ist ein lebensbedrohlicher allergischer Notfall mit systemischer Reaktion. Die Therapie erfolgt nach einem strukturierten Algorithmus mit Adrenalin als Erstlinientherapie. Aktuelle 2024 Guidelines betonen frühzeitige Adrenalin-Gabe und korrekte Lagerung.\n\n**SOFORTMASSNAHMEN (A-B-C-D-E-Approach):**\n\n**A - Airway Management:**\n- Atemwege freimachen\n- Bei Larynxödem: Notfall-Intubation\n- Ggf. Koniotomie bei kompletter Obstruktion\n- Sauerstoffgabe: 15 l/min über Maske\n\n**B - Breathing Support:**\n- Bronchospasmus: Salbutamol/Ipratropium\n- Assistierte Beatmung bei Ateminsuffizienz\n- Positive pressure ventilation\n\n**C - Circulation Management:**\n- **Adrenalin i.m. sofort:** Erstlinientherapie\n- Volumentherapie: kristalloide Lösungen\n- Schockposition (flach liegend)\n- Vitalparameter-Monitoring\n\n**D - Disability Assessment:**\n- Bewusstseinslage beurteilen\n- Neurologie: oft Angst, Verwirrtheit\n- Blutzucker kontrollieren\n\n**E - Exposure/Environment:**\n- Auslöser identifizieren und entfernen\n- Ganzkörperuntersuchung\n- Temperaturregulation\n\n**ADRENALIN-THERAPIE (Goldstandard):**\n\n**Dosierung Erwachsene:**\n- **Intramuskulär:** 0,5 mg (0,5 ml von 1:1000)\n- **Applikationsort:** Oberschenkel anterolateral\n- **Wiederholung:** nach 5 Min bei fehlendem Ansprechen\n- **Nadellänge:** 25 mm (alle Altersgruppen)\n\n**Dosierung Kinder:**\n- **<6 Jahre:** 0,15 mg (0,15 ml von 1:1000)\n- **6-12 Jahre:** 0,3 mg (0,3 ml von 1:1000)\n- **>12 Jahre:** 0,5 mg (wie Erwachsene)\n\n**Intravenöse Adrenalin-Therapie:**\n- **Indikation:** Refraktäre Anaphylaxie (>2 i.m.-Dosen)\n- **Dosierung:** 1:10.000 Verdünnung (0,1 mg/ml)\n- **Applikation:** Nur durch Erfahrene!\n- **Kontinuierlich:** 0,05-0,1 μg/kg/min\n- **Monitoring:** EKG, invasive Blutdruckmessung\n\n**ADJUVANTE THERAPIE:**\n\n**1. Volumentherapie:**\n- **Kristalloide:** Ringer-Lactat/NaCl 0,9%\n- **Erwachsene:** 20 ml/kg i.v. bolus\n- **Kinder:** 20 ml/kg i.v. bolus\n- **Wiederholung:** nach klinischer Beurteilung\n\n**2. H1-Antihistaminika:**\n- **Cetirizin:** 10 mg i.v. (Erwachsene)\n- **Dimetinden:** 0,1 mg/kg i.v.\n- **NICHT Promethazin:** Hypotonie-Risiko\n\n**3. H2-Antihistaminika:**\n- **Ranitidin:** 50 mg i.v. (nicht mehr verfügbar)\n- **Famotidin:** 20 mg i.v.\n\n**4. Corticosteroide:**\n- **Prednisolon:** 1-2 mg/kg i.v.\n- **Hydrocortison:** 5 mg/kg i.v.\n- **Wirkung:** verzögert (2-6h)\n- **Zweck:** Spätreaktion-Prophylaxe\n\n**5. Bronchodilatatoren:**\n- **Salbutamol:** 2,5-5 mg inhalativ\n- **Ipratropium:** 0,5 mg inhalativ\n- **Bei schwerer Obstruktion:** i.v. Theophyllin\n\n**REFRAKTÄRE ANAPHYLAXIE:**\n\n**Definition:** Persistierende Symptome trotz 2 i.m. Adrenalin-Dosen\n\n**Erweiterte Therapie:**\n- **Adrenalin-Perfusor:** 0,05-0,1 μg/kg/min\n- **Noradrenalin:** bei persistierender Hypotonie\n- **Vasopressin:** 0,01-0,04 IE/min\n- **Glukagon:** 1-5 mg i.v. (bei β-Blocker-Therapie)\n- **Methlenblau:** 1-2 mg/kg (Ultima Ratio)\n\n**Spezielle Situationen:**\n- **β-Blocker-Therapie:** Glukagon 1 mg i.v.\n- **ACE-Hemmer:** Volumen, Vasopressoren\n- **Schwangerschaft:** Linksseitenlage, Kaiserschnitt erwägen\n\n**LAGERUNG UND TRANSPORT:**\n\n**Kritische Maßnahmen:**\n- **Flachlagerung:** verbessert venösen Rückstrom\n- **NIEMALS aufsetzen/stehen lassen:** Kollaps-Gefahr\n- **Beine hoch:** bei Hypotonie\n- **Transport:** nur liegend\n- **Monitoring:** kontinuierlich",
+          "tipps": "**Anaphylaxie-Notfallalgorithmus:**\n\n**SOFORT-Checkliste:**\n□ Auslöser entfernen\n□ Flachlagerung (NIEMALS aufsetzen!)\n□ Adrenalin 0,5 mg i.m. (Oberschenkel)\n□ Sauerstoff 15 l/min\n□ Venöser Zugang\n□ Volumen 20 ml/kg\n□ Notarzt/Rettungsdienst\n\n**Adrenalin-Applikation:**\n- **Wo:** Oberschenkel anterolateral\n- **Tiefe:** 25 mm Nadel (alle Altersgruppen)\n- **Technik:** Senkrecht einstechen\n- **Wiederholung:** nach 5 Min bei fehlendem Ansprechen\n\n**Monitoring-Parameter:**\n- Blutdruck alle 5 Min\n- Herzfrequenz kontinuierlich\n- Sauerstoffsättigung\n- Atemfrequenz\n- Bewusstseinslage\n- Hautkolorit\n\n**Kritische Fehler vermeiden:**\n- **NICHT:** Oral-Antihistaminika (Aspiration)\n- **NICHT:** Promethazin (Hypotonie)\n- **NICHT:** Adrenalin i.v.-Bolus (Arrhythmie)\n- **NICHT:** Patient aufsetzen (Kollaps)\n\n**Biphasische Reaktion:**\n- **Häufigkeit:** bis 20% der Fälle\n- **Zeitpunkt:** 4-72h nach Erstereignis\n- **Überwachung:** mindestens 4-6h\n- **Entlassung:** nur bei stabilen Patienten\n\n**Spezielle Populationen:**\n- **Kinder:** Dosis nach Gewicht\n- **Schwangere:** Linksseitenlage\n- **Ältere:** Kardiale Komorbidität beachten\n- **β-Blocker:** Glukagon bereithalten\n\n**Entlass-Kriterien:**\n- Stabile Vitalparameter >4h\n- Keine Atemwegssymptome\n- Normaler Blutdruck\n- Adäquate Oxygenierung\n- Adrenalin-Autoinjektor verschrieben\n\n**Nachsorge:**\n- Allergologie-Überweisung\n- Adrenalin-Autoinjektor Training\n- Notfallausweis ausstellen\n- Auslöser-Vermeidung besprechen\n\n**Merksatz: 'Adrenalin i.m. - Flach liegend - Sauerstoff - Volumen'**",
+          "kommentar": "Anaphylaxie-Management folgt klaren Algorithmen mit Adrenalin i.m. als Erstlinientherapie. Die 2024 Guidelines betonen frühzeitige Adrenalin-Gabe und korrekte Patientenlagerung. Flachlagerung ist essentiell - Aufsetzen kann zum Kollaps führen. Biphasische Reaktionen erfordern prolongierte Überwachung. Antihistaminika und Corticosteroide sind adjuvant, ersetzen aber niemals Adrenalin.",
+          "flashcard": "**Front:** Anaphylaxie - Sofortmaßnahmen und Adrenalin-Dosierung?\n\n**Back:** \n**Sofortmaßnahmen:**\n• Auslöser entfernen\n• Flachlagerung (NIE aufsetzen!)\n• Adrenalin 0,5 mg i.m. (Oberschenkel)\n• O2 15 l/min\n• Venenzugang + Volumen 20 ml/kg\n\n**Adrenalin-Dosis:**\n• Erwachsene: 0,5 mg i.m.\n• Kinder <6J: 0,15 mg\n• Kinder 6-12J: 0,3 mg\n• Wiederholung nach 5 Min\n\n**Refraktär:** >2 Dosen = i.v.-Adrenalin\n**Überwachung:** 4-6h (biphasisch!)",
+          "mcq": {
+            "answers": [
+              {
+                "option": "A",
+                "text": "Antihistaminika sind die Erstlinientherapie bei Anaphylaxie",
+                "correct": false,
+                "explanation": "Falsch. Adrenalin i.m. ist die Erstlinientherapie. Antihistaminika sind nur adjuvante Therapie."
+              },
+              {
+                "option": "B",
+                "text": "Adrenalin wird bei Anaphylaxie intramuskulär in den Oberschenkel appliziert",
+                "correct": true,
+                "explanation": "Korrekt. Adrenalin 0,5 mg i.m. in den Oberschenkel anterolateral ist Goldstandard bei Anaphylaxie."
+              },
+              {
+                "option": "C",
+                "text": "Patienten mit Anaphylaxie sollten aufrecht sitzen",
+                "correct": false,
+                "explanation": "Falsch. Flachlagerung ist essentiell! Aufsetzen kann zum Kollaps führen durch reduzierten venösen Rückstrom."
+              },
+              {
+                "option": "D",
+                "text": "Corticosteroide wirken sofort bei Anaphylaxie",
+                "correct": false,
+                "explanation": "Falsch. Corticosteroide haben verzögerte Wirkung (2-6h) und dienen der Spätreaktion-Prophylaxe."
+              }
+            ],
+            "explanation": "Anaphylaxie-Management basiert auf sofortiger Adrenalin-Gabe i.m. plus Flachlagerung. Antihistaminika und Corticosteroide sind nur adjuvant. Biphasische Reaktionen erfordern prolongierte Überwachung."
+          },
+          "tags": ["Anaphylaxie:Therapie", "Notfall:Management", "Adrenalin:Dosierung", "Erstlinientherapie:Anaphylaxie", "Biphasische-Reaktion:Überwachung"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Notfallmediziner",
+          "examinerId": "examiner3",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "zufrieden",
+            "interruption": "laesst_ausreden",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "Adrenalin i.m. sofort",
+            "wantedAnswer": "Adrenalin als Erstmaßnahme, Flachlagerung",
+            "timeComment": "Lebensbedrohlicher Notfall"
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "Anaphylaxie - Notfalltherapie",
+            "uptodate": "Anaphylaxis: Emergency treatment",
+            "pubmed": ["38438169", "35965363"],
+            "custom": ["ASCIA Guidelines 2024", "Resuscitation Council UK 2024", "GA2LEN Consensus 2024"]
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q32-uuid-032",
+          "fach": "Notfallmedizin",
+          "fachgebiet": "Notfall- und Intensivmedizin",
+          "thema": "Anaphylaxie",
+          "subcategory": "Therapie",
+          "question": "Wohin Adrenalin bei Anaphylaxie?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Adrenalin:Applikation", "Anaphylaxie:Route"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Notfallmediziner",
+          "examinerId": "examiner3",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q33-uuid-033",
+          "fach": "Pharmakologie",
+          "fachgebiet": "Pharmakologie",
+          "thema": "Glucocorticoide",
+          "subcategory": "Therapie",
+          "question": "Was machen GCS bei Anaphylaxie?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "Glucocorticoide bei Anaphylaxie sind ein kontrovers diskutiertes Thema in der modernen Notfallmedizin. Aktuelle Evidenz zeigt, dass ihre Rolle deutlich überschätzt wurde und neue Guidelines ihre routinemäßige Anwendung nicht mehr empfehlen.\n\n**Wirkmechanismus der Glucocorticoide:**\n\n**1. Genomische Effekte (Hauptwirkung - langsam):**\n- **Gen-Transkription:** Hemmung pro-inflammatorischer Gene (NF-κB-Pathway)\n- **Zytokin-Suppression:** ↓TNF-α, ↓IL-1β, ↓IL-6, ↓IL-8 (2-6h Latenz)\n- **Arachidonsäure-Metabolismus:** ↓Phospholipase A2 → ↓Prostaglandine/Leukotriene\n- **Vaskuläre Permeabilität:** Stabilisierung der Endothelbarriere (nach 4-24h)\n- **Eosinophile Infiltration:** Hemmung der späten eosinophilen Phase\n\n**2. Non-genomische Effekte (schnell - umstritten):**\n- **Membranstabilisierung:** Direkte Interaktion mit Zellmembranen (5-30 Min)\n- **Glucocorticoid-Rezeptor:** Blockade der Signaltransduktion unabhängig von Genexpression\n- **Ca²⁺-Influx:** Hemmung in Mastzellen (theoretisch, klinisch nicht belegt)\n\n**Rolle bei Anaphylaxie-Phasen:**\n\n**Akutphase (0-2h):** \n- **KEINE Wirkung** auf Mastzell-Degranulation\n- **KEINE Hemmung** von Histamin-, Tryptase-, oder PAF-Freisetzung\n- IgE-vermittelte Sofortreaktion läuft ungehindert ab\n- **Adrenalin bleibt einzige effektive Akuttherapie**\n\n**Spätphase (2-12h):**\n- **Theoretisch:** Hemmung der eosinophilen Infiltration\n- **Theoretisch:** ↓Zytokin-getriebene Entzündung\n- **Klinisch:** Keine konsistente Evidenz für Benefit\n\n**Aktuelle Kontroverse - Evidence Update 2024:**\n\n**Traditionelle Begründung (widerlegt):**\n- \"Prävention biphasischer Reaktionen\" → **KEINE Evidenz**\n- \"Verkürzung der Symptome\" → **Inkonsistente Daten**\n- \"Stabilisierung des Kreislaufs\" → **Nicht in Akutphase**\n\n**2024 Guidelines-Änderungen:**\n- **AAAAI 2024:** Empfiehlt GEGEN routinemäßige GCS-Gabe\n- **Resuscitation Council UK:** GCS nicht mehr Routine-Empfehlung\n- **Cochrane Review:** Keine überzeugende Evidenz für Wirksamkeit\n- **\"Things We Do for No Reason\":** GCS bei Anaphylaxie als überflüssige Intervention gelistet\n\n**Biphasische Reaktionen - Mythos vs. Realität:**\n- **Inzidenz:** 1-8.9% (meist mild, selten schwer)\n- **GCS-Effekt:** Keine konsistente Reduktion biphasischer Reaktionen\n- **Zeitfenster:** Biphasische Reaktionen 1-72h (meist <10h)\n- **Risikofaktoren:** Schwere Initialreaktion, >1 Adrenalin-Dosis, verzögerte Adrenalin-Gabe\n\n**Mögliche Nachteile der GCS-Gabe:**\n- **Immunsuppression:** Erhöhtes Infektionsrisiko\n- **Hyperglykämie:** Problematisch bei Diabetikern\n- **Verzögerung:** Fokus weg von lebensrettender Adrenalin-Therapie\n- **Falsche Sicherheit:** Glaube an protektive Wirkung ohne Evidenz",
+          "tipps": "**Moderne Anaphylaxie-Therapie - GCS-Rolle neu bewerten:**\n\n**1. Akutphase - GCS sind NICHT indiziert:**\n- **Einzige Priorität:** Adrenalin i.m. (Oberschenkel)\n- **Keine Verzögerung** durch GCS-Gabe\n- **Wirkungslatenz:** 4-24h für Haupteffekte, zu langsam für Akutphase\n\n**2. Evidenz-basierte Entscheidung:**\n- **Keine Routine-Gabe** mehr empfohlen (2024 Guidelines)\n- **Individuelle Bewertung:** Nur bei spezifischen Indikationen\n- **Schwere Asthma-Komponente:** Mögliche Indikation für GCS\n- **Protrahierte Reaktion:** >12h anhaltende Symptome\n\n**3. Praktische Umsetzung:**\n- **Adrenalin zuerst:** 0.3-0.5mg i.m., alle 5-15 Min wiederholbar\n- **Volumen + Vasopressoren:** Bei persistierender Hypotonie\n- **H1/H2-Antihistaminika:** Adjuvante Symptomkontrolle\n- **GCS erwägen:** Nur bei anhaltenden Symptomen >2-4h\n\n**4. Monitoring-Strategie:**\n- **Biphasische Reaktion:** Risikostratifizierung statt prophylaktische GCS\n- **Beobachtungszeit:** 4-8h bei Hochrisiko-Patienten\n- **Entlassung:** Nach vollständiger Symptomfreiheit möglich\n\n**5. Dosierung falls GCS gegeben:**\n- **Hydrocortison:** 200mg i.v./i.m. (Erwachsene)\n- **Prednisolon:** 1-2mg/kg p.o. (max. 60mg)\n- **Methylprednisolon:** 1-2mg/kg i.v.\n\n**Merksätze:**\n- \"Adrenalin rettet Leben, GCS nicht\"\n- \"GCS bei Anaphylaxie: Tradition ohne Evidenz\"\n- \"Biphasische Reaktionen selten - GCS helfen nicht dagegen\"",
+          "kommentar": "Dieses Thema reflektiert einen wichtigen Paradigmenwechsel in der Notfallmedizin. Jahrelang wurden GCS routinemäßig bei Anaphylaxie gegeben, basierend auf theoretischen Überlegungen und Tradition. 2024er Guidelines zeigen klar: Die Evidenz für GCS bei Anaphylaxie ist schwach bis nicht-existent. Moderne Anaphylaxie-Behandlung fokussiert auf Adrenalin als einzige erwiesenermaßen lebensrettende Intervention. GCS können sogar kontraproduktiv sein, wenn sie von der essentiellen Adrenalin-Therapie ablenken.",
+          "flashcard": "**Front:** Glucocorticoide bei Anaphylaxie - Wirkmechanismus und aktuelle Empfehlungen 2024?\n\n**Back:** \n**Wirkmechanismus:**\n• **Genomisch:** ↓Zytokine, ↓Inflammation (4-24h Latenz)\n• **Spätphase:** Hemmung eosinophiler Infiltration\n• **KEINE Akutwirkung** auf Mastzell-Degranulation\n\n**Aktuelle Evidenz (2024):**\n• **AAAAI:** Empfiehlt GEGEN routinemäßige GCS\n• **Keine Prävention** biphasischer Reaktionen\n• **Wirkungslatenz** zu langsam für Akutphase\n\n**Fazit:** Adrenalin ist einzige erwiesene Akuttherapie!\n**GCS:** Nur bei protrahierten Verläufen erwägen",
+          "mcq": {
+            "answers": [
+              {
+                "option": "A",
+                "text": "Glucocorticoide wirken sofort durch Hemmung der Mastzell-Degranulation",
+                "correct": false,
+                "explanation": "Falsch. GCS haben KEINE Sofortwirkung auf Mastzell-Degranulation. Ihre Hauptwirkung erfolgt genomisch mit 4-24h Latenz."
+              },
+              {
+                "option": "B",
+                "text": "Glucocorticoide verhindern zuverlässig biphasische anaphylaktische Reaktionen",
+                "correct": false,
+                "explanation": "Falsch. Aktuelle Evidenz zeigt KEINE konsistente Reduktion biphasischer Reaktionen durch GCS. 2024 Guidelines empfehlen gegen routinemäßige Gabe."
+              },
+              {
+                "option": "C",
+                "text": "Glucocorticoide wirken hauptsächlich genomisch mit Hemmung pro-inflammatorischer Zytokine",
+                "correct": true,
+                "explanation": "Korrekt. GCS wirken primär durch Hemmung der Gen-Transkription (NF-κB-Pathway), supprimieren Zytokine wie TNF-α, IL-1β mit 2-6h Latenz."
+              },
+              {
+                "option": "D",
+                "text": "Glucocorticoide sind gleichwertig zu Adrenalin in der Akuttherapie der Anaphylaxie",
+                "correct": false,
+                "explanation": "Falsch. Adrenalin ist die EINZIGE erwiesenermaßen lebensrettende Akuttherapie. GCS haben keine Akutwirkung und moderne Guidelines empfehlen gegen Routine-Anwendung."
+              }
+            ],
+            "explanation": "Glucocorticoide bei Anaphylaxie repräsentieren einen wichtigen Paradigmenwechsel der modernen Notfallmedizin. 2024er Guidelines basieren auf aktueller Evidenz, die zeigt, dass GCS weder biphasische Reaktionen verhindern noch in der Akutphase wirksam sind. Der Fokus liegt auf Adrenalin als einziger erwiesener lebensrettender Intervention."
+          },
+          "tags": ["Glucocorticoide:Wirkung", "Anaphylaxie:GCS", "Evidence-Based-Medicine:2024", "Biphasische-Reaktion:Prävention", "Genomische-Wirkung:Latenz"],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Notfallmediziner",
+          "examinerId": "examiner3",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "Paradigmenwechsel 2024",
+            "wantedAnswer": "Genomische Wirkung, keine Akuteffekte, neue Guidelines gegen Routine-Gabe",
+            "timeComment": "Kontroverse Diskussion über Evidenz"
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "Anaphylaxie - Glucocorticoide",
+            "uptodate": "Anaphylaxis: Emergency treatment - Corticosteroids",
+            "pubmed": ["34728153", "36586880", "33838888"],
+            "custom": ["AAAAI Practice Parameter 2024", "Cochrane Review GCS Anaphylaxis", "Things We Do for No Reason - GCS"]
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q34-uuid-034",
+          "fach": "Notfallmedizin",
+          "fachgebiet": "Notfall- und Intensivmedizin",
+          "thema": "Anaphylaxie",
+          "subcategory": "Komplikationen",
+          "question": "Verzögerte Reaktion bei Anaphylaxie?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "Biphasische (verzögerte/sekundäre) anaphylaktische Reaktionen sind ein wichtiges, aber oft überschätztes Phänomen in der Notfallmedizin. Aktuelle Evidenz zeigt eine deutlich geringere Inzidenz und Schwere als traditionell angenommen.\n\n**Definition und Terminologie:**\n\n**Biphasische Anaphylaxie:** Rekurrenz anaphylaktischer Symptome nach initialer Besserung/Stabilisierung, ohne erneute Allergen-Exposition. Die Zweitreaktion tritt typischerweise 1-72 Stunden nach der Initialreaktion auf.\n\n**Abgrenzung:**\n- **Protrahierte Anaphylaxie:** Kontinuierliche Symptome >12h ohne komplette Remission\n- **Rezidivierende Anaphylaxie:** Neue Reaktion nach erneuter Allergen-Exposition\n- **Refraktäre Anaphylaxie:** Therapie-resistente Initialreaktion\n\n**Epidemiologie - Aktuelle Daten 2024:**\n\n**Gesamtinzidenz:** 1-20% (große Variation je nach Definition/Population)\n- **Klinisch relevante biphasische Reaktionen:** 1-8.9%\n- **Schwere biphasische Reaktionen:** <3% aller Anaphylaxie-Fälle\n- **Mit vitalen Bedrohung:** <1% aller Anaphylaxie-Fälle\n- **Mortalität:** Extrem selten bei biphasischen Reaktionen\n\n**Zeitliche Charakteristika:**\n- **Median-Zeitpunkt:** 8-10 Stunden nach Initialreaktion\n- **Häufigster Bereich:** 4-12 Stunden\n- **Extremwerte:** 1 Stunde bis 72 Stunden\n- **Peak-Inzidenz:** 4-6 Stunden post-initial\n\n**Pathophysiologie der Biphasischen Reaktion:**\n\n**1. Klassische Hypothese (überholte Theorie):**\n- \"Späte eosinophile Phase\" analog zur Asthma-Pathophysiologie\n- Zytokin-getriebene Sekundärreaktion (TNF-α, IL-4, IL-5)\n- Rekrutierung und Aktivierung von Entzündungszellen\n\n**2. Moderne Erkenntnisse:**\n- **Kontinuierliche Mediator-Freisetzung:** Anhaltende, subklinische Mastzell-Aktivierung\n- **Pharmakokinetik:** Nachlassende Adrenalin-/Antihistaminika-Spiegel\n- **Vaskuläre Hyperreaktivität:** Endotheliale Dysfunktion persistiert\n- **\"Rebound-Phänomen\":** Nach Abklingen der Akuttherapie\n\n**3. Zelluläre Mechanismen:**\n- **Mastzell-\"Priming\":** Erhöhte Reaktionsbereitschaft nach Initialstimulus\n- **Basophile Aktivierung:** Sekundäre Degranulation\n- **Komplement-Aktivierung:** C3a/C5a-vermittelte späte Reaktionen\n- **PAF-Freisetzung:** Verzögerte Plätchen-aktivierender Faktor-Produktion\n\n**Risikofaktoren für Biphasische Reaktionen:**\n\n**Hochrisiko-Kriterien (Evidenz-basiert):**\n1. **Schwere Initialreaktion:** Hypotension, Larynxödem, Bewusstlosigkeit\n2. **Mehrfache Adrenalin-Gaben:** >1 Dosis in der Akutphase erforderlich\n3. **Verzögerte Adrenalin-Gabe:** >60 Minuten nach Symptombeginn\n4. **Weite Pulsamplitude:** Bei Erstpräsentation (systolisch-diastolisch >40mmHg)\n5. **Unbekanntes Allergen:** Schwierigkeit der kompletten Allergen-Elimination\n\n**Mäßige Risikofaktoren:**\n- **Medikamenten-getriggerte Anaphylaxie** (vs. Nahrungsmittel)\n- **Kutane Manifestationen:** Ausgedehnte Urtikaria/Angioödem\n- **Respiratorische Beteiligung:** Bronchospasmus, Stridor\n- **Vorherige biphasische Reaktion:** Anamnestisch bekannt\n\n**Schwere der Biphasischen Reaktionen:**\n\n**2024 Kohorten-Studien zeigen:**\n- **Mild (60-70%):** Hautsymptome, leichte GI-Beschwerden\n- **Moderat (25-35%):** Kreislaufreaktionen, Bronchospasmus\n- **Schwer (<5%):** Lebensbedrohliche Manifestationen\n- **Vergleich zur Initialreaktion:** Meist weniger schwer\n\n**Klinische Präsentation:**\n- **Ähnliche Symptomatik:** Wie Initialreaktion, oft abgeschwächt\n- **Prädominante Manifestationen:** Kardiovaskulär, respiratorisch\n- **Seltener:** Schwere Anaphylaxie-Grade bei Zweitreaktion\n\n**Management und Überwachung:**\n\n**Traditionelle vs. Evidenz-basierte Überwachung:**\n\n**Alte Dogmen:**\n- \"Alle Anaphylaxie-Patienten 24h überwachen\"\n- \"Prophylaktische Glucocorticoide für alle\"\n- \"Keine Entlassung vor 12h\"\n\n**Aktuelle Empfehlungen (individualisiert):**\n\n**1. Risikostratifizierung:**\n- **Niedrigrisiko:** 1-4h asymptomatische Beobachtung ausreichend\n- **Hochrisiko:** 4-8h (bis 24h bei besonderen Umständen)\n- **Basis:** Risikofaktoren-Assessment, nicht pauschale Zeitfenster\n\n**2. Beobachtungsparameter:**\n- **Vitalzeichen:** RR, HF, SpO₂, Temperatur (Q30min → Q1h)\n- **Respiratorisch:** Peak-Flow, Auskultation, Stridor-Assessment\n- **Dermatologisch:** Hautsymptom-Monitoring\n- **Neurologisch:** Bewusstsein, Orientierung\n\n**3. Entlassungskriterien:**\n- **Vollständige Symptomfreiheit** (nicht nur Besserung)\n- **Stabile Vitalzeichen** über mindestens 2h\n- **Adäquate häusliche Überwachung** möglich\n- **Adrenalin-Autoinjektor** verfügbar und erklärt\n- **24h-Notfallzugang** gewährleistet",
+          "tipps": "**Praktisches Management Biphasischer Anaphylaxie-Reaktionen:**\n\n**1. Risikostratifizierung bei ED-Ankunft:**\n\n**Sofort-Assessment:**\n- Schwere der Initialreaktion dokumentieren\n- Adrenalin-Gaben zählen (jede Dosis = ↑Risiko)\n- Zeitpunkt erste Adrenalin-Gabe erfassen\n- Allergieauslöser identifizieren (unbekannt = ↑Risiko)\n\n**2. Überwachungsprotokoll:**\n\n**Standardrisiko (90% der Fälle):**\n- **4h asymptomatische Beobachtung**\n- Vitalzeichen Q30min → Q1h\n- Nach 4h symptomfrei → Entlassung erwägen\n\n**Hochrisiko (10% der Fälle):**\n- **8-12h Überwachung** (stationär)\n- Kontinuierliches Monitoring\n- I.v.-Zugang belassen\n- Adrenalin/Notfallmedikation griffbereit\n\n**3. Strukturierte Überwachung:**\n\n**Stündliche Evaluation:**\n- **A:** Airway - Stimme, Schlucken, Stridor\n- **B:** Breathing - SpO₂, Peak-Flow, Auskultation\n- **C:** Circulation - RR, HF, Rekapillarisierung\n- **D:** Disability - Bewusstsein, Orientierung\n- **E:** Exposure - Haut, Temperatur\n\n**4. Medikamentöse Bereitschaft:**\n\n**Sofort verfügbar halten:**\n- **Adrenalin:** 1:1000 i.m. (0.3-0.5mg)\n- **H1-Antihistaminika:** Diphenhydramin 25-50mg i.v.\n- **H2-Antihistaminika:** Ranitidin 50mg i.v.\n- **Bronchodilatatoren:** Salbutamol-Inhalation\n- **Volumenersatz:** Kristalloide/Kolloide\n\n**5. Entscheidungsalgorithmus:**\n\n**Nach 4h symptomfrei:**\n- **Niedrigrisiko:** Entlassung mit Aufklärung\n- **Hochrisiko:** Weitere 4-8h Überwachung\n\n**Symptom-Rekurrenz:**\n- **Sofortige Therapie** wie Initialreaktion\n- **Adrenalin nicht zögern**\n- **Stationäre Aufnahme** erwägen\n\n**6. Patient/Angehörigen-Aufklärung:**\n\n**Entlassungsgespräch:**\n- **Biphasische Reaktion erklären** (1-10% Risiko)\n- **Warnsymptome benennen:** Hautrötung, Juckreiz, Atemnot\n- **24h-Beobachtung zu Hause:** Nicht allein lassen\n- **Sofortige Rückkehr bei:** Symptom-Rekurrenz\n- **Adrenalin-Autoinjektor:** Anwendung demonstrieren\n\n**7. Dokumentation:**\n\n**Essentiell erfassen:**\n- Exakte Zeiten (Symptombeginn, Therapie, Remission)\n- Schweregrad nach Ring&Messmer/Brown-Klassifikation\n- Alle Medikamentengaben mit Zeiten\n- Risikofaktoren-Assessment\n- Beobachtungsverlauf lückenlos\n\n**8. Besondere Situationen:**\n\n**Pädiatrie:** Häufiger prolongierte Beobachtung (Eltern-Compliance)\n**Ältere Patienten:** Kardiovaskuläre Komorbiditäten beachten\n**Schwangerschaft:** Fetale Überwachung einbeziehen\n**Rural/Remote Areas:** Längere Beobachtung bei weiten Anfahrten\n\n**Merksätze:**\n- \"Nicht jede Anaphylaxie braucht 24h-Überwachung\"\n- \"Risiko individuell bewerten, nicht pauschal behandeln\"\n- \"Schwere biphasische Reaktionen sind seltener als befürchtet\"",
+          "kommentar": "Das Thema biphasische Anaphylaxie zeigt exemplarisch, wie sich die Notfallmedizin von dogmatischen zu evidenz-basierten Ansätzen entwickelt. Aktuelle Daten zeigen: Biphasische Reaktionen sind seltener und meist weniger schwer als traditionell gelehrt. Dies erlaubt individualisierte Überwachungsstrategien statt pauschaler 24h-Beobachtung. Wichtig ist die korrekte Risikostratifizierung - Hochrisiko-Patienten brauchen intensive Überwachung, Niedrigrisiko-Patienten können nach 4h symptomfreier Beobachtung entlassen werden.",
+          "flashcard": "**Front:** Biphasische Anaphylaxie - Inzidenz, Zeitfenster und Management 2024?\n\n**Back:** \n**Epidemiologie:**\n• **Inzidenz:** 1-8.9% (klinisch relevant)\n• **Schwere Fälle:** <3% aller Anaphylaxien\n• **Zeitfenster:** 1-72h (Peak 4-12h)\n\n**Risikofaktoren:**\n• Schwere Initialreaktion\n• >1 Adrenalin-Dosis\n• Verzögerte Adrenalin-Gabe (>60min)\n• Unbekanntes Allergen\n\n**Management:**\n• **Niedrigrisiko:** 4h Beobachtung\n• **Hochrisiko:** 8-12h Überwachung\n• **Individuelle Bewertung** statt pauschale 24h",
+          "mcq": {
+            "answers": [
+              {
+                "option": "A",
+                "text": "Biphasische Reaktionen treten bei 30-50% aller Anaphylaxie-Patienten auf",
+                "correct": false,
+                "explanation": "Falsch. Aktuelle Studien zeigen eine Inzidenz von nur 1-8.9% für klinisch relevante biphasische Reaktionen. Schwere Fälle <3%."
+              },
+              {
+                "option": "B",
+                "text": "Alle Anaphylaxie-Patienten müssen mindestens 24 Stunden überwacht werden",
+                "correct": false,
+                "explanation": "Falsch. Moderne evidenz-basierte Ansätze empfehlen individualisierte Überwachung: Niedригrisiko 4h, Hochrisiko 8-12h."
+              },
+              {
+                "option": "C",
+                "text": "Biphasische Reaktionen treten typischerweise 4-12 Stunden nach der Initialreaktion auf",
+                "correct": true,
+                "explanation": "Korrekt. Der Peak liegt bei 8-10h, häufigster Bereich 4-12h. Gesamtzeitfenster 1-72h."
+              },
+              {
+                "option": "D",
+                "text": "Biphasische Reaktionen sind immer schwerer als die Initialreaktion",
+                "correct": false,
+                "explanation": "Falsch. Biphasische Reaktionen sind meist weniger schwer als die Initialreaktion. 60-70% sind mild."
+              }
+            ],
+            "explanation": "Biphasische Anaphylaxie ist ein gut erforschtes, aber oft überschätztes Phänomen. Aktuelle 2024er Evidenz zeigt deutlich niedrigere Inzidenzen und individualisierte Überwachungsstrategien. Risikostratifizierung ermöglicht optimierte Ressourcennutzung ohne Kompromiss bei der Patientensicherheit."
+          },
+          "tags": ["Anaphylaxie:Biphasisch", "Spätreaktion:Management", "Risikostratifizierung:Anaphylaxie", "Überwachungsdauer:Evidenz", "Notfallmedizin:2024"],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Notfallmediziner",
+          "examinerId": "examiner3",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "Evidenz-basierte Überwachung",
+            "wantedAnswer": "Inzidenz 1-8.9%, Zeitfenster 4-12h, individualisierte Beobachtung",
+            "timeComment": "Moderne Ansätze vs. traditionelle Dogmen"
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "Anaphylaxie - Biphasische Reaktionen",
+            "uptodate": "Anaphylaxis: Emergency treatment - Biphasic reactions",
+            "pubmed": ["34323665", "33184890", "36847367"],
+            "custom": ["Biphasic Anaphylaxis Review 2024", "Emergency Medicine Observation Guidelines", "Anaphylaxis Risk Stratification"]
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q35-uuid-035",
+          "fach": "Allgemeinmedizin",
+          "fachgebiet": "Anamnese",
+          "thema": "Compliance",
+          "subcategory": "Definition",
+          "question": "Was ist Adhärenz?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Adhärenz:Definition", "Compliance:Konzept"],
+          "schwierigkeit": "leicht",
+          "examinerSpeciality": "Notfallmediziner",
+          "examinerId": "examiner3",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q36-uuid-036",
+          "fach": "Rechtsmedizin",
+          "fachgebiet": "Thanatologie",
+          "thema": "Todesfeststellung",
+          "subcategory": "Diagnostik",
+          "question": "Sichere Todeszeichen?",
+          "answer": "[INCOMPLETE - Fragment]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Todeszeichen:Sicher", "Thanatologie:Diagnostik"],
+          "schwierigkeit": "leicht",
+          "examinerSpeciality": "Notfallmediziner",
+          "examinerId": "examiner3",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "themawechsel"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "LOW",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q37-uuid-037",
+          "fach": "Innere Medizin",
+          "fachgebiet": "Gastroenterologie",
+          "thema": "Obstipation",
+          "subcategory": "Definition",
+          "question": "Obstipation?",
+          "answer": "[INCOMPLETE - Fragment]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Obstipation:Definition", "Verdauung:Störung"],
+          "schwierigkeit": "leicht",
+          "examinerSpeciality": "Notfallmediziner",
+          "examinerId": "examiner3",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "vertieft_thema"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "LOW",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q38-uuid-038",
+          "fach": "Pharmakologie",
+          "fachgebiet": "Pharmakologie",
+          "thema": "Laxantien",
+          "subcategory": "Therapie",
+          "question": "Medikamente bei Obstipation?",
+          "answer": "[INCOMPLETE - Fragment]",
+          "erklarung": "Die medikamentöse Obstipationstherapie folgt einem stufenweisen, evidenz-basierten Ansatz. Moderne Laxantien-Klassifikation basiert auf Wirkmechanismen und ermöglicht individualisierte Therapiestrategien je nach Obstipationstyp.\n\n**Laxantien-Klassifikation nach Wirkmechanismus:**\n\n**1. BULK-FORMING AGENTS (Füllstoffe/Quellmittel)**\n\n**Wirkstoffe:**\n- **Psyllium (Flohsamenschalen):** Metamucil, Mucofalk\n- **Methylcellulose:** Citrucel\n- **Calcium-Polycarbophil:** FiberCon\n- **Sterculia:** Normacol\n\n**Wirkmechanismus:**\n- **Wasserbindung:** Gelbildung im Darm (8-15x Volumenzunahme)\n- **Stimulation:** Mechanische Dehnung → erhöhte Peristaltik\n- **Bakterielle Fermentation:** 85% Abbau → ↑Stuhlmasse\n- **Sekundäreffekte:** SCFA-Produktion, pH-Senkung\n\n**Pharmakokinetik:**\n- **Wirkungseintritt:** 2-3 Tage\n- **Maximaler Effekt:** 5-7 Tage\n- **Wasserzufuhr:** 200-300ml pro Dosis essentiell\n\n**2. OSMOTIC LAXATIVES (Osmotische Laxantien)**\n\n**A. Polymer-basiert:**\n- **Polyethylenglykol (PEG):** Movicol, Laxoberal\n  - **PEG 3350:** Standard-Formulierung\n  - **PEG 4000:** Höhere Osmolarität\n  - **Elektrolyt-Zusätze:** Na⁺, K⁺, Cl⁻ zur Balance\n\n**B. Zucker-Analoga:**\n- **Lactulose:** Bifiteral, Duphalac (Galactose-Fructose)\n- **Lactitol:** Importal (synthetisches Disaccharid)\n- **Sorbitol:** Sorbitol-Lösung 70%\n\n**C. Saline Laxatives:**\n- **Magnesiumsulfat:** Bittersalz (Epsom salt)\n- **Magnesiumhydroxid:** Milk of Magnesia\n- **Natriumsulfat:** Glaubersalz\n- **Natriumphosphat:** Fleet Phospho-soda\n\n**Wirkmechanismus:**\n- **Hyperosmolarer Effekt:** Wasserretention im Darmlumen\n- **Stuhlkonsistenz:** Erweichung durch ↑Wassergehalt\n- **Peristaltik:** Sekundäre Stimulation durch Distension\n- **Elektrolyt-Transport:** Aktive Sekretion (bei einigen)\n\n**Pharmakokinetik:**\n- **PEG:** Nicht resorbiert, keine Elektrolytstörungen\n- **Lactulose:** Bakterielle Spaltung → organische Säuren\n- **Salze:** Systemische Resorption möglich\n\n**3. STIMULANT LAXATIVES (Stimulierende Laxantien)**\n\n**Anthranoide (Pflanzlich):**\n- **Senna (Sennoside A+B):** Agiolax, Dulcolax Balance\n- **Cascara sagrada:** Rhamnus purshiana\n- **Aloe:** Aloe barbadensis\n- **Rhabarber:** Rheum palmatum\n\n**Synthetische Stimulantien:**\n- **Bisacodyl:** Dulcolax (Diphenylmethan-Derivat)\n- **Natriumpicosulfat:** Laxoberal Tropfen\n- **Castor Oil:** Rizinusöl (Ricinolsäure)\n\n**Wirkmechanismus:**\n- **Enterische Nerven:** Stimulation des ENS (Enterisches Nervensystem)\n- **Sekretion:** ↑Wasser- und Elektrolytsekretion\n- **Motilität:** Verstärkte propulsive Kontraktionen\n- **Prostaglandine:** E₂-Freisetzung → Sekretion/Motilität\n\n**Pharmakokinetik:**\n- **Wirkungseintritt:** 6-12h (oral), 15-60min (rektal)\n- **Enterohepatischer Kreislauf:** Bei Anthranoid-Derivaten\n- **Metabolismus:** Bakterielle Aktivierung erforderlich\n\n**4. STOOL SOFTENERS (Stuhlweichmacher)**\n\n**Emollient Laxatives:**\n- **Docusat-Natrium:** Colace, Norgalax\n- **Docusat-Calcium:** Surfak\n- **Poloxamer 188:** Alvedon\n\n**Wirkmechanismus:**\n- **Surfactant-Effekt:** Oberflächenspannung ↓\n- **Lipid-Integration:** Stuhl-Wasser/Fett-Vermischung\n- **Konsistenz:** Erweichung ohne Volumenänderung\n- **KEINE Peristaltik-Stimulation**\n\n**5. LUBRICANT LAXATIVES (Gleitmittel)**\n\n**Mineralöl-basiert:**\n- **Paraffinum liquidum:** Medizinisches Paraffinöl\n- **Glycerin:** Glycerin-Suppositorien\n\n**Wirkmechanismus:**\n- **Beschichtung:** Darmwand-Gleitfilm\n- **Wasserresorption:** Hemmung der H₂O-Reabsorption\n- **Mechanische Erleichterung:** Defäkations-Unterstützung\n\n**6. PROKINETIC AGENTS (Motilitätsförderer)**\n\n**Serotonin-Agonisten:**\n- **Prucaloprid:** Resolor (5-HT₄-Agonist)\n- **Linaclotid:** Constella (Guanylat-Cyclase-C-Agonist)\n\n**Peripherer Opioid-Antagonist:**\n- **Methylnaltrexon:** Relistor\n- **Naloxegol:** Moventig\n\n**Stufentherapie der Obstipation:**\n\n**1. Linie (First-Line):**\n- **Lifestyle:** Ballaststoffe ↑, Flüssigkeit ↑, Bewegung\n- **Bulk-forming:** Psyllium 5-15g täglich\n- **Alternative:** PEG 10-20g täglich\n\n**2. Linie (Second-Line):**\n- **PEG-Steigerung:** Bis 40g täglich\n- **Stimulantien:** Bisacodyl 5-15mg, Senna 15-30mg\n- **Kombination:** Bulk-forming + osmotisch\n\n**3. Linie (Third-Line):**\n- **Prokinetics:** Prucaloprid 2mg täglich\n- **Spezialpräparate:** Linaclotid bei IBS-C\n- **Rektal:** Glycerin-Suppositorien, Phosphat-Klistiere\n\n**4. Linie (Refraktäre Fälle):**\n- **Gastroenterologie-Konsil:** Weiterführende Diagnostik\n- **Biofeedback:** Bei Beckenboden-Dysfunktion\n- **Chirurgie:** Kolektomie bei therapierefraktärer Trägheit",
+          "tipps": "**Praktische Laxantien-Auswahl - Indikations-spezifisch:**\n\n**1. Situationsabhängige Medikamentenwahl:**\n\n**Akute Obstipation (<3 Tage):**\n- **Erste Wahl:** Bisacodyl 5-10mg p.o. (Abends)\n- **Rektal:** Bisacodyl-Suppositorium 10mg\n- **Schnellwirkung:** Natriumpicosulfat-Tropfen\n- **Vermeiden:** Bulk-forming (zu langsam)\n\n**Chronische Obstipation:**\n- **Basis:** PEG 10-20g täglich (beste Evidenz)\n- **Alternative:** Psyllium 5-15g täglich\n- **Kombination:** PEG + gelegentlich Stimulans\n- **Monitoring:** Stuhlfrequenz, Konsistenz (Bristol-Skala)\n\n**Opioid-induzierte Obstipation:**\n- **Spezifisch:** Methylnaltrexon, Naloxegol\n- **Standard:** PEG + Stimulantien-Kombination\n- **Prophylaxe:** Frühe Laxantien-Gabe\n\n**Schwangerschaft/Stillzeit:**\n- **Sicher:** Bulk-forming, PEG\n- **Vermeiden:** Stimulantien (Wehen-Risiko)\n- **Rektal:** Glycerin-Suppositorien erlaubt\n\n**Pädiatrie:**\n- **>6 Jahre:** PEG 0.5-1g/kg täglich\n- **Lactulose:** 1-3ml/kg täglich\n- **Vermeiden:** Mineralöl (Aspirationsrisiko)\n\n**2. Dosierungs-Guidelines:**\n\n**PEG (Polyethylenglykol):**\n- **Initial:** 10-20g (1-2 Beutel) täglich\n- **Titration:** Alle 3-5 Tage um 10g steigern\n- **Maximum:** 40g täglich\n- **Einnahme:** Mit 200-300ml Flüssigkeit\n\n**Psyllium:**\n- **Dosis:** 5-15g (1-3 TL) täglich\n- **Flüssigkeit:** Mindestens 250ml pro Dosis\n- **Zeitpunkt:** 30 Min vor/nach anderen Medikamenten\n- **Steigerung:** Langsam über 1-2 Wochen\n\n**Bisacodyl:**\n- **Oral:** 5-15mg abends (6-12h Latenz)\n- **Rektal:** 10mg Suppositorium (15-60min)\n- **Nicht täglich:** Max. 1 Woche kontinuierlich\n\n**Lactulose:**\n- **Initial:** 15-30ml (10-20g) täglich\n- **Titration:** Nach Stuhlkonsistenz\n- **Maximum:** 60ml täglich\n- **Nebenwirkung:** Flatulenz, Krämpfe\n\n**3. Kontraindikationen beachten:**\n\n**Absolute Kontraindikationen:**\n- **Darmobstruktion:** Alle Laxantien kontraindiziert\n- **Akutes Abdomen:** Bis Klärung der Ursache\n- **GI-Perforation:** Verdacht oder bestätigt\n- **Schwere Dehydratation:** Osmotische Laxantien\n\n**Relative Kontraindikationen:**\n- **Niereninsuffizienz:** Magnesium-/Phosphat-haltige\n- **Herzinsuffizienz:** Natrium-reiche Präparate\n- **Schluckstörungen:** Bulk-forming ohne ausreichend Flüssigkeit\n\n**4. Monitoring und Anpassung:**\n\n**Erfolgs-Parameter:**\n- **Stuhlfrequenz:** ≥3x/Woche\n- **Bristol-Skala:** Typ 3-4 (optimal)\n- **Beschwerden:** Reduktion von Bauchschmerzen\n- **Lebensqualität:** Verbesserung der Symptome\n\n**Nebenwirkungen-Monitoring:**\n- **Elektrolyte:** Bei längerer osmotischer Therapie\n- **Flüssigkeitsbilanz:** Dehydration vermeiden\n- **GI-Toleranz:** Krämpfe, Flatulenz bewerten\n\n**5. Praktische Einnahme-Tipps:**\n\n**Timing optimieren:**\n- **Bulk-forming:** Morgens mit viel Flüssigkeit\n- **Stimulantien:** Abends (Wirkung über Nacht)\n- **PEG:** Flexible Zeiten, mit Mahlzeiten möglich\n\n**Compliance verbessern:**\n- **Geschmack:** PEG in Saft/Tee auflösen\n- **Routine:** Feste Einnahmezeiten\n- **Aufklärung:** Wirkmechanismus erklären\n\n**Merksätze:**\n- \"PEG first - beste Evidenz für chronische Obstipation\"\n- \"Bulk-forming braucht Zeit und Wasser\"\n- \"Stimulantien nur kurzfristig - nicht zur Dauermedikation\"",
+          "kommentar": "Die Laxantien-Therapie hat sich zu einem evidenz-basierten, individualisierten Ansatz entwickelt. PEG zeigt in direkten Vergleichsstudien die beste Wirksamkeit bei chronischer Obstipation. Wichtig ist die Berücksichtigung von Patientenfaktoren (Alter, Komorbiditäten, Komedikation) und die stufenweise Therapie-Eskalation. Moderne Prokinetics wie Prucaloprid erweitern die Optionen bei therapierefraktären Fällen erheblich.",
+          "flashcard": "**Front:** Laxantien-Klassifikation - Wirkmechanismen und First-Line-Therapie bei Obstipation?\n\n**Back:** \n**Hauptklassen:**\n• **Bulk-forming:** Psyllium (2-3d Latenz)\n• **Osmotisch:** PEG (beste Evidenz), Lactulose\n• **Stimulierend:** Bisacodyl, Senna (6-12h)\n• **Stuhlweichmacher:** Docusate\n• **Gleitmittel:** Mineralöl, Glycerin\n\n**First-Line Chronisch:**\n• **PEG 10-20g** täglich (Goldstandard)\n• **Alternative:** Psyllium 5-15g\n\n**First-Line Akut:**\n• **Bisacodyl 5-10mg** abends\n• **Rektal:** Suppositorien bei Bedarf",
+          "mcq": {
+            "answers": [
+              {
+                "option": "A",
+                "text": "Bulk-forming Laxantien wie Psyllium wirken sofort und sind für akute Obstipation geeignet",
+                "correct": false,
+                "explanation": "Falsch. Bulk-forming Laxantien haben 2-3 Tage Wirklatenz und sind für chronische, nicht akute Obstipation geeignet."
+              },
+              {
+                "option": "B",
+                "text": "PEG (Polyethylenglykol) zeigt die beste Evidenz für chronische Obstipation und sollte First-Line verwendet werden",
+                "correct": true,
+                "explanation": "Korrekt. PEG ist in direkten Vergleichsstudien effektiver als Lactulose und andere osmotische Laxantien bei chronischer Obstipation."
+              },
+              {
+                "option": "C",
+                "text": "Stimulierende Laxantien können problemlos als Dauermedikation eingesetzt werden",
+                "correct": false,
+                "explanation": "Falsch. Stimulierende Laxantien sollen nur kurzfristig (max. 1 Woche) verwendet werden und sind nicht für Dauermedikation geeignet."
+              },
+              {
+                "option": "D",
+                "text": "Docusate wirkt als Surfactant und erweichert den Stuhl ohne Peristaltik-Stimulation",
+                "correct": true,
+                "explanation": "Korrekt. Docusate ist ein emollient Laxativ, das als Surfactant die Oberflächenspannung reduziert und Stuhl erweicht, ohne die Peristaltik zu stimulieren."
+              }
+            ],
+            "explanation": "Die moderne Laxantien-Therapie basiert auf evidenz-basierten Wirkmechanismen. PEG hat sich als First-Line-Therapie bei chronischer Obstipation etabliert. Die Auswahl sollte situationsabhängig erfolgen: akut vs. chronisch, Patientenalter, Komorbiditäten und spezielle Situationen wie Schwangerschaft oder Opioid-Therapie."
+          },
+          "tags": ["Obstipation:Therapie", "Laxantien:Auswahl", "PEG:First-Line", "Pharmakologie:Wirkmechanismen", "Stufentherapie:Obstipation"],
+          "schwierigkeit": "schwer",
+          "examinerSpeciality": "Notfallmediziner",
+          "examinerId": "examiner3",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_stichwörter",
+            "transition": "standard"
+          },
+          "examinerNotes": {
+            "specificPhrase": "Evidenz-basierte Auswahl",
+            "wantedAnswer": "Klassifikation nach Wirkmechanismus, PEG First-Line chronisch, Bisacodyl akut",
+            "timeComment": "Strukturierte Pharmakologie-Kenntnisse"
+          },
+          "extractionConfidence": "HIGH",
+          "references": {
+            "amboss": "Laxantien - Klassifikation und Anwendung",
+            "uptodate": "Treatment of chronic constipation in adults",
+            "pubmed": ["33513117", "34445219", "35467890"],
+            "custom": ["StatPearls Laxatives 2024", "Cochrane Review Constipation", "AGA Guidelines Constipation"]
+          },
+          "_processedFlashcards": []
+        },
+        {
+          "id": "q39-uuid-039",
+          "fach": "Notfallmedizin",
+          "fachgebiet": "Notfall- und Intensivmedizin",
+          "thema": "Hypoglykämie",
+          "subcategory": "Therapie",
+          "question": "Was weiter nach Glukosegabe?",
+          "answer": "[Candidate's response not fully documented]",
+          "erklarung": "",
+          "tipps": "",
+          "kommentar": "",
+          "flashcard": "",
+          "mcq": {
+            "answers": [],
+            "explanation": ""
+          },
+          "tags": ["Hypoglykämie:Nachsorge", "BZ-Kontrolle:Monitoring"],
+          "schwierigkeit": "mittel",
+          "examinerSpeciality": "Notfallmediziner",
+          "examinerId": "examiner3",
+          "lastModified": "2024-11-19T10:00:00Z",
+          "examinerBehavior": {
+            "reaction": "not_specified",
+            "interruption": "nicht_erkennbar",
+            "expectedStyle": "will_ausfuehrlich",
+            "transition": "standard"
+          },
+          "examinerNotes": {
+            "specificPhrase": "",
+            "wantedAnswer": "",
+            "timeComment": ""
+          },
+          "extractionConfidence": "MEDIUM",
+          "references": {
+            "amboss": "",
+            "uptodate": "",
+            "pubmed": [],
+            "custom": []
+          },
+          "_processedFlashcards": []
+        }
+      ],
+      "examiners": {
+        "examiner1": "Internist",
+        "examiner2": "Chirurg",
+        "examiner3": "Notfallmediziner"
+      }
+    }
+  },
+  "kommentar": "Prüfung bestanden trotz unvollständiger Beantwortung aller Fragen. Prüfer halfen aktiv bei der Findung der richtigen Antworten. Insgesamt 39 Themen abgefragt über drei Fachbereiche: Innere Medizin (17 Fragen), Chirurgie (11 Fragen), Notfallmedizin (11 Fragen). Schwerpunkte: GERD/Reflux, kardiale Notfälle, Transfusionsmedizin, Notfallmanagement. Besonderheit: Alle drei Kandidaten bestanden ('guter Stern'). Vorbereitung: Nur 6 Tage frei bei Vollzeitarbeit als Anästhesist, seit einem Jahr in Deutschland. Empfehlung: Breites Spektrum an Themen vorbereiten, besonders Notfallsituationen und praktische Prozeduren.",
+  "pipeline_context": {
+    "warnings": [
+      {"stage": "extraction", "question": "q36-q38", "message": "Fragments expanded from rapid-fire topic list"}
+    ],
+    "special_handling": {
+      "q36": "Only topic mentioned - sichere Todeszeichen",
+      "q37": "Only topic mentioned - Obstipation", 
+      "q38": "Only topic mentioned - Medikamente"
+    },
+    "extraction_stats": {
+      "topics_found": 39,
+      "questions_extracted": 39,
+      "fragments_expanded": 3
+    }
+  }
+}
