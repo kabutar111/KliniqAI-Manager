@@ -41,11 +41,11 @@ Claire transitions to Project Lead role with full decision-making authority for 
    - Medical accuracy (with Suri)
    - Legal/registration (with Nabeel)
 
-## Immediate Priorities as Project Lead
-1. Complete frontend development by July 5
-2. Deploy production platform by July 12
-3. Achieve 100 beta users by July 30
-4. Establish sustainable growth model
+## Immediate Priorities as Project Lead (Updated July 17, 2025)
+1. **Voice Agent Development**: Complete 3-agent suite (patient, exam, documentation)
+2. **Payment System Integration**: Stripe for €79/month subscriptions
+3. **Business Entity Resolution**: Resolve Nabeel delays or execute India PVT LTD plan
+4. **September 1 Launch**: Premium voice platform with 30 protocols
 
 ## Leadership Philosophy
 - User-first decision making

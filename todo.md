@@ -1,77 +1,84 @@
 # KlinIQai Todo List
-**Updated**: June 29, 2025
+**Updated**: July 17, 2025
 
-## 🚀 Current Sprint: Frontend Polish (June 30 - July 5)
+## 🚀 Current Sprint: Voice Agent Platform Development (July 17 - September 1)
 
-### Sunday, June 30
-- [ ] Fix critical bugs in quiz module
-- [ ] Deploy updated version to www.kliniqai.com
-- [ ] Test user signup flow
-- [ ] Share progress screenshots with Claire
+## Week 1 (July 17-23): Foundation Sprint
+### Voice Agent Development (Priority #1)
+- [ ] Complete patient simulation agent MVP
+- [ ] Test voice agent LiveKit integration
+- [ ] Optimize voice agent response times
+- [ ] Create voice agent API specifications
 
-### Monday, July 1
-- [ ] Complete responsive design fixes
-- [ ] Fix navigation issues
-- [ ] Test on mobile devices
-- [ ] Push to production
+### Payment System Setup (Priority #2)
+- [ ] Research Stripe integration requirements
+- [ ] Design subscription architecture (€79/month)
+- [ ] Plan payment UI integration with KliniqAI app
+- [ ] Create payment flow wireframes
 
-### Tuesday, July 2
-- [ ] Polish quiz experience
-- [ ] Add loading states
-- [ ] Implement error handling
+### Business Operations
+- [ ] Resolve German GmbH vs India PVT LTD decision
+- [ ] Diplomatic outreach to Nabeel (maintain €48K income)
+- [ ] Document legal entity requirements
+
+## Week 2 (July 24-30): Development Sprint
+### Voice Agent Completion
+- [ ] Complete full exam mode voice agent
+- [ ] Implement documentation analysis agent
+- [ ] Test all 3 voice agents end-to-end
 - [ ] Performance optimization
 
-### Wednesday, July 3
-- [ ] User onboarding flow
-- [ ] Dashboard completion
-- [ ] Settings page polish
-- [ ] Payment integration prep
+### Payment Integration
+- [ ] Implement Stripe in KliniqAI app
+- [ ] Create subscription management system
+- [ ] Test payment flows
+- [ ] User access control implementation
 
-### Thursday, July 4
-- [ ] Beta features toggle
-- [ ] Analytics integration
-- [ ] Final bug fixes
-- [ ] Load testing
-
-### Friday, July 5
-- [ ] LAUNCH READY ✅
-- [ ] Create demo video
-- [ ] Prepare beta emails
-- [ ] Celebrate!
+### Content Pipeline
+- [ ] Start protocol generation (target: 10 protocols)
+- [ ] Test KPFG → Voice Agent pipeline
+- [ ] Quality assurance on generated content
 
 ## 📊 Key Metrics
 
 ### Platform Status
 - **KPFG**: ✅ LIVE (can process 1 exam/day = 50 questions)
-- **KP-Medizin-Trainer**: ✅ DEPLOYED (needs frontend polish)
-- **KPCG**: ✅ INTEGRATED (voice AI ready)
+- **KP-Medizin-Trainer**: ✅ DEPLOYED (comprehensive PWA platform)
+- **KPCG**: ✅ VOICE AGENTS IN DEVELOPMENT (Docker + LiveKit)
+- **Payment System**: ❌ MISSING (Stripe integration required)
 - **Content**: ✅ Münster exam + 2020-2024 protocols
 
 ### Business Targets
-- **Beta Launch**: July 30, 2025 (31 days)
-- **Users Goal**: 100 by July 30
-- **Revenue Goal**: €3,900 MRR (Month 1)
-- **Pricing**: €49/month
+- **Voice Platform Launch**: September 1, 2025 (6 weeks)
+- **Users Goal**: 100 by September 1
+- **Revenue Goal**: €7,900 MRR (100 users × €79/month)
+- **Pricing**: €79/month premium voice simulation
 
-## 🎯 After Frontend Sprint (July 6+)
+## 🎯 Remaining Weeks (Aug 1 - Sep 1)
 
-### Content Processing
-- [ ] Process 7 exam protocols (Week 2)
-- [ ] Total: 350+ questions ready
-- [ ] Organize by city and specialty
-- [ ] Quality review all content
+### Week 3-4: Integration Phase
+- [ ] Voice agent API integration with KliniqAI app
+- [ ] Complete payment system testing
+- [ ] User authentication sync
+- [ ] Full platform integration
 
-### Marketing Launch
-- [ ] Beta signup page live
-- [ ] WhatsApp/Telegram outreach
-- [ ] "Real KP Questions 2024" campaign
-- [ ] Early bird pricing (€39)
+### Week 5: Content & Testing
+- [ ] Complete 30 protocols for voice agents
+- [ ] End-to-end testing (registration → voice simulation)
+- [ ] Performance optimization
+- [ ] Bug fixes and refinements
 
-### User Acquisition
-- [ ] 50 users by July 15
-- [ ] 100 users by July 30
-- [ ] Daily user interviews
-- [ ] Iterate based on feedback
+### Week 6: Launch Preparation
+- [ ] Final payment flow verification
+- [ ] Deployment scripts and monitoring
+- [ ] Marketing materials preparation
+- [ ] Launch day execution planning
+
+### Week 7: LAUNCH (Aug 28 - Sep 1)
+- [ ] Deploy voice platform
+- [ ] Go-live monitoring
+- [ ] Immediate bug fixes
+- [ ] User onboarding support
 
 ## ✅ What's Already Done
 
@@ -79,10 +86,16 @@
 - ✅ Authentication system
 - ✅ Forum/community features
 - ✅ AI chat integration
-- ✅ Quiz engine (needs content)
-- ✅ Payment system (Stripe)
+- ✅ Quiz engine with content
 - ✅ Admin dashboard
 - ✅ Mobile PWA support
+- ✅ Complete KliniqAI app infrastructure
+
+### Voice Agent Infrastructure
+- ✅ KPCG voice agent framework
+- ✅ LiveKit integration
+- ✅ Docker deployment setup
+- ✅ Voice agent development environment
 
 ### Content Pipeline
 - ✅ KPFG creates structured content
@@ -92,28 +105,30 @@
 
 ## 🚨 Current Blockers
 
-1. **Frontend Polish** - IN PROGRESS
+1. **Voice Agent Development** - IN PROGRESS
    - Owner: Suri
-   - Timeline: June 30 - July 5
+   - Timeline: July 17 - August 15
+   - Status: Patient simulation agent in development
 
-2. **Content Loading**
-   - Owner: Suri (after frontend)
-   - Solution: Process 1 exam/day
-   - Start: July 6
+2. **Payment System Integration** - PENDING
+   - Owner: Suri
+   - Solution: Stripe integration in KliniqAI app
+   - Start: Week 2 (July 24)
 
-3. **User Acquisition**
-   - Owner: Claire + Suri
-   - Solution: Telegram/WhatsApp outreach
-   - Start: July 7
+3. **Business Entity Resolution** - PENDING
+   - Owner: Claire
+   - Solution: Diplomatic approach with Nabeel
+   - Backup: India PVT LTD registration
 
 ## 💡 Key Insights
 
-- We're NOT building from scratch
-- All systems EXIST and work
-- Focus on POLISH and CONTENT
-- Real exam questions = our MOAT
-- Ship daily, iterate fast
+- Complete platform infrastructure ALREADY EXISTS
+- Voice agents are the REAL PRODUCT for oral exams
+- Integration work is primary focus, not new development
+- Real exam protocols + Voice AI = unbeatable MOAT
+- Premium pricing (€79/month) for premium technology
+- 6 weeks to launch is achievable with current infrastructure
 
 ---
 
-**Remember**: Frontend first, then content, then users. One week at a time!
+**Remember**: Voice agents first, payment integration second, platform connection third. September 1 launch is non-negotiable!

@@ -100,11 +100,11 @@
 ## 📈 Key Performance Indicators (KPIs)
 
 ### Daily Tracking
-- [ ] New signups
-- [ ] Active users
-- [ ] Questions attempted
-- [ ] Support tickets
-- [ ] Revenue
+- [ ] Voice simulation sessions
+- [ ] Subscription conversions
+- [ ] User retention rate
+- [ ] Revenue (€79/month per user)
+- [ ] Platform performance metrics
 
 ### Weekly Reviews
 - [ ] User retention rate
