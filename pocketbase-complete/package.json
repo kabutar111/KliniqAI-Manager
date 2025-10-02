@@ -1,0 +1,28 @@
+{
+  "name": "kliniqai-pocketbase-migration",
+  "version": "1.0.0",
+  "description": "Complete migration package from Firebase to PocketBase for KliniqAI",
+  "scripts": {
+    "export": "node export-firebase.js",
+    "import": "node import-pocketbase.js",
+    "setup": "./quick-start-pocketbase.sh",
+    "migrate": "npm run export && npm run import"
+  },
+  "dependencies": {
+    "firebase-admin": "^12.0.0",
+    "pocketbase": "^0.21.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "kliniqai",
+    "pocketbase",
+    "firebase",
+    "migration",
+    "self-hosting"
+  ],
+  "author": "KliniqAI Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
