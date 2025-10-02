@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "type-enum": [2, "always", [
+      "feat", "fix", "docs", "chore", "refactor", "test", "perf", "ci", "build", "revert", "infra"
+    ]],
+    "subject-case": [2, "always", ["sentence-case", "start-case", "lower-case"]],
+    "subject-full-stop": [2, "never", "."],
+    "header-max-length": [2, "always", 72]
+  },
+  "prompt": {
+    "messages": {
+      "type": "Select the type of change:",
+      "scope": "Scope (kpfg, kp-medizin-trainer, kpcg, docs, planning, infra):",
+      "subject": "Write a short, imperative subject:",
+      "body": "Longer description (optional):",
+      "footer": "Issues/refs (optional):"
+    }
+  }
+}
+
