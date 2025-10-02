@@ -1,9 +1,12 @@
 [submodule "apps/kpfg"]
 	path = apps/kpfg
 	url = https://github.com/kabutar111/KPFG
+	ignore = all
 [submodule "apps/kp-medizin-trainer"]
 	path = apps/kp-medizin-trainer
 	url = https://github.com/kabutar111/kp-medizin-trainer
+	ignore = all
 [submodule "apps/kpcg"]
 	path = apps/kpcg
 	url = https://github.com/kabutar111/KPCG
+	ignore = all
