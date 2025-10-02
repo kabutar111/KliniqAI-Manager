@@ -1,0 +1,20 @@
+name = "kliniqai-content-proxy"
+main = "cloudflare/worker-content-proxy.js"
+compatibility_date = "2024-09-20"
+
+account_id = "<REPLACE_WITH_CF_ACCOUNT_ID>"
+
+r2_buckets = [
+  { binding = "CONTENT_BUCKET", bucket_name = "kliniqai-content" }
+]
+
+[vars]
+INTERNAL_BETA = true
+BETA_KEY = "dev-beta-key-rotate-me"
+CORS_ORIGIN = "*"
+
+# Uncomment and set your routes
+# [[routes]]
+# pattern = "content-staging.example.com/*"
+# zone_name = "example.com"
+
