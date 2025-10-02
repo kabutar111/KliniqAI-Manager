@@ -37,15 +37,15 @@ ALWAYS UPDATE MEMORY FILES AFTER EACH DISCUSSION AS NEEDED
 
 KliniqAI (www.kliniqai.com) is a comprehensive medical education platform helping international medical graduates prepare for German medical exams (Kenntnisprüfung and FSP) through:
 - Expert-created content via KPFG (content creation tool)
-- AI-powered content generation via KPCG (scaling pipeline in Future)
-- Student learning KlinIQai PWA via KP-Medizin-Trainer (in Future Native iOS and Android App)
-- Integrated KlinIQai KP community for peer learning
-- Comprehensive exam preparation with German medical standards and GEFR C1 language standards
+- Student learning KlinIQai PWA via KP-Medizin-Trainer (build currently failing)
+- 689-theme medical content architecture (planned)
+- Central AI Q&A agent with personalized learning (planned)
+- Mobile-first SQLite database for offline support (planned)
 
 Current Phase: Full Production Launch - October 21, 2025 (31 days remaining)
-Revenue Model: Student subscriptions (€29/month) + Enterprise API access (Future)
+Revenue Model: Student subscriptions (€79/month premium)
 Target Market: International medical graduates in Germany (NRW initial focus, nationwide rollout)
-Launch Strategy: Direct to market webapp - no beta phase
+Critical Status: Build failing, payment system not implemented
 
 ## Codebase Integration Strategy
 
@@ -57,6 +57,27 @@ This management repository will integrate with multiple KliniqAI application rep
 - Content management systems
 
 Each integrated codebase will be added as a subdirectory or linked reference, giving Claire complete visibility for informed decision-making.
+
+## 🚫 Code Separation Policy
+
+**CRITICAL**: This management repository provides documentation and guidance only.
+
+### What This Repository DOES:
+- ✅ Provides documentation, guides, and best practices
+- ✅ Creates infrastructure setup scripts (PocketBase, databases, etc.)
+- ✅ Offers template code examples for developers to copy
+- ✅ Manages project strategy and planning documents
+- ✅ Stores migration guides and architectural decisions
+
+### What This Repository NEVER DOES:
+- ❌ **NEVER** modifies code in app repositories directly
+- ❌ **NEVER** makes changes to:
+  - `apps/kp-medizin-trainer/` - Developers modify in their repo
+  - `apps/kpfg/` - Developers modify in their repo
+  - `apps/kpcg/` - Developers modify in their repo
+
+### Template Location:
+All code templates are stored in: `pocketbase-templates/` for developers to copy and implement in their own repositories.
 
 ## Development Setup
 
@@ -126,16 +147,16 @@ Memory Systems:
 - I make ALL decisions - technical, business, and strategic
 - Full launch is non-negotiable: October 21, 2025
 - Launch day target: 100+ signups, 10+ paid subscribers
-- Month 1 target: 300 users, €870 MRR (30 subscribers)
-- Month 2 target: 1000 users, €2,900 MRR (100 subscribers)
-- Quality and speed are both required - no excuses
+- Month 1 target: 30 subscribers, €2,370 MRR
+- Month 2 target: 100 subscribers, €7,900 MRR
+- Current reality: Build broken, payment missing, 31 days to fix everything
 
 ## My Executive Decisions (No Approval Needed)
 
 1. **Technical Stack**: Already chosen, no debates
-2. **Pricing Model**: Freemium with €29/month premium
+2. **Pricing Model**: €79/month premium subscriptions
 3. **Target Market**: Germany first, EU expansion Q4
-4. **Team Structure**: Flat hierarchy, performance-based
+4. **Team Structure**: Solo developer at €4K/month
 5. **Marketing Strategy**: Content-first, community-driven
 6. **Fundraising**: Bootstrap to €50K MRR, then Series A
 
