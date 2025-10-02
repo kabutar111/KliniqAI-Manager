@@ -1,21 +1,23 @@
 # Claire's Context Memory
-*Last Updated: July 17, 2025*
+*Last Updated: September 20, 2025*
 
-## Current Reality Check (July 17, 2025)
+## Current Reality Check (September 20, 2025)
 
 ### Platform Status
 - **KPFG**: ✅ LIVE and functional (internal tool, can create 50 questions per exam)
-- **KP-Medizin-Trainer**: ✅ Deployed at www.kliniqai.com (comprehensive PWA platform)
-- **Voice Agents**: 🔄 IN DEVELOPMENT - Patient simulation, exam, documentation agents (core product)
+- **KP-Medizin-Trainer**: ⚠️ Build failing - 2 ESLint errors + missing dependency
 - **Payment System**: ❌ CRITICAL - Stripe integration required for €79/month subscriptions
+- **Content Architecture**: 🔄 689-theme medical database planned
+- **AI Agent**: 🔄 Central Q&A system integration planned
+- **Mobile SQLite**: 🔄 Offline optimization planned
 - **Content**: ✅ Münster exam + access to 2020-2024 protocols from Telegram groups
 
-### Business Structure (Major Change)
+### Business Structure (Current Status)
 - **Leadership**: Claire = Project Lead with FULL decision-making authority (as of June 29)
-- **Current**: Suri employed by Nabeel (€12K/month salary) building KliniqAI
-- **Entity Decision**: German GmbH pending → **PIVOT TO INDIA PVT LTD** (Nabeel MIA on registration)
-- **Timeline**: September 1, 2025 launch - Complete voice agent platform with payment system
-- **Pricing**: €79/month premium voice simulation (raised from previous €49)
+- **Current**: Suri employed by Nabeel (€4K/month salary) building KliniqAI
+- **Entity Status**: India PVT LTD registration (status needs verification)
+- **Timeline**: October 21, 2025 launch - 31 days remaining
+- **Pricing**: €79/month premium subscriptions
 
 ### Key Learnings (Updated July 17, 2025)
 
@@ -45,19 +47,20 @@
 - **Content Pipeline**: Raw protocol → KPFG → Enhanced JSON → Voice Agent API
 - **Architecture**: 3 voice agents + database for personalization + API integration
 
-## Strategic Pivot (July 17, 2025)
+## Strategic Focus (September 20, 2025)
 
-### From "Beta Launch" to "Premium Voice Platform"
-- **Core Product**: Voice agents are the REAL product, not MCQs
-- **Market Reality**: German medical exams are oral - voice simulation is essential
-- **Development Strategy**: Building complete 3-agent suite before launch
-- **Premium Positioning**: €79/month pricing for premium AI voice technology
+### October 21 Launch Requirements
+- **Core Product**: Comprehensive medical education platform
+- **Payment System**: Stripe integration (CRITICAL PATH)
+- **Content Architecture**: 689-theme medical database
+- **AI Integration**: Central Q&A agent
+- **Mobile Support**: SQLite offline functionality
 
-### New Development Plan (July 17 - September 1, 2025)
-- **Suri**: 100% focus on voice agent development (patient, exam, documentation agents)
-- **Claire**: Business operations, legal resolution, strategic oversight
-- **Goal**: Complete voice agent platform with 30 protocols processed
-- **Entity Strategy**: ✅ DECISION MADE - Proceed with India PVT LTD registration
+### Development Reality
+- **Suri**: Solo developer at €4K/month
+- **Claire**: Strategic oversight and planning
+- **Timeline**: 31 days to launch
+- **Entity Strategy**: India PVT LTD registration (needs verification)
 
 ### India PVT LTD Decision (July 18, 2025)
 - **Timeline**: 12-18 days registration (allows September 1 launch)
@@ -66,10 +69,11 @@
 - **Next Steps**: Professional engagement within 48 hours
 - **Target**: Certificate of Incorporation by August 5, 2025
 
-### Revenue Projections (Updated for €79/month)
-- Month 1: 100 users × €79 = €7,900 MRR
-- Month 2: 200 users × €79 = €15,800 MRR
-- Month 3: 400 users × €79 = €31,600 MRR
+### Revenue Projections (October 21 Launch)
+- Launch Day: 10+ paid users × €79 = €790+ MRR
+- Month 1: 30 users × €79 = €2,370 MRR
+- Month 2: 100 users × €79 = €7,900 MRR
+- Month 3: 200 users × €79 = €15,800 MRR
 - **Annual Target**: €378,000 ARR by Month 12
 
 ## What Actually Works
@@ -133,13 +137,32 @@
 - **New Features**: Learning stats, study timer, goals system, exam session monitoring
 - **Admin Tools**: Survey management, KPFG metadata visibility, unified category manager
 
-## Current Priority (September 10 - October 1, 2025)
-- **PRIORITY SHIFT**: Voice agents delayed, comprehensive content strategy implemented
-- **Medical Content Architecture**: Complete 689-theme database with 13-section structure per theme
-- **AI Agent Integration**: Central medical Q&A agent with personalized learning recommendations
-- **Mobile-First Database**: SQLite optimization for offline functionality across iOS/Android/Web
-- **Content Pipeline**: KPFG → Enhanced Content → AI Agent → Personalized Learning Experience
-- **October 1 Launch Target**: Complete medical education platform with AI-powered personalization
+## Current Sprint Plan (September 20 - October 21, 2025)
+
+### Week 1 (Sep 20-26): Foundation & Payment
+- **Day 1-2**: Fix build errors, update documentation
+- **Day 3-5**: Stripe payment integration architecture
+- **Day 6-7**: Payment UI components
+
+### Week 2 (Sep 27-Oct 3): Content & AI
+- **Medical Content**: Build 689-theme database structure
+- **AI Integration**: Central Q&A agent implementation
+- **Content Pipeline**: Automation and optimization
+
+### Week 3 (Oct 4-10): Mobile & Testing
+- **SQLite**: Offline optimization for mobile
+- **Testing**: End-to-end platform testing
+- **Performance**: Optimization and bug fixes
+
+### Week 4 (Oct 11-17): Polish & Prepare
+- **Final Fixes**: All critical bugs resolved
+- **Marketing**: Materials and landing pages ready
+- **Onboarding**: User flow perfected
+
+### Launch Week (Oct 18-21)
+- **Oct 18-20**: Final system checks
+- **Oct 21**: LAUNCH DAY
+- **Target**: 100+ signups, 10+ paid subscribers
 
 ## Major Strategic Risks & Mitigation
 - **Nabeel Risk**: 50% equity holder MIA on registration → **SOLUTION**: India PVT LTD backup ready
