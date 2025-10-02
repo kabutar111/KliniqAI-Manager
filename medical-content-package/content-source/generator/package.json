@@ -1,0 +1,20 @@
+{
+  "name": "kliniqai-db-generator",
+  "version": "1.0.0",
+  "description": "SQLite database generator for KliniqAI medical content",
+  "main": "generate-database.js",
+  "scripts": {
+    "generate": "node generate-database.js",
+    "test": "node test-database.js"
+  },
+  "dependencies": {
+    "sqlite3": "^5.1.6",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
